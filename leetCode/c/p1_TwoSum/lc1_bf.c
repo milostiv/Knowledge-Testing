@@ -11,47 +11,69 @@ You can return the answer in any order. */
 /**
 Note: The returned array must be malloced, assume caller calls free().
 */
-int* twoSum(int* nums, int numsSize, int target, int* returnSize){
+int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
     
-    int* answer = (int*)malloc(*returnSize * sizeof(int));
+    int *answer = (int*) malloc(*returnSize * sizeof(int)); 
     answer[0] = -1;
-    answer[1] = -1; 
-     
-    for(int i=0; i<numsSize-1; i++){
-        for(int j=i+1; j<numsSize; j++){
-            if(nums[i] + nums[j] == target){
+    answer[1] = -1;
+
+    for(int i=0; i<numsSize-1; i++) {
+        for(int j=i+1; j<numsSize; j++) {
+            if(nums[i] + nums[j] == target) {   
                 answer[0] = i;
-                answer[1] = j;
+                answer[1] = j;   
                 return answer;
             }
         }
     }
 
-    return answer; 
-}
+    return answer;
+}   
 
 /* Test */
-int main(void){
+
+void testFunction(int* testNums, int numsSize, int target, int returnSize, int* solution, int testNumber) {
     
-    int testNums[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int testNumsSize = sizeof(testNums) / sizeof(testNums[0]);
-    int testTarget = 18;
-    int answerSize = 2; 
-    int *testReturnSize = &answerSize; 
- 
-    int *answer = (int*)malloc(*testReturnSize * sizeof(int)); 
+    int* answer = (int*) malloc(2 * sizeof(int));
+    double timeSpent; 
+
+    printf("\nTEST%d: ", testNumber);
     
     clock_t tic = clock();
+ 
+    answer = twoSum(testNums, numsSize, target, &returnSize);
+    
+    clock_t toc = clock();
+    
+    timeSpent = (double) (toc - tic) * 1000000 / CLOCKS_PER_SEC;
 
-    answer = twoSum(testNums, testNumsSize, testTarget, testReturnSize);
-   
-    clock_t toc = clock(); 
+    if(answer[0] == solution[0] && answer[1] == solution[1]) {
+        printf("PASSED IN %.2fus\n", timeSpent);
+    }
+    else
+        printf("FAILED\n");
 
-    printf("[%d, %d]\n", answer[0], answer[1]);
-   
-    double time_spent_us = ((double) (toc - tic) / CLOCKS_PER_SEC) * 1000000;
+    free(answer);
+}
 
-    printf("%.3fus\n", time_spent_us);
+int main(void) {
+
+    int returnSize = 2;
+
+    int test1[3] = {3, 2, 4};
+    int solution1[2] = {1, 2};
+    
+    testFunction(test1, 3, 6, returnSize, solution1, 1);
+    
+    int test2[4] = {2, 7, 11, 15};
+    int solution2[2] = {0, 1};
+ 
+    testFunction(test2, 4, 9, returnSize, solution2, 2);
+    
+    int test3[2] = {3, 3};
+    int solution3[2] = {0, 1};
+ 
+    testFunction(test3, 2, 6, returnSize, solution3, 3);
 
     return EXIT_SUCCESS;
 }

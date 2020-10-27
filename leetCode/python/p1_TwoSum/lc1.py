@@ -18,16 +18,46 @@ class Solution:
         for i in range(len(nums)):
             difference = target - nums[i]    
             if difference in sum:
-                return [sum.get(difference)+1, i+1]
+                return [sum.get(difference), i]
             else: 
                 sum[nums[i]] = i
 
+    def testFunction(nums, target, solution, testNum): 
+        """
+        :type nums: List[int]
+        :type target: int
+        :type solution: List[int]
+        :type testNum: int 
+        """
+        answer = []
+        start_time = time.time()
+        answer = Solution.twoSum(answer, nums, target)
+        end_time = time.time()
+        if(answer[0] != -1):
+            print('TEST' + str(testNum) + ': PASSED IN ' + '{:.2f}us'.format((end_time - start_time) * 1000000))
+        else:
+            print('TEST FAILED')        
 
-nums = [1, 3, 5, 4, 2, 6, 8, 7, 9, 10]
-answer = []
+# Test 1
+print()
+nums = [2,7,11,15]
+target = 9
+solution = [0, 1]
 
-start_time = time.time()
+Solution.testFunction(nums, target, solution, 1)
 
-print(Solution.twoSum(answer, nums, 16))
+# Test 2
+print()
+nums = [3, 2, 4]
+target = 6
+solution = [1, 2]
 
-print('{:.3f}us'.format((time.time() - start_time) * 1000000))
+Solution.testFunction(nums, target, solution, 2)
+
+# Test 3
+print()
+nums = [3, 3]
+target = 6
+solution = [0, 1]
+
+Solution.testFunction(nums, target, solution, 3)

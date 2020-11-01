@@ -32,16 +32,17 @@ int* twoSum(int *nums, int numsSize, int target, int *returnSize) {
 
 /* Test */
 
-void testFunction(int *testNums, int numsSize, int target, int returnSize, int *solution, int testNumber) {
-    
-    int *answer = (int*) malloc(2 * sizeof(int));
+void testFunction(int *testNums, int numsSize, int target, int *returnSize, int *solution, int testNumber) {
+   
+    *returnSize = 2; 
+    int *answer = (int*) malloc(*returnSize * sizeof(int));
     double timeSpent; 
 
     printf("\nTEST%d: ", testNumber);
     
     clock_t tic = clock();
  
-    answer = twoSum(testNums, numsSize, target, &returnSize);
+    answer = twoSum(testNums, numsSize, target, returnSize);
     
     clock_t toc = clock();
     
@@ -58,22 +59,22 @@ void testFunction(int *testNums, int numsSize, int target, int returnSize, int *
 
 int main(void) {
 
-    int returnSize = 2;
+    int returnSize;
 
     int test1[3] = {3, 2, 4};
     int solution1[2] = {1, 2};
     
-    testFunction(test1, 3, 6, returnSize, solution1, 1);
+    testFunction(test1, 3, 6, &returnSize, solution1, 1);
     
     int test2[4] = {2, 7, 11, 15};
     int solution2[2] = {0, 1};
  
-    testFunction(test2, 4, 9, returnSize, solution2, 2);
+    testFunction(test2, 4, 9, &returnSize, solution2, 2);
     
     int test3[2] = {3, 3};
     int solution3[2] = {0, 1};
  
-    testFunction(test3, 2, 6, returnSize, solution3, 3);
+    testFunction(test3, 2, 6, &returnSize, solution3, 3);
 
     return EXIT_SUCCESS;
 }

@@ -11,7 +11,7 @@ You can return the answer in any order. */
 /**
 Note: The returned array must be malloced, assume caller calls free().
 */
-int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
+int* twoSum(int *nums, int numsSize, int target, int *returnSize) {
     
     int *answer = (int*) malloc(*returnSize * sizeof(int)); 
     answer[0] = -1;
@@ -32,9 +32,9 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 
 /* Test */
 
-void testFunction(int* testNums, int numsSize, int target, int returnSize, int* solution, int testNumber) {
+void testFunction(int *testNums, int numsSize, int target, int returnSize, int *solution, int testNumber) {
     
-    int* answer = (int*) malloc(2 * sizeof(int));
+    int *answer = (int*) malloc(2 * sizeof(int));
     double timeSpent; 
 
     printf("\nTEST%d: ", testNumber);

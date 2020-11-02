@@ -25,7 +25,13 @@ void listInitialize(struct ListNode **list) {
 void listInsert(struct ListNode *list, int val) {
     
     struct ListNode *temp = (struct ListNode*) malloc(sizeof(*temp));  
-     
+    
+    /* Check if first element */ 
+    if(list->val < 0) {
+        list->val = val;
+        return;
+    }
+ 
     /* Go to the end of linked list */ 
     while(list->next != NULL) {
         list = list->next;
@@ -48,8 +54,46 @@ void listPrint(struct ListNode *list) {
     printf("%d\n", curr->val);
 }
 
-struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
+void listFree(struct ListNode *list) {
+    
+    struct ListNode *tmp;
 
+    while(list->next != NULL) {
+        tmp = list;
+        list = list->next;
+        free(tmp);
+    }
+}
+
+int listFormNumber(struct ListNode *list) {
+    
+    int sum = 0, mul = 1;
+
+    do { 
+        sum += (list->val)*mul;
+        mul *= 10;
+        list = list->next;
+    } while(list != NULL);
+
+    return sum;
+}
+
+struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
+   
+    struct ListNode *tmp;
+    int sum = 0, mul = 1; 
+
+    listInitialize(&tmp);
+
+    sum += listFormNumber(l1);
+    sum += listFormNumber(l2);
+
+    while(sum != 0) {
+        listInsert(tmp, sum % 10);
+        sum /= 10;
+    }
+
+    return tmp;
 }
 
 /* Test */
@@ -62,15 +106,23 @@ int main(void) {
     listInitialize(&l1);
     listInitialize(&l2);
 
-    l1->val = 2;
+    listInsert(l1, 2);
     listInsert(l1, 4);
     listInsert(l1, 3);
     listPrint(l1);    
 
-    l2->val = 5;
+    listInsert(l2, 5);
     listInsert(l2, 6);
     listInsert(l2, 4);
     listPrint(l2);
-        
+
+    curr = addTwoNumbers(l1, l2);
+     
+    listPrint(curr);
+ 
+    listFree(l1);
+    listFree(l2);
+    listFree(curr);
+
     return EXIT_SUCCESS;
 }

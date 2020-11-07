@@ -24,7 +24,33 @@ void listInitialize(struct ListNode **list) {
     (*list)->next = NULL;
 }
 
-void listInsert(struct ListNode *list, int val) {
+void listInsertArray(struct ListNode *list, int *array, int arraySize) {
+    
+    int firstIndex = 0;
+     
+    /* Check if first element */
+    if(list->val < 0) {
+        list->val = array[0];
+        firstIndex = 1;
+        if(arraySize == 1) return;
+    }
+
+    /* Go to the end of linked list */ 
+    while(list->next != NULL) {
+        list = list->next;
+    }
+
+    for(int i = firstIndex; i<arraySize; i++) {      
+        struct ListNode *temp = (struct ListNode*) malloc(sizeof(*temp));
+        temp->val = array[i];
+        list->next = temp; 
+        list = list->next;
+    }    
+    
+    list->next = NULL;
+}
+
+void listInsertSingle(struct ListNode *list, int val) {
     
     struct ListNode *temp = (struct ListNode*) malloc(sizeof(*temp));  
     
@@ -91,7 +117,7 @@ struct ListNode* addTwoNumbers(struct ListNode *l1, struct ListNode *l2) {
     sum += listFormNumber(l2);
       
     while(true) {
-        listInsert(tmp, sum % 10);
+        listInsertSingle(tmp, sum % 10);
         sum /= 10;
         if(sum == 0)
             break;
@@ -145,24 +171,21 @@ void testFunction(struct ListNode *l1, struct ListNode *l2, struct ListNode *sol
 int main(void) {
     
     struct ListNode *l1, *l2, *sol; 
-    
+
     /* Test 1 */
 
     listInitialize(&l1);
     listInitialize(&l2);
     listInitialize(&sol);
-
-    listInsert(l1, 2);
-    listInsert(l1, 4);
-    listInsert(l1, 3); 
-
-    listInsert(l2, 5);
-    listInsert(l2, 6);
-    listInsert(l2, 4);
     
-    listInsert(sol, 7);
-    listInsert(sol, 0);
-    listInsert(sol, 8);
+    int array1[3] = {2, 4, 3};
+    listInsertArray(l1, array1, 3);
+    
+    int array2[3] = {5, 6, 4};
+    listInsertArray(l2, array2, 3);
+
+    int array3[3] = {7, 0, 8};
+    listInsertArray(sol, array3, 3);
 
     testFunction(l1, l2, sol, 1);
          
@@ -176,11 +199,11 @@ int main(void) {
     listInitialize(&l2);
     listInitialize(&sol);
  
-    listInsert(l1, 0);
+    listInsertSingle(l1, 0);
 
-    listInsert(l2, 0); 
+    listInsertSingle(l2, 0); 
 
-    listInsert(sol, 0);
+    listInsertSingle(sol, 0);
 
     testFunction(l1, l2, sol, 2);
     
@@ -193,28 +216,15 @@ int main(void) {
     listInitialize(&l1);
     listInitialize(&l2);
     listInitialize(&sol);
-        
-    listInsert(l1, 9);
-    listInsert(l1, 9);
-    listInsert(l1, 9);
-    listInsert(l1, 9);
-    listInsert(l1, 9);
-    listInsert(l1, 9);
-    listInsert(l1, 9);
+    
+    int array4[7] = {9, 9, 9, 9, 9, 9, 9}; 
+    listInsertArray(l1, array4, 7);
 
-    listInsert(l2, 9);
-    listInsert(l2, 9);
-    listInsert(l2, 9);
-    listInsert(l2, 9);
-     
-    listInsert(sol, 8);
-    listInsert(sol, 9);
-    listInsert(sol, 9);
-    listInsert(sol, 9);
-    listInsert(sol, 0);
-    listInsert(sol, 0);
-    listInsert(sol, 0);
-    listInsert(sol, 1);
+    int array5[4] = {9, 9, 9, 9};
+    listInsertArray(l2, array5, 4);
+    
+    int array6[8] = {8, 9, 9, 9, 0, 0, 0, 1};
+    listInsertArray(sol, array6, 8);
 
     testFunction(l1, l2, sol, 3);
 

@@ -5,6 +5,8 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
+#include <time.h>
 
 /**
  * Definition for singly-linked list.
@@ -78,7 +80,7 @@ int listFormNumber(struct ListNode *list) {
     return sum;
 }
 
-struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
+struct ListNode* addTwoNumbers(struct ListNode *l1, struct ListNode *l2) {
    
     struct ListNode *tmp;
     int sum = 0, mul = 1; 
@@ -87,42 +89,134 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
 
     sum += listFormNumber(l1);
     sum += listFormNumber(l2);
-
-    while(sum != 0) {
+      
+    while(true) {
         listInsert(tmp, sum % 10);
         sum /= 10;
+        if(sum == 0)
+            break;
     }
 
     return tmp;
+}
+
+void testFunction(struct ListNode *l1, struct ListNode *l2, struct ListNode *sol, int testNumber) {
+      
+    bool identical = true; 
+    float timeSpent = 0;
+    struct ListNode *curr; 
+    
+    clock_t tic = clock();
+    
+    curr = addTwoNumbers(l1, l2);
+    
+    clock_t toc = clock();
+ 
+    timeSpent = (double) (toc - tic) * 1000000 / CLOCKS_PER_SEC;
+    
+    if(curr->next == NULL && sol->next == NULL) {
+        if(curr->val != sol->val)
+            identical = false;
+    } 
+
+    do {
+        if(sol->next == NULL && curr -> next != NULL) {
+            identical = false;
+            break;
+        } 
+        if(curr->val != sol->val) {
+            identical = false;
+            break;
+        }
+        curr = curr->next;
+        sol = sol->next;  
+    } while(curr != NULL);
+
+    printf("\nTEST%d: ", testNumber);
+
+    if(identical) 
+        printf("PASSED IN %.2fus\n", timeSpent);
+    else  
+        printf("FAILED\n");
 }
 
 /* Test */
 
 int main(void) {
     
-    struct ListNode *l1, *l2; 
-    struct ListNode *curr;
+    struct ListNode *l1, *l2, *sol; 
+    
+    /* Test 1 */
 
     listInitialize(&l1);
     listInitialize(&l2);
+    listInitialize(&sol);
 
     listInsert(l1, 2);
     listInsert(l1, 4);
-    listInsert(l1, 3);
-    listPrint(l1);    
+    listInsert(l1, 3); 
 
     listInsert(l2, 5);
     listInsert(l2, 6);
     listInsert(l2, 4);
-    listPrint(l2);
+    
+    listInsert(sol, 7);
+    listInsert(sol, 0);
+    listInsert(sol, 8);
 
-    curr = addTwoNumbers(l1, l2);
-     
-    listPrint(curr);
- 
+    testFunction(l1, l2, sol, 1);
+         
     listFree(l1);
     listFree(l2);
-    listFree(curr);
+    listFree(sol);
+    
+    /* Test 2 */
+ 
+    listInitialize(&l1);
+    listInitialize(&l2);
+    listInitialize(&sol);
+ 
+    listInsert(l1, 0);
+
+    listInsert(l2, 0); 
+
+    listInsert(sol, 0);
+
+    testFunction(l1, l2, sol, 2);
+    
+    listFree(l1);
+    listFree(l2);
+    listFree(sol);
+    
+    /* Test 3 */
+         
+    listInitialize(&l1);
+    listInitialize(&l2);
+    listInitialize(&sol);
+        
+    listInsert(l1, 9);
+    listInsert(l1, 9);
+    listInsert(l1, 9);
+    listInsert(l1, 9);
+    listInsert(l1, 9);
+    listInsert(l1, 9);
+    listInsert(l1, 9);
+
+    listInsert(l2, 9);
+    listInsert(l2, 9);
+    listInsert(l2, 9);
+    listInsert(l2, 9);
+     
+    listInsert(sol, 8);
+    listInsert(sol, 9);
+    listInsert(sol, 9);
+    listInsert(sol, 9);
+    listInsert(sol, 0);
+    listInsert(sol, 0);
+    listInsert(sol, 0);
+    listInsert(sol, 1);
+
+    testFunction(l1, l2, sol, 3);
 
     return EXIT_SUCCESS;
 }

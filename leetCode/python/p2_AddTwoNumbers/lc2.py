@@ -11,7 +11,7 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
-    def insertLL(self, val):
+    def insertNode(self, val):
         newNode = ListNode(val)
         # Check if head already exists
         if(self.head):
@@ -23,7 +23,7 @@ class LinkedList:
         else:
             self.head = newNode 
 
-    def printLL(self):
+    def printLinkedList(self):
         current = self.head
         while(current):
             print(current.val, end = ' ')
@@ -36,39 +36,84 @@ class Solution:
     and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
     You may assume the two numbers do not contain any leading zero, except the number 0 itself.
     """
-    def formNumberFromList(l1: LinkedList) -> int:
+    def __init__(self, l1: LinkedList, l2: LinkedList):
+        self.l1 = l1
+        self.l2 = l2
+        self.sol = LinkedList()
+        self.solNum = 0
+    
+    def formNumberFromList(self, listIndex: int):
+        if(listIndex == 2):
+            current = self.l2.head
+        else:
+            current = self.l1.head
         mul = 1
-        sol = 0
-        current = l1.head
+        tmp = 0 
         while(current):
-            sol += current.val * mul
+            tmp += current.val * mul
             mul *= 10
             current = current.next 
-        return sol
+        return tmp
          
-    def addTwoNumbers(l1: LinkedList, l2: LinkedList) -> LinkedList:
-        sol = LinkedList()
-        solSum = Solution.formNumberFromList(l1) + Solution.formNumberFromList(l2)
-        while(solSum != 0):
-            sol.insertLL(solSum % 10)
-            solSum = solSum // 10
-        return sol 
-    
+    def addTwoNumbers(self):
+        tmp = self.formNumberFromList(1) + self.formNumberFromList(2)
+        self.solNum = tmp
+        while(tmp != 0):
+            self.sol.insertNode(tmp % 10)
+            tmp //= 10
+        self.sol 
+
+    def testFunction(self, solNum: int, testNum: int):
+        start_time = time.time()
+        self.addTwoNumbers()                
+        end_time = time.time()
+        if(self.solNum == solNum):
+            print('TEST' + str(testNum) + ': PASSED IN ' + '{:.2f}us'.format((end_time - start_time) * 1000000))
+        else:
+            print('TEST FAILED')
+ 
 # Test 1
-
+print()
 l1 = LinkedList()
-l1.insertLL(2)
-l1.insertLL(4)
-l1.insertLL(3)
-l1.printLL()
-
-print(Solution.formNumberFromList(l1))
+l1.insertNode(2)
+l1.insertNode(4)
+l1.insertNode(3)
 
 l2 = LinkedList()
-l2.insertLL(5)
-l2.insertLL(6)
-l2.insertLL(4)
-l2.printLL()
+l2.insertNode(5)
+l2.insertNode(6)
+l2.insertNode(4)
 
-sol = Solution.addTwoNumbers(l1, l2)
-sol.printLL()
+s = Solution(l1, l2)
+s.testFunction(807, 1)
+
+# Test 2
+print()
+l1 = LinkedList()
+l1.insertNode(0)
+
+l2 = LinkedList()
+l2.insertNode(0)
+
+s = Solution(l1, l2)
+s.testFunction(0, 2)
+
+# Test 3
+print()
+l1 = LinkedList()
+l1.insertNode(9)
+l1.insertNode(9)
+l1.insertNode(9)
+l1.insertNode(9)
+l1.insertNode(9)
+l1.insertNode(9)
+l1.insertNode(9)
+
+l2 = LinkedList()
+l2.insertNode(9)
+l2.insertNode(9)
+l2.insertNode(9)
+l2.insertNode(9)
+
+s = Solution(l1, l2)
+s.testFunction(10009998, 3)

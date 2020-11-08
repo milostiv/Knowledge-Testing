@@ -8,18 +8,11 @@ class Solution:
 
     You can return the answer in any order. 
     """ 
-    def __init__(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        """
+    def __init__(self, nums: list, target: int):
         self.nums = nums
         self.target = target
 
     def twoSum(self): 
-        """
-        :rtype: List[int]
-        """
         sum = {}
         for i in range(len(self.nums)):
             difference = self.target - self.nums[i]    
@@ -28,11 +21,7 @@ class Solution:
             else: 
                 sum[self.nums[i]] = i
 
-    def testFunction(self, solution, testNum): 
-        """
-        :type solution: List[int]
-        :type testNum: int 
-        """
+    def testFunction(self, solution: list, testNum: int): 
         answer = []
         start_time = time.time()
         answer = self.twoSum() 

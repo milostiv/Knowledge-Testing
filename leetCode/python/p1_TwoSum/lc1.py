@@ -12,7 +12,7 @@ class Solution:
         self.nums = nums
         self.target = target
 
-    def twoSum(self): 
+    def two_sum(self): 
         sum = {}
         for i in range(len(self.nums)):
             difference = self.target - self.nums[i]    
@@ -21,13 +21,13 @@ class Solution:
             else: 
                 sum[self.nums[i]] = i
 
-    def testFunction(self, solution: list, testNum: int): 
+    def test_function(self, solution: list, test_num: int): 
         answer = []
         start_time = time.time()
-        answer = self.twoSum() 
+        answer = self.two_sum() 
         end_time = time.time()
         if(answer[0] == solution[0] and answer[1] == solution[1]):
-            print('TEST' + str(testNum) + ': PASSED IN ' + '{:.2f}us'.format((end_time - start_time) * 1000000))
+            print('TEST' + str(test_num) + ': PASSED IN ' + '{:.2f}us'.format((end_time - start_time) * 1000000))
         else:
             print('TEST FAILED')        
 
@@ -38,7 +38,7 @@ target = 9
 solution = [0, 1]
 
 s = Solution(nums, target)
-s.testFunction(solution, 1)
+s.test_function(solution, 1)
 
 # Test 2
 print()
@@ -47,7 +47,7 @@ target = 6
 solution = [1, 2]
 
 s = Solution(nums, target)
-s.testFunction(solution, 2)
+s.test_function(solution, 2)
 
 # Test 3
 print()
@@ -56,4 +56,4 @@ target = 6
 solution = [0, 1]
 
 s = Solution(nums, target)
-s.testFunction(solution, 3)
+s.test_function(solution, 3)

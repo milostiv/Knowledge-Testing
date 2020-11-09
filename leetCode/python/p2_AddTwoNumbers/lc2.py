@@ -11,17 +11,17 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
-    def insertNode(self, val):
-        newNode = ListNode(val)
+    def insert_node(self, val):
+        new_node = ListNode(val)
         # Check if head already exists
         if(self.head):
             current = self.head 
             # Go to the end of linked list
             while(current.next):
                 current = current.next
-            current.next = newNode
+            current.next = new_node
         else:
-            self.head = newNode 
+            self.head = new_node 
 
     def printLinkedList(self):
         current = self.head
@@ -40,9 +40,9 @@ class Solution:
         self.l1 = l1
         self.l2 = l2
         self.sol = LinkedList()
-        self.solNum = 0
+        self.sol_num = 0
     
-    def formNumberFromList(self, listIndex: int):
+    def form_number_from_list(self, listIndex: int):
         if(listIndex == 2):
             current = self.l2.head
         else:
@@ -55,65 +55,65 @@ class Solution:
             current = current.next 
         return tmp
          
-    def addTwoNumbers(self):
-        tmp = self.formNumberFromList(1) + self.formNumberFromList(2)
-        self.solNum = tmp
+    def add_two_numbers(self):
+        tmp = self.form_number_from_list(1) + self.form_number_from_list(2)
+        self.sol_num = tmp
         while(tmp != 0):
-            self.sol.insertNode(tmp % 10)
+            self.sol.insert_node(tmp % 10)
             tmp //= 10
         self.sol 
 
-    def testFunction(self, solNum: int, testNum: int):
+    def test_function(self, sol_num: int, test_num: int):
         start_time = time.time()
-        self.addTwoNumbers()                
+        self.add_two_numbers()                
         end_time = time.time()
-        if(self.solNum == solNum):
-            print('TEST' + str(testNum) + ': PASSED IN ' + '{:.2f}us'.format((end_time - start_time) * 1000000))
+        if(self.sol_num == sol_num):
+            print('TEST' + str(test_num) + ': PASSED IN ' + '{:.2f}us'.format((end_time - start_time) * 1000000))
         else:
             print('TEST FAILED')
  
 # Test 1
 print()
 l1 = LinkedList()
-l1.insertNode(2)
-l1.insertNode(4)
-l1.insertNode(3)
+l1.insert_node(2)
+l1.insert_node(4)
+l1.insert_node(3)
 
 l2 = LinkedList()
-l2.insertNode(5)
-l2.insertNode(6)
-l2.insertNode(4)
+l2.insert_node(5)
+l2.insert_node(6)
+l2.insert_node(4)
 
 s = Solution(l1, l2)
-s.testFunction(807, 1)
+s.test_function(807, 1)
 
 # Test 2
 print()
 l1 = LinkedList()
-l1.insertNode(0)
+l1.insert_node(0)
 
 l2 = LinkedList()
-l2.insertNode(0)
+l2.insert_node(0)
 
 s = Solution(l1, l2)
-s.testFunction(0, 2)
+s.test_function(0, 2)
 
 # Test 3
 print()
 l1 = LinkedList()
-l1.insertNode(9)
-l1.insertNode(9)
-l1.insertNode(9)
-l1.insertNode(9)
-l1.insertNode(9)
-l1.insertNode(9)
-l1.insertNode(9)
+l1.insert_node(9)
+l1.insert_node(9)
+l1.insert_node(9)
+l1.insert_node(9)
+l1.insert_node(9)
+l1.insert_node(9)
+l1.insert_node(9)
 
 l2 = LinkedList()
-l2.insertNode(9)
-l2.insertNode(9)
-l2.insertNode(9)
-l2.insertNode(9)
+l2.insert_node(9)
+l2.insert_node(9)
+l2.insert_node(9)
+l2.insert_node(9)
 
 s = Solution(l1, l2)
-s.testFunction(10009998, 3)
+s.test_function(10009998, 3)

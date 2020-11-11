@@ -27,12 +27,12 @@ class Solution:
         answer = self.two_sum() 
         end_time = time.time()
         if(answer[0] == solution[0] and answer[1] == solution[1]):
-            print('TEST' + str(test_num) + ': PASSED IN ' + '{:.2f}us'.format((end_time - start_time) * 1000000))
+            print('\nTEST' + str(test_num) + ': PASSED IN ' + '{:.2f}us'.format((end_time - start_time) * 1000000))
         else:
-            print('TEST FAILED')        
+            print('\nTEST FAILED')        
 
 # Test 1
-print()
+
 nums = [2,7,11,15]
 target = 9
 solution = [0, 1]
@@ -41,7 +41,7 @@ s = Solution(nums, target)
 s.test_function(solution, 1)
 
 # Test 2
-print()
+
 nums = [3, 2, 4]
 target = 6
 solution = [1, 2]
@@ -50,7 +50,7 @@ s = Solution(nums, target)
 s.test_function(solution, 2)
 
 # Test 3
-print()
+
 nums = [3, 3]
 target = 6
 solution = [0, 1]

@@ -1,3 +1,5 @@
+/* Given a string s, find the length of the longest substring without repeating characters. */
+
 #include <stdio.h>
 #include <stdlib.h>
 

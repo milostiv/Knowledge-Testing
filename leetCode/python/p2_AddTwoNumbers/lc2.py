@@ -68,12 +68,12 @@ class Solution:
         self.add_two_numbers()                
         end_time = time.time()
         if(self.sol_num == sol_num):
-            print('TEST' + str(test_num) + ': PASSED IN ' + '{:.2f}us'.format((end_time - start_time) * 1000000))
+            print('\nTEST' + str(test_num) + ': PASSED IN ' + '{:.2f}us'.format((end_time - start_time) * 1000000))
         else:
-            print('TEST FAILED')
+            print('\nTEST FAILED')
  
 # Test 1
-print()
+
 l1 = LinkedList()
 l1.insert_node(2)
 l1.insert_node(4)
@@ -88,7 +88,7 @@ s = Solution(l1, l2)
 s.test_function(807, 1)
 
 # Test 2
-print()
+
 l1 = LinkedList()
 l1.insert_node(0)
 
@@ -99,7 +99,7 @@ s = Solution(l1, l2)
 s.test_function(0, 2)
 
 # Test 3
-print()
+
 l1 = LinkedList()
 l1.insert_node(9)
 l1.insert_node(9)

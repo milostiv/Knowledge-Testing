@@ -1,4 +1,4 @@
-**Algorithms Repo:**
+**Algorithms:**
 
 - _Two Sum_: 
     - [C](https://github.com/milostiv/Algorithms/tree/master/leetCode/c/p1_TwoSum/lc1.c) 

@@ -126,6 +126,8 @@ struct ListNode* addTwoNumbers(struct ListNode *l1, struct ListNode *l2) {
     return tmp;
 }
 
+/* Test */
+
 void testFunction(struct ListNode *l1, struct ListNode *l2, struct ListNode *sol, int testNumber) {
       
     bool identical = true; 
@@ -165,8 +167,6 @@ void testFunction(struct ListNode *l1, struct ListNode *l2, struct ListNode *sol
     else  
         printf("FAILED\n");
 }
-
-/* Test */
 
 int main(void) {
     

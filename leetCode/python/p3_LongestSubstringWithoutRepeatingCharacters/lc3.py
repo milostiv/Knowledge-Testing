@@ -26,7 +26,7 @@ class Solution:
 
         return longest
      
-    def testFunction(self, sol_num: int, test_num: int):
+    def test_function(self, sol_num: int, test_num: int):
         start_time = time.time() 
         sol = self.lengthOfLongestSubstring() 
         end_time = time.time()
@@ -39,16 +39,22 @@ class Solution:
 
 string = 'abcabcbb' 
 s = Solution(string)
-s.testFunction(3, 1)
+s.test_function(3, 1)
 
 # Test 2
 
 string = 'bbbbb' 
 s = Solution(string)
-s.testFunction(1, 2)
+s.test_function(1, 2)
 
 # Test 3
 
 string = 'pwwkew' 
 s = Solution(string)
-s.testFunction(3, 3)
+s.test_function(3, 3)
+
+# Test 4
+
+string = ''
+s = Solution(string)
+s.test_function(0, 4)

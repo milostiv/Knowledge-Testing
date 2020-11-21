@@ -6,7 +6,7 @@ class Solution:
     """
     def find_palindrome(self, s: str, l: int, r: int) -> str:
         while l >= 0 and r < len(s) and s[l] == s[r]:
-            l -= 1 # decrement to left
+            l -= 1 #decrement to left
             r += 1 # increment to right        
         return s[l+1:r]
     

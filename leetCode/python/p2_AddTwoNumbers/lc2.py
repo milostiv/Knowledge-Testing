@@ -6,22 +6,26 @@ class ListNode:
         self.val = val
         self.next = next
 
-# A Linked List class with a single head node.
+# Linked List class with a single head node.
 class LinkedList:
     def __init__(self):
         self.head = None
 
     def insert_node(self, val):
         new_node = ListNode(val)
-        # Check if head already exists
+        # check if head already exists
         if(self.head):
             current = self.head 
-            # Go to the end of linked list
+            # go to the end of linked list
             while(current.next):
                 current = current.next
             current.next = new_node
         else:
-            self.head = new_node 
+            self.head = new_node
+
+    def insert_node_from_list(self, val: list):
+        for i in range(len(val)):
+            self.insert_node(val[i]) 
 
     def printLinkedList(self):
         current = self.head
@@ -55,7 +59,7 @@ class Solution:
             current = current.next 
         return tmp
          
-    def add_two_numbers(self):
+    def add_two_numbers(self): # changed from leetCode version 
         tmp = self.form_number_from_list(1) + self.form_number_from_list(2)
         self.sol_num = tmp
         while(tmp != 0):
@@ -75,14 +79,12 @@ class Solution:
 # Test 1
 
 l1 = LinkedList()
-l1.insert_node(2)
-l1.insert_node(4)
-l1.insert_node(3)
+tmp_list = [2, 4, 3]
+l1.insert_node_from_list(tmp_list)
 
 l2 = LinkedList()
-l2.insert_node(5)
-l2.insert_node(6)
-l2.insert_node(4)
+tmp_list = [5, 6, 4] 
+l2.insert_node_from_list(tmp_list)
 
 s = Solution(l1, l2)
 s.test_function(807, 1)
@@ -99,21 +101,13 @@ s = Solution(l1, l2)
 s.test_function(0, 2)
 
 # Test 3
-
 l1 = LinkedList()
-l1.insert_node(9)
-l1.insert_node(9)
-l1.insert_node(9)
-l1.insert_node(9)
-l1.insert_node(9)
-l1.insert_node(9)
-l1.insert_node(9)
+tmp_list = [9, 9, 9, 9, 9, 9, 9]
+l1.insert_node_from_list(tmp_list)
 
 l2 = LinkedList()
-l2.insert_node(9)
-l2.insert_node(9)
-l2.insert_node(9)
-l2.insert_node(9)
+tmp_list = [9, 9, 9, 9]
+l2.insert_node_from_list(tmp_list)
 
 s = Solution(l1, l2)
 s.test_function(10009998, 3)

@@ -5,7 +5,7 @@
 #include <string.h>
 #include <time.h>
 
-int lengthOfLongestSubstring(char * s) {
+int lengthOfLongestSubstring(char *s) {
 
     int stringSize = strlen(s); 
     int substring[127]; // Number of characters in ASCII table (not including extended set of characters)   

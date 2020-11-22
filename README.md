@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="250" height="250" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/500px-Octicons-mark-github.svg.png">
+  <img width="200" height="200" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/500px-Octicons-mark-github.svg.png">
 </p>
 
 **LeetCode Problems:**

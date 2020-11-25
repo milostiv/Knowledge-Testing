@@ -20,11 +20,6 @@ struct Palindrome initPalindrome(void) {
     return pal;    
 }
 
-void printPalindromeInfo(struct Palindrome pal, char *s) {
-    
-    printf("%s palindrome:\nSize: %d\nLeft index:%d\nRight index:%d\n\n\n", s, pal.size, pal.leftIndex, pal.rightIndex);
-}
-
 struct Palindrome findPalindrome(int l, int r, char *s) {
     
     struct Palindrome tmp = initPalindrome();
@@ -70,11 +65,40 @@ char* longestPalindrome(char *s) {
     return pal;
 }
 
+/* Test */
+
+void testFunction(char *s, char *solution, int testNumber) {
+    
+    char *tmp;
+    double timeSpent; 
+        
+    clock_t tic = clock();
+    
+    tmp = longestPalindrome(s); 
+    
+    clock_t toc = clock(); 
+    
+    timeSpent = (double) (toc - tic) * 1000000 / CLOCKS_PER_SEC;
+ 
+    printf("\nTEST%d: ", testNumber);
+
+    if(!strcmp(tmp, solution))
+        printf("PASSED IN %.2fus\n", timeSpent);
+    else  
+        printf("FAILED\n");
+}
+
 int main(void) {
     
-    char s[] = "babad"; 
+    char s1[] = "babad"; 
+    char s2[] = "cbbd";
+    char s3[] = "a";
+    char s4[] = "ac";
 
-    longestPalindrome(s);
-
+    testFunction(s1, "bab", 1);
+    testFunction(s2, "bb", 2);
+    testFunction(s3, "a", 3);
+    testFunction(s4, "a", 4);
+     
     return EXIT_SUCCESS;
 }

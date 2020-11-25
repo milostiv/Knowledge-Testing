@@ -18,3 +18,9 @@
 - Longest Palingromic Substring:
     - [C](https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p5_LongestPalindromicSubstring/lc5.c)
     - [Python](https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p5_LongestPalindromicSubstring/lc5.py)
+- Zig Zag Conversion:
+    - [C](https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p6_ZigZagConversion/lc6.c)
+    - [Python](https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p6_ZigZagConversion/lc6.py)
+- Reverse Integer:
+    - [C](https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p7_ReverseInteger/lc7.c)
+    - [Python](https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p7_ReverseInteger/lc7.py)

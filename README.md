@@ -4,7 +4,7 @@
 </a>
 </p>
 
-##**LeetCode:**
+## **LeetCode:**
 
 - Two Sum: 
     - [C](https://github.com/milostiv/Algorithms/tree/master/leetCode/c/p1_TwoSum/lc1.c) 

@@ -16,20 +16,32 @@ class Solution:
     def convert(self, s: str, numRows: int) -> str:
         pass
 
-    def print_zig_zag_elements(self, s: str, numRows: int):
-        curr_pos = 0
-        i = 1
-        string_list = []
-        while len(s) > curr_pos:
-            if i % 2 == 0:
-                string_list.append(s[curr_pos:(curr_pos + numRows - 2)])
-                curr_pos += numRows - 2
-            else:  
-                string_list.append(s[curr_pos:(curr_pos + numRows)])
-                curr_pos += numRows
-            i += 1
-        print(string_list) 
+    def print_zig_zag(self, s: str, numRows: int):
+        start_elem = 0 
+        curr_pos = start_elem
+        end_string = (numRows - 2) * ' '
+ 
+        if len(s) % (2 * numRows - 2) != 0:
+            zig_zags = (len(s) // (2 * numRows - 2)) + 1
+            last_elem = (2 * numRows - 2) * (zig_zags - 1) - 2
+        else:
+            zig_zags = (len(s) // (2 * numRows - 2))
+            last_elem = (2 * numRows - 2) * zig_zags - 2
 
+        while True:
+            curr_char = s[curr_pos]
+            print(curr_char, end = end_string)
+            curr_pos += numRows + 1
+            
+            if curr_pos > len(s):
+                start_elem += 1 
+                curr_pos = start_elem
+                print()
+                
+            if curr_pos == last_elem:
+                print(curr_char, end = end_string)
+                break
+        
 string = 'PAYPALISHIRING'
 s = Solution()
-s.print_zig_zag_elements(string, 4)
+s.print_zig_zag(string, 3)

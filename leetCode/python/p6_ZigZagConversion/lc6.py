@@ -14,34 +14,53 @@ class Solution:
     Write the code that will take a string and make this conversion given a number of rows:
     """
     def convert(self, s: str, numRows: int) -> str:
-        pass
+        if numRows == 1 or numRows >= len(s):
+            return s
 
-    def print_zig_zag(self, s: str, numRows: int):
-        start_elem = 0 
-        curr_pos = start_elem
-        end_string = (numRows - 2) * ' '
- 
-        if len(s) % (2 * numRows - 2) != 0:
-            zig_zags = (len(s) // (2 * numRows - 2)) + 1
-            last_elem = (2 * numRows - 2) * (zig_zags - 1) - 2
-        else:
-            zig_zags = (len(s) // (2 * numRows - 2))
-            last_elem = (2 * numRows - 2) * zig_zags - 2
-
-        while True:
-            curr_char = s[curr_pos]
-            print(curr_char, end = end_string)
-            curr_pos += numRows + 1
-            
-            if curr_pos > len(s):
-                start_elem += 1 
-                curr_pos = start_elem
-                print()
-                
-            if curr_pos == last_elem:
-                print(curr_char, end = end_string)
-                break
+        delta = -1
+        row = 0
+        res = [[] for i in range(numRows)]
         
+        for c in s:
+            res[row].append(c)
+            
+            if row == 0 or row == numRows - 1:
+                delta *= -1
+
+            row += delta
+            
+        for i in range(len(res)):
+            res[i] = ''.join(res[i])
+        
+        return ''.join(res)
+
+    def test_function(self, s: str, numRows: int, sol: str, test_num: int):
+        start_time = time.time() 
+        tmp = self.convert(s, numRows) 
+        end_time = time.time()
+    
+        if tmp == sol:
+            print('\nTEST' + str(test_num) + ': PASSED IN ' + '{:.2f}us'.format((end_time - start_time) * 1000000))            
+        else:
+            print('\nTEST FAILED') 
+        
+# Test 1
+ 
 string = 'PAYPALISHIRING'
+sol = 'PAHNAPLSIIGYIR'
 s = Solution()
-s.print_zig_zag(string, 3)
+s.test_function(string, 3, sol, 1)
+
+# Test 2
+ 
+string = 'PAYPALISHIRING'
+sol = 'PINALSIGYAHRPI'
+s = Solution()
+s.test_function(string, 4, sol, 2)
+
+# Test 3
+ 
+string = 'A'
+sol = 'A'
+s = Solution()
+s.test_function(string, 1, sol, 3)

@@ -1,3 +1,5 @@
+/* Given a 32-bit signed integer, reverse digits of an integer. */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>

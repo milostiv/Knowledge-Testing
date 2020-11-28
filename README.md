@@ -24,3 +24,6 @@
 - Reverse Integer:
     - [C](https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p7_ReverseInteger/lc7.c)
     - [Python](https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p7_ReverseInteger/lc7.py)
+- String To Integer (atoi):
+    - [C](https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p8_StringToInteger_atoi/lc8.c)
+    - [Python](https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p8_StringToInteger_atoi/lc8.py)

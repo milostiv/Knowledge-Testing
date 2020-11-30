@@ -1,5 +1,5 @@
 <p align="center">
-[<img width="200px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg">][GitHub]
+<img width="200px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" href="https://github.com/milostiv/Algorithms">
 </p>
 
 ## **LeetCode:**

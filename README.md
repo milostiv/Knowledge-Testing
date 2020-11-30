@@ -8,7 +8,7 @@
 ## **LeetCode:**
 
 - Two Sum: 
-    - [C](https://github.com/milostiv/Algorithms/tree/master/leetCode/c/p1_TwoSum/lc1.c) 
+    - [C][LeetCode1C]
     - [Python](https://github.com/milostiv/Algorithms/tree/master/leetCode/python/p1_TwoSum/lc1.py)
 - Add Two Numbers: 
     - [C](https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p2_AddTwoNumbers/lc2.c) 
@@ -31,3 +31,4 @@
 
 [GitHub]:   https://github.com/milostiv/Algorithms
 [LinkedIn]: https://linkedin.com/in/miloš-trifković-423101190
+[LeetCode1C]: https://github.com/milostiv/Algorithms/tree/master/leetCode/c/p1_TwoSum/lc1.c

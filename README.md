@@ -1,4 +1,4 @@
-[<img class="left" width="200" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"/>][GitHub] 
+[<img class="left" width="100px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"/>][GitHub] 
 
 ## **LeetCode:**
 
@@ -23,9 +23,11 @@
 - String To Integer (atoi):
     - [C][LC8 C]
     - [Python][LC8 PYTHON]
+- Palindrome Number:
+    - [C][LC9 C]
+    - [Python][LC9 PYTHON]
 
 [GitHub]:   https://github.com/milostiv/Algorithms
-[LinkedIn]: https://linkedin.com/in/miloš-trifković-423101190
 
 [LC1 C]: https://github.com/milostiv/Algorithms/tree/master/leetCode/c/p1_TwoSum/lc1.c
 [LC2 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p2_AddTwoNumbers/lc2.c
@@ -34,6 +36,7 @@
 [LC6 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p6_ZigZagConversion/lc6.c
 [LC7 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p7_ReverseInteger/lc7.c
 [LC8 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p8_StringToInteger_atoi/lc8.c
+[LC9 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p9_PalindromeNumber/lc9.c
 
 [LC1 PYTHON]: https://github.com/milostiv/Algorithms/tree/master/leetCode/python/p1_TwoSum/lc1.py
 [LC2 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p2_AddTwoNumbers/lc2.py
@@ -42,7 +45,4 @@
 [LC6 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p6_ZigZagConversion/lc6.py
 [LC7 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p7_ReverseInteger/lc7.py
 [LC8 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p8_StringToInteger_atoi/lc8.py
-
-## **Connect with me:**
-
-[<img align="left" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"/>][LinkedIn]
+[LC9 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p9_PalindromeNumber/lc9.py

@@ -1,4 +1,4 @@
-<p style="text-align:center;"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" alt="Logo" width="200px"></p>
+[<img align="right" width="200" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"/>][GitHub] 
 
 ## **LeetCode:**
 

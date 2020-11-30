@@ -1,8 +1,7 @@
-<p align="center">
-<a href="https://github.com">
-    <img width="200" height="200" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/500px-Octicons-mark-github.svg.png">
-</a>
-</p>
+## **Connect With Me:**
+
+[<img align="left" width="22px" src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/500px-Octicons-mark-github.svg.png"/>][GitHub]
+[<img align="left" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"/>][LinkedIn]
 
 ## **LeetCode:**
 
@@ -27,3 +26,6 @@
 - String To Integer (atoi):
     - [C](https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p8_StringToInteger_atoi/lc8.c)
     - [Python](https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p8_StringToInteger_atoi/lc8.py)
+
+[GitHub]:   https://github.com/milostiv/Algorithms
+[LinkedIn]: https://linkedin.com/in/miloš-trifković-423101190

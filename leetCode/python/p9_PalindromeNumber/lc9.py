@@ -34,18 +34,9 @@ class Solution:
 
 s = Solution()
 
-# Test 1
+# Test
 
 s.test_function(121, True, 1)
-
-# Test 2
-
 s.test_function(-121, False, 2)
-
-# Test 3
-
 s.test_function(10, False, 3)
-
-# Test 4
-
 s.test_function(-101, False, 4)

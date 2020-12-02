@@ -51,7 +51,6 @@ void testFunction(int x, bool sol, int testNum) {
  
 int main(void) {
     
-    
     testFunction(121, true, 1);
     testFunction(-121, false, 2);
     testFunction(10, false, 3);

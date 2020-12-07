@@ -2,6 +2,12 @@
 
 ## **LeetCode:**
 
+<details>
+<summary markdown="span">- Two Sum</summary>
+- [C][LC1 C]
+- [Python][LC1 PYTHON]
+</details>
+
 - Two Sum: 
     - [C][LC1 C]
     - [Python][LC1 PYTHON]

@@ -9,15 +9,20 @@
 - [Python][LC1 PYTHON]
 </details>
 
-- Two Sum: 
-    - [C][LC1 C]
-    - [Python][LC1 PYTHON]
-- Add Two Numbers: 
-    - [C][LC2 C]
-    - [Python][LC2 PYTHON]
-- Longest Substring Without Repeating Characters:
-    - [C][LC3 C]
-    - [Python][LC3 PYTHON]
+<details>
+<summary>Add Two Numbers</summary>
+
+- [C][LC2 C]
+- [Python][LC2 PYTHON]
+</details>
+
+<details>
+<summary>Longest Substring Without Repeating Characters</summary>
+
+- [C][LC3 C]
+- [Python][LC3 PYTHON]
+</details>
+
 - Longest Palingromic Substring:
     - [C][LC5 C]
     - [Python][LC5 PYTHON]

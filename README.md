@@ -2,6 +2,8 @@
 
 ## **LeetCode:**
 
+<br>
+
 <details>
 <summary>Two Sum</summary>
 

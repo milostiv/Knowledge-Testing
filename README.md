@@ -23,27 +23,54 @@
 - [Python][LC3 PYTHON]
 </details>
 
-- Longest Palingromic Substring:
-    - [C][LC5 C]
-    - [Python][LC5 PYTHON]
-- Zig Zag Conversion:
-    - [C][LC6 C]
-    - [Python][LC6 PYTHON]
-- Reverse Integer:
-    - [C][LC7 C]
-    - [Python][LC7 PYTHON]
-- String To Integer (atoi):
-    - [C][LC8 C]
-    - [Python][LC8 PYTHON]
-- Palindrome Number:
-    - [C][LC9 C]
-    - [Python][LC9 PYTHON]
-- Container With Most Water:
-    - [C][LC11 C]
-    - [Python][LC11 PYTHON]
-- Integer To Roman:
-    - [C][LC12 C]
-    - [Python][LC12 PYTHON]
+<details>
+<summary>Longest Palingromic Substring</summary>
+
+- [C][LC5 C]
+- [Python][LC5 PYTHON]
+</details>
+
+<details>
+<summary>Zig Zag Conversion</summary>
+
+- [C][LC6 C]
+- [Python][LC6 PYTHON]
+</details>
+
+<details>
+<summary>Reverse Integer</summary>
+
+- [C][LC7 C]
+- [Python][LC7 PYTHON]
+</details>
+
+<details>
+<summary>String To Integer (atoi)</summary>
+
+- [C][LC8 C]
+- [Python][LC8 PYTHON]
+</details>
+
+<details>
+<summary>Palindrome Number</summary>
+    
+- [C][LC9 C]
+- [Python][LC9 PYTHON]
+</details>
+
+<details>
+<summary>Container With Most Water</summary>
+
+- [C][LC11 C]
+- [Python][LC11 PYTHON]
+</details>
+
+<details>
+<summary>Integer To Roman</summary>
+
+- [C][LC12 C]
+- [Python][LC12 PYTHON]
+</details>
 
 [GitHub]:   https://github.com/milostiv/Algorithms
 

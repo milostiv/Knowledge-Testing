@@ -5,8 +5,8 @@
 <details>
 <summary>Two Sum</summary>
 
-[C][LC1 C]
-[Python][LC1 PYTHON]
+- [C][LC1 C]
+- [Python][LC1 PYTHON]
 </details>
 
 - Two Sum: 

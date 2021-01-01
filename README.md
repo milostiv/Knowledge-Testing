@@ -4,15 +4,15 @@ I am an embedded software developer from Belgrade, Serbia
 
 ## **Skils**
 
-[<img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/c.svg"/>]
-[<img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg"/>]
-
-<br />
+[<img align="center" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/c.svg"/>]
+[<img align="center" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg"/>]
+[<img align="center" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linux.svg"/>]
+[<img align="center" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/bash.svg"/>]
 
 ## **Connect with me:**
 
-[<img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"/>][GitHub] 
-[<img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"/>][LinkedIn]
+[<img align="center" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"/>][GitHub] 
+[<img align="center" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"/>][LinkedIn]
 
 <br />
 

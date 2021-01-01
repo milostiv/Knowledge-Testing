@@ -81,7 +81,7 @@
 </details>
 
 [GitHub]:   https://github.com/milostiv/Algorithms
-[LinkedIn]: https://www.linkedin.com/in/milo%C5%A1-trifkovi%C4%87-423101190
+[LinkedIn]: https://www.linkedin.com/
 
 [LC1 C]: https://github.com/milostiv/Algorithms/tree/master/leetCode/c/p1_TwoSum/lc1.c
 [LC2 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p2_AddTwoNumbers/lc2.c

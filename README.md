@@ -10,8 +10,9 @@
 <details>
 <summary>Two Sum</summary>
 
-- [<img align="center" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/c.svg"/>][LC1 C]
-- [Python][LC1 PYTHON]
+- [<img align="center" width="12px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/c.svg"/>][LC1 C]
+- [<img align="center" width="12px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg"/>][LC1 PYTHON]
+
 </details>
 
 <details>

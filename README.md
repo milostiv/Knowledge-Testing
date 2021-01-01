@@ -1,9 +1,10 @@
 # **Miloš Trifković** 
-    ##_Embedded Software Deverloper from Belgrade, Serbia_
+    ## _Embedded Software Deverloper from Belgrade, Serbia_
 
-##Connect with me:
+## Connect with me:
 
-[<img align="center" width="150px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"/>][GitHub] 
+[<img align="center" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"/>][GitHub] 
+[<img align="center" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"/>][LinkedIn]
 
 ## **LeetCode:**
 
@@ -80,6 +81,7 @@
 </details>
 
 [GitHub]:   https://github.com/milostiv/Algorithms
+[LinkedIn]: https://www.linkedin.com/in/milo%C5%A1-trifkovi%C4%87-423101190
 
 [LC1 C]: https://github.com/milostiv/Algorithms/tree/master/leetCode/c/p1_TwoSum/lc1.c
 [LC2 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p2_AddTwoNumbers/lc2.c

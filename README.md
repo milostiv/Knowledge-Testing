@@ -1,4 +1,4 @@
-# **Miloš Trifković**
+# *mMiloš Trifković**
 
 ## **Connect with me:**
 
@@ -9,10 +9,12 @@
 
 ## **LeetCode:**
 
+```mermaid
 pie
     title Pie Chart
     "C" : 53
     "Python" : 47
+```
 
 <details>
 <summary>Two Sum</summary>

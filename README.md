@@ -2,6 +2,8 @@
 
 I am an embedded software developer from Belgrade, Serbia
 
+<br />
+
 ## **Connect with me:**
 
 [<img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"/>][GitHub] 

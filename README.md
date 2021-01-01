@@ -9,10 +9,10 @@ I am an embedded software developer from Belgrade, Serbia
 
 # **Work:**
 
-##**LeetCode:**
+## **LeetCode:**
 
 <details>
-<summary></summary>
+<summary> Problems </summary>
 
 <details>
 <summary>Two Sum</summary>

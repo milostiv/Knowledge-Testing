@@ -11,9 +11,6 @@ I am an embedded software developer from Belgrade, Serbia
 
 ## **LeetCode:**
 
-<details>
-<summary> Problems </summary>
-
 <br />
 
 <details>
@@ -84,8 +81,6 @@ I am an embedded software developer from Belgrade, Serbia
 
 - [C][LC12 C]
 - [Python][LC12 PYTHON]
-</details>
-
 </details>
 
 [GitHub]:   https://github.com/milostiv/Algorithms

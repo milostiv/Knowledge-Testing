@@ -1,4 +1,4 @@
-# *mMiloš Trifković**
+# **Miloš Trifković**
 
 ## **Connect with me:**
 

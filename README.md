@@ -74,12 +74,6 @@
 - [Python][LC12 PYTHON]
 </details>
 
-<details>
-<summary>Roman To Integer</summary>
-
-- To do
-</details>
-
 [GitHub]:   https://github.com/milostiv/Algorithms
 
 [LC1 C]: https://github.com/milostiv/Algorithms/tree/master/leetCode/c/p1_TwoSum/lc1.c

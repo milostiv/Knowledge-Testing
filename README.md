@@ -1,13 +1,15 @@
-# **Miloš Trifković** <font size="2"> _Embedded Software Deverloper from Belgrade, Serbia_ </font>
+# **Miloš Trifković**
 
-<br>
+I am an embedded software developer from Belgrade, Serbia
 
-## Connect with me:
+## **Connect with me:**
 
 [<img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"/>][GitHub] 
 [<img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"/>][LinkedIn]
 
 <br>
+
+# **Work:**
 
 ## **LeetCode:**
 

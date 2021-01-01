@@ -1,7 +1,5 @@
-# **Miloš Trifković**
-<font size="1"> _Embedded Software Deverloper from Belgrade, Serbia_ </font>
+# **Miloš Trifković** <font size="4"> _Embedded Software Deverloper from Belgrade, Serbia_ </font>
 
-<br>
 <br>
 
 ## Connect with me:
@@ -9,7 +7,6 @@
 [<img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"/>][GitHub] 
 [<img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"/>][LinkedIn]
 
-<br>
 <br>
 
 ## **LeetCode:**

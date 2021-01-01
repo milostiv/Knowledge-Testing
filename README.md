@@ -1,5 +1,5 @@
 # **Miloš Trifković** 
-## _Embedded Software Deverloper from Belgrade, Serbia_
+### _Embedded Software Deverloper from Belgrade, Serbia_
 
 ## Connect with me:
 

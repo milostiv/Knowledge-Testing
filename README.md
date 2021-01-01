@@ -1,5 +1,8 @@
-# **Miloš Trifković** 
-### _Embedded Software Deverloper from Belgrade, Serbia_
+# **Miloš Trifković**
+<font size="1"> _Embedded Software Deverloper from Belgrade, Serbia_ </font>
+
+<br>
+<br>
 
 ## Connect with me:
 

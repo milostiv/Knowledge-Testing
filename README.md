@@ -9,35 +9,6 @@
 
 ## **LeetCode:**
 
-```chart
-{
-  "type": "pie",
-  "data": {
-    "labels": [
-      "C",
-      "Python"
-    ],
-    "datasets": [
-      {
-        "data": [
-          53,
-          47
-        ],
-        "backgroundColor": [
-          "#FF6384",
-          "#36A2EB"
-        ],
-        "hoverBackgroundColor": [
-          "#FF6384",
-          "#36A2EB",
-        ]
-      }
-    ]
-  },
-  "options": {}
-}
-```
-
 <details>
 <summary>Two Sum</summary>
 

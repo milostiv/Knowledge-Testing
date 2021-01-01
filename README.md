@@ -5,14 +5,12 @@
 [<img align="center" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"/>][GitHub] 
 [<img align="center" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"/>][LinkedIn]
 
-<br />
-
 ## **LeetCode:**
 
 <details>
 <summary>Two Sum</summary>
 
-- [C][LC1 C]
+- [<img align="center" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/C.svg"/>][LC1 C]
 - [Python][LC1 PYTHON]
 </details>
 

@@ -1,3 +1,8 @@
+# **Miloš Trifković** 
+    ##_Embedded Software Deverloper from Belgrade, Serbia_
+
+##Connect with me:
+
 [<img align="center" width="150px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"/>][GitHub] 
 
 ## **LeetCode:**

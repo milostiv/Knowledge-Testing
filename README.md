@@ -1,10 +1,13 @@
 # **Miloš Trifković** 
-    ## _Embedded Software Deverloper from Belgrade, Serbia_
+## _Embedded Software Deverloper from Belgrade, Serbia_
 
 ## Connect with me:
 
-[<img align="center" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"/>][GitHub] 
-[<img align="center" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"/>][LinkedIn]
+[<img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"/>][GitHub] 
+[<img align="center" width="30px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"/>][LinkedIn]
+
+<br>
+<br>
 
 ## **LeetCode:**
 

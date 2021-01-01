@@ -1,4 +1,4 @@
-# **Miloš Trifković** <font size="4"> _Embedded Software Deverloper from Belgrade, Serbia_ </font>
+# **Miloš Trifković** <font size="2"> _Embedded Software Deverloper from Belgrade, Serbia_ </font>
 
 <br>
 

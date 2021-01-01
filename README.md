@@ -9,11 +9,33 @@
 
 ## **LeetCode:**
 
-```mermaid
-pie
-    title Pie Chart
-    "C" : 53
-    "Python" : 47
+```chart
+{
+  "type": "pie",
+  "data": {
+    "labels": [
+      "C",
+      "Python"
+    ],
+    "datasets": [
+      {
+        "data": [
+          53,
+          47
+        ],
+        "backgroundColor": [
+          "#FF6384",
+          "#36A2EB"
+        ],
+        "hoverBackgroundColor": [
+          "#FF6384",
+          "#36A2EB",
+        ]
+      }
+    ]
+  },
+  "options": {}
+}
 ```
 
 <details>

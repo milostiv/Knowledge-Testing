@@ -1,13 +1,13 @@
 # **Miloš Trifković**
 
-## **Connect with me:**
+## ***Connect with me:***
 
 [<img align="center" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"/>][GitHub] 
 [<img align="center" width="25px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg"/>][LinkedIn]
 
 <br />
 
-## **LeetCode:**
+## ***LeetCode:***
 
 <details>
 <summary>Two Sum</summary>

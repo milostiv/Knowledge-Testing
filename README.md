@@ -75,7 +75,7 @@
 <summary>Integer To Roman</summary>
 
 - [<img align="center" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/c.svg"/>][LC12 C]
-- [<img align="center" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg"/>][[C12 PYTHON]
+- [<img align="center" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg"/>][C12 PYTHON]
 </details>
 
 [GitHub]:   https://github.com/milostiv/Algorithms

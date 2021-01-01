@@ -9,6 +9,11 @@
 
 ## **LeetCode:**
 
+pie
+    title Pie Chart
+    "C" : 53
+    "Python" : 47
+
 <details>
 <summary>Two Sum</summary>
 

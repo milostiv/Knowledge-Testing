@@ -10,9 +10,7 @@ I am an embedded software developer from Belgrade, Serbia
 # **Work:**
 
 <details>
-<summary>Integer To Roman</summary>
-
-## **LeetCode:**
+<summary> ##**LeetCode:** </summary>
 
 <br>
 

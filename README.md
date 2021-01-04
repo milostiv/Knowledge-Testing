@@ -80,6 +80,13 @@
 - [<img align="center" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg"/>][LC12 PYTHON]
 </details>
 
+<details>
+<summary>Roman To Integer</summary>
+
+- [<img align="center" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/c.svg"/>][LC13 C]
+- [<img align="center" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg"/>][LC13 PYTHON]
+</details>
+
 [GitHub]: https://github.com/milostiv/Algorithms
 [LinkedIn]: https://www.linkedin.com/in/miloštrifković
 
@@ -93,6 +100,7 @@
 [LC9 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p9_PalindromeNumber/lc9.c
 [LC11 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p11_ContainerWithMostWater/lc11.c
 [LC12 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p12_IntegerToRoman/lc12.c
+[LC13 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p13_RomanToInteger/lc13.c
 
 [LC1 PYTHON]: https://github.com/milostiv/Algorithms/tree/master/leetCode/python/p1_TwoSum/lc1.py
 [LC2 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p2_AddTwoNumbers/lc2.py
@@ -104,3 +112,4 @@
 [LC9 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p9_PalindromeNumber/lc9.py
 [LC11 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p11_ContainerWithMostWater/lc11.py
 [LC12 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p12_IntegerToRoman/lc12.py 
+[LC13 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p13_RomanToInteger/lc13.py

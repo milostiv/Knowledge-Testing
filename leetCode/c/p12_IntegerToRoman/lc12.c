@@ -5,7 +5,8 @@
 #include <time.h>
 #include <string.h>
 
-#define INT_TO_ROMAN_MAP_SIZE 13
+#define INT_TO_ROMAN_MAP_SIZE     13
+#define MAX_SIZE_OF_ROMAN_NUMERAL 20
 
 struct Map {
 
@@ -72,8 +73,7 @@ void initIntToRomanMap(void) {
 
 char *intToRoman(int num) {
     
-    char romanNum[100] = "";
-    char *romanNumPointer = romanNum;
+    char *romanNum = (char *) malloc(MAX_SIZE_OF_ROMAN_NUMERAL * sizeof(char));
  
     for(int i=0; i<INT_TO_ROMAN_MAP_SIZE; i++) {
         
@@ -84,7 +84,7 @@ char *intToRoman(int num) {
         }    
     }
 
-    return romanNumPointer;
+    return romanNum;
 } 
 
 /* Test */

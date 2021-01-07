@@ -1,3 +1,5 @@
+/* Given a string s, return the longest palindromic substring in s */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

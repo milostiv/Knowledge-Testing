@@ -74,6 +74,13 @@
 </details>
 
 <details>
+<summary>Regular Expression Matching</summary>
+    
+- [<img align="center" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/c.svg"/>][LC10 C]
+- [<img align="center" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg"/>][LC10 PYTHON]
+</details>
+
+<details>
 <summary>Container With Most Water</summary>
 
 - [<img align="center" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/c.svg"/>][LC11 C]
@@ -106,6 +113,7 @@
 [LC7 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p7_ReverseInteger/lc7.c
 [LC8 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p8_StringToInteger_atoi/lc8.c
 [LC9 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p9_PalindromeNumber/lc9.c
+[LC10 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p10_RegularExpressionMatching/lc10.c
 [LC11 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p11_ContainerWithMostWater/lc11.c
 [LC12 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p12_IntegerToRoman/lc12.c
 [LC13 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p13_RomanToInteger/lc13.c
@@ -119,6 +127,7 @@
 [LC7 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p7_ReverseInteger/lc7.py
 [LC8 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p8_StringToInteger_atoi/lc8.py
 [LC9 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p9_PalindromeNumber/lc9.py
+[LC10 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p10_RegularExpressionMatching/lc10.py
 [LC11 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p11_ContainerWithMostWater/lc11.py
 [LC12 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p12_IntegerToRoman/lc12.py 
 [LC13 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p13_RomanToInteger/lc13.py

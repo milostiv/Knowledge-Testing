@@ -9,48 +9,30 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
     int i = 0, j = 0; // Array indices
     int count; // Position counter
     double median1, median2; // Two medians in case of even number of elements
-    
-    if((nums1Size + nums2Size) % 2 == 1) { // Odd case
+   
+    for(count = 0; count <= (nums1Size + nums2Size) / 2; count++) {
             
-        for(count = 0; count <= (nums1Size + nums2Size) / 2; count++) {
-        
-            if(i != nums1Size && j != nums2Size) {
-                                                     
-                if(nums1[i] < nums2[j]) 
-                    median1 = (double) nums1[i++]; 
-                else 
-                    median1 = (double) nums2[j++]; 
-            }
-            else if(i < nums1Size) 
-                median1 = (double) nums1[i++];
-            else
-                median2 = (double) nums2[j++];
-        }
-    
-        return median1;    
-    } 
-    
-    else { // Even case
-          
-        for(count = 0; count <= (nums1Size + nums2Size) / 2; count++) {
-            
-            median2 = median1;
+        median2 = median1;
  
-            if(i != nums1Size && j != nums2Size) {
+        if(i != nums1Size && j != nums2Size) {
                                                      
-                if(nums1[i] < nums2[j]) 
-                    median1 = (double) nums1[i++]; 
-                else 
-                    median1 = (double) nums2[j++]; 
-            }
-            else if(i < nums1Size) 
-                median1 = (double) nums1[i++];
+            if(nums1[i] < nums2[j]) 
+                median1 = (double) nums1[i++]; 
             else 
-                median2 = (double) nums2[j++];
+                median1 = (double) nums2[j++]; 
         }
-    
-        return (double) (median1 + median2) / 2;    
+        else if(i < nums1Size) 
+            median1 = (double) nums1[i++];
+        else 
+            median1 = (double) nums2[j++];
     }
+
+ 
+    if((nums1Size + nums2Size) % 2 == 1) // Odd case 
+        return median1;     
+    
+    else // Even case 
+        return (median1 + median2) / 2;    
 }
 
 /* Test */
@@ -100,17 +82,17 @@ int main(void) {
 
     // Test 4:
     
-    int nums7[1] = {1};
-    int nums8[0] = {};          
+    int nums7[0] = {};
+    int nums8[1] = {1};          
 
-    testFunction(nums7, 1, nums8, 0, 1.0, 4);
+    testFunction(nums7, 0, nums8, 1, 1.0, 4);
 
     // Test 5:
     
-    int nums9[1] = {2};
-    int nums10[0] = {};          
+    int nums9[0] = {};
+    int nums10[1] = {2};          
 
-    testFunction(nums9, 1, nums10, 0, 2.0, 5);
+    testFunction(nums9, 0, nums10, 1, 2.0, 5);
 
     return EXIT_SUCCESS;
 }

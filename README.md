@@ -1,5 +1,3 @@
-# **Miloš Trifković**
-
 ## LeetCode:
 
 <details>

@@ -3,7 +3,7 @@
 <details>
 <summary>Two Sum</summary>
 
-- [<img align="center" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/c.svg" onmouseover="C"/>][LC1 C]
+- [<img align="center" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/c.svg"/>][LC1 C]
 - [<img align="center" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg"/>][LC1 PYTHON]
 
 </details>

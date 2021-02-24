@@ -28,7 +28,7 @@ class Solution:
         # For patterns with *
         for i in range(2, columns + 1):
             if p[i - 1] == '*':
-                dp[0][i] = dp[0][i-2]
+                dp[0][i] = dp[0][i - 2]
 
         # For remaining characters
         for i in range(1, rows + 1):

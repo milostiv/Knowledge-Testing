@@ -24,17 +24,31 @@ bool isMatch(char * s, char * p){
 
     bool dp[rows + 1][columns + 1];
     
-    // Initialize array with false values
-    memset(dp, false, sizeof dp);
+    // Initialize array with false values (because setting dp[0][0] to {0} did not work)
+    memset(dp, false, sizeof dp); 
+ 
+    // Match if both string and pattern are empty
+    dp[0][0] = true;
 
-    for(int i=0; i<rows+1; i++) {
-        for(int j=0; j<columns+1; j++) {
-            printf("%d ", dp[i][j]);
-        }
-        printf("\n");
+    // For patterns with *
+    for(int i = 2; i < columns + 1; i++){
+        if(p[i - 1] == '*')
+            dp[0][i] = dp[0][i - 2];
     }
-     
-    //printf("%d, %d", rows, columns);
+
+    // For remaining characters    
+    for(int i = 1; i < rows + 1; i++){
+        for(int j = 1; j < columns + 1; j++){
+            if(s[i - 1] == p[j - 1] || p[j - 1] == '.')
+                dp[i][j] = dp[i - 1][j - 1];
+            else if(j > 1 && p[j - 1] == '*')
+                dp[i][j] = dp[i][j - 2];
+                if(p[j - 2] == '.' || p[j - 2] == s[i - 1])
+                    dp[i][j] = dp[i][j] || dp[i - 1][j];
+        }
+    }       
+
+    return dp[rows][columns];
 }
 
 /* Test */
@@ -62,10 +76,30 @@ void testFunction(char * s, char * p, bool sol, int testNum){
 
 int main(void){
 
-    char s[] = "aa";
-    char p[] = "a";
+    char s1[] = "aa";
+    char p1[] = "a";
 
-    isMatch(s, p);
+    testFunction(s1, p1, false, 1);
+
+    char s2[] = "aa";
+    char p2[] = "a*";
+    
+    testFunction(s2, p2, true, 2);
+
+    char s3[] = "ab";
+    char p3[] = ".*";
+    
+    testFunction(s3, p3, true, 3);
+
+    char s4[] = "aab";
+    char p4[] = "c*a*b";
+    
+    testFunction(s4, p4, true, 4);
+
+    char s5[] = "mississippi";
+    char p5[] = "mis*is*p*.";
+    
+    testFunction(s5, p5, false, 5);
      
     return EXIT_SUCCESS;
 }

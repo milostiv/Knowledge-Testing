@@ -4,7 +4,7 @@
 <summary>Two Sum</summary>
 
 - [<img src="https://img.icons8.com/color/20/000000/c-programming.png"/>][LC1 C]
-- [<img align="center" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/python.svg"/>][LC1 PYTHON]
+- [<img src="https://img.icons8.com/color/20/000000/python.png"/>][LC1 PYTHON]
 
 </details>
 

@@ -6,7 +6,7 @@
 #include <time.h>
 
 char * longestCommonPrefix(char ** strs, int strsSize){
-    
+ 
 }
 
 char * longestPrefixBetweenTwoStrings(char * str1, char * str2){
@@ -26,6 +26,8 @@ char * longestPrefixBetweenTwoStrings(char * str1, char * str2){
 
     return str;
 }
+
+// Test
 
 int main(void){
     

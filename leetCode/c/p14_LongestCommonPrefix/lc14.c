@@ -5,9 +5,7 @@
 #include <string.h>
 #include <time.h>
 
-char * longestCommonPrefix(char ** strs, int strsSize){
- 
-}
+#define MAX_STR_SIZE 10
 
 char * longestPrefixBetweenTwoStrings(char * str1, char * str2){
     
@@ -22,14 +20,61 @@ char * longestPrefixBetweenTwoStrings(char * str1, char * str2){
         i++;              
     }      
 
-    str = realloc(str, i);    
+    if(i != 0)
+        str = realloc(str, i);    
 
     return str;
 }
 
+char * longestCommonPrefix(char ** strs, int strsSize){
+
+    char * prefix = strs[0];
+    
+    for(int i = 1; i < strsSize; i++){
+        prefix = longestPrefixBetweenTwoStrings(prefix, strs[i]);
+    }
+
+    return prefix;
+}
+
 // Test
 
+void testFunction(char ** strs, int strsSize, char * sol, int testNum) {
+
+    double timeSpent;
+
+    clock_t tic = clock();
+ 
+    char * str = longestCommonPrefix(strs, strsSize);
+ 
+    clock_t toc = clock(); 
+    
+    timeSpent = (double) (toc - tic) * 1000000 / CLOCKS_PER_SEC;
+ 
+    printf("\nTEST%d: ", testNum);
+     
+    if(!strcmp(str, sol))
+        printf("PASSED IN %.2fus\n", timeSpent);
+    else  
+        printf("FAILED\n");
+}
+
 int main(void){
+
+    char * strs1[3][MAX_STR_SIZE] = {
+        "flower",
+        "flow",
+        "flight" 
+    };
+
+    char * strs2[3][MAX_STR_SIZE] = {
+        "dog",
+        "racecar",
+        "car"
+    };
+
+    testFunction(*strs1, 3, "fl", 1); 
+    testFunction(*strs2, 3, "", 2);
     
     return EXIT_SUCCESS;
 }

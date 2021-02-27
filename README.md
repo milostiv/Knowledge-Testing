@@ -99,6 +99,13 @@
 - [<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC14 PYTHON]
 </details>
 
+<details>
+<summary>3Sum</summary>
+
+- [<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC15 C]
+- [<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC15 PYTHON]
+</details>
+
 [GitHub]: https://github.com/milostiv/Algorithms
 [LinkedIn]: https://www.linkedin.com/in/miloštrifković
 
@@ -116,6 +123,7 @@
 [LC12 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p12_IntegerToRoman/lc12.c
 [LC13 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p13_RomanToInteger/lc13.c
 [LC14 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p14_LongestCommonPrefix/lc14.c
+[LC15 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p15_3Sum/lc15.c
 
 [LC1 PYTHON]: https://github.com/milostiv/Algorithms/tree/master/leetCode/python/p1_TwoSum/lc1.py
 [LC2 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p2_AddTwoNumbers/lc2.py
@@ -131,3 +139,4 @@
 [LC12 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p12_IntegerToRoman/lc12.py 
 [LC13 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p13_RomanToInteger/lc13.py
 [LC14 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p14_LongestCommonPrefix/lc14.py
+[LC15 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p15_3Sum/lc15.py

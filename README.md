@@ -105,6 +105,8 @@
 [<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC15 PYTHON]
 </details>
 
+___
+
 [GitHub]: https://github.com/milostiv/Algorithms
 [LinkedIn]: https://www.linkedin.com/in/miloštrifković
 

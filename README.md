@@ -1,4 +1,4 @@
-## LeetCode:
+## <span style="color:blue">LeetCode</span>:
 
 <details>
 <summary>Two Sum</summary>

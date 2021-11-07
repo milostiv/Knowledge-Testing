@@ -3,106 +3,106 @@
 <details>
 <summary>Two Sum</summary>
     
-[<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC1 C]
-[<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC1 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC1 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC1 PYTHON]
 </details>
 
 <details>
 <summary>Add Two Numbers</summary>
 
-[<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC2 C]
-[<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC2 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC2 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC2 PYTHON]
 </details>
 
 <details>
 <summary>Longest Substring Without Repeating Characters</summary>
 
-[<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC3 C]
-[<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC3 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC3 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC3 PYTHON]
 </details>
 
 <details>
 <summary>Median Of Two Sorted Arrays</summary>
 
-[<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC4 C]
-[<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC4 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC4 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC4 PYTHON]
 </details>
 
 <details>
 <summary>Longest Palingromic Substring</summary>
 
-[<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC5 C]
-[<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC5 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC5 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC5 PYTHON]
 </details>
 
 <details>
 <summary>Zig Zag Conversion</summary>
 
-[<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC6 C]
-[<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC6 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC6 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC6 PYTHON]
 </details>
 
 <details>
 <summary>Reverse Integer</summary>
 
-[<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC7 C]
-[<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC7 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC7 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC7 PYTHON]
 </details>
 
 <details>
 <summary>String To Integer (atoi)</summary>
 
-[<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC8 C]
-[<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC8 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC8 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC8 PYTHON]
 </details>
 
 <details>
 <summary>Palindrome Number</summary>
     
-[<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC9 C]
-[<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC9 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC9 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC9 PYTHON]
 </details>
 
 <details>
 <summary>Regular Expression Matching</summary>
     
-[<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC10 C]
-[<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC10 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC10 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC10 PYTHON]
 </details>
 
 <details>
 <summary>Container With Most Water</summary>
 
-[<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC11 C]
-[<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC11 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC11 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC11 PYTHON]
 </details>
 
 <details>
 <summary>Integer To Roman</summary>
 
-[<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC12 C]
-[<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC12 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC12 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC12 PYTHON]
 </details>
 
 <details>
 <summary>Roman To Integer</summary>
 
-[<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC13 C]
-[<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC13 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC13 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC13 PYTHON]
 </details>
 
 <details>
 <summary>Longest Common Prefix</summary>
 
-[<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC14 C]
-[<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC14 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC14 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC14 PYTHON]
 </details>
 
 <details>
 <summary>3Sum</summary>
 
-[<img src="https://img.icons8.com/color/18/000000/c-programming.png"/>][LC15 C]
-[<img src="https://img.icons8.com/color/18/000000/python.png"/>][LC15 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC15 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC15 PYTHON]
 </details>
 
 [GitHub]: https://github.com/milostiv/Algorithms

@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import time
 
 # Definition of a singly-linked list.

@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import time
 
 int_to_roman_map = {

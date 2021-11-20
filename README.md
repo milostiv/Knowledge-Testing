@@ -1,21 +1,21 @@
 ## **LeetCode**
 
 <details>
-<summary>Two Sum</summary>
+<summary>1. Two Sum</summary>
     
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC1 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC1 PYTHON]
 </details>
 
 <details>
-<summary>Add Two Numbers</summary>
+<summary>2. Add Two Numbers</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC2 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC2 PYTHON]
 </details>
 
 <details>
-<summary>Longest Substring Without Repeating Characters</summary>
+<summary>3. Longest Substring Without Repeating Characters</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC3 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC3 PYTHON]

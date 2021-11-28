@@ -10,7 +10,6 @@ class Solution:
 	and nums[i] + nums[j] + nums[k] == 0. Notice that the solution set must not contain duplicate triplets.
 	'''
 	def threeSum(self, nums):	
-		currRow = 0	
 		matrix = []		
 		nums.sort()	
 		

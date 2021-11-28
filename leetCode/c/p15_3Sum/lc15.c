@@ -64,8 +64,9 @@ int** threeSum(int *nums, int numsSize, int* returnSize, int** returnColumnSizes
         for(int j=i+1; j<numsSize-1; j++) {
             for(int k=j+1; k<numsSize; k++) {
                 if(nums[i] + nums[j] + nums[k] == TARGET) {
-					if(currRow > 0)
+					if(currRow > 0) {
                    		answer = reallocateMatrix(answer, currRow + 1, COLUMN_SIZE);
+					}
 					answer[currRow][0] = nums[i];
                     answer[currRow][1] = nums[j];
                     answer[currRow][2] = nums[k];

@@ -112,6 +112,13 @@
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC16 PYTHON]
 </details>
 
+<details>
+<summary>17. Letter Combinations of a Phone Number</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC17 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC17 PYTHON]
+</details>
+
 [GitHub]: https://github.com/milostiv/Algorithms
 [LinkedIn]: https://www.linkedin.com/in/miloštrifković
 
@@ -131,6 +138,7 @@
 [LC14 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p14_LongestCommonPrefix/lc14.c
 [LC15 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p15_3Sum/lc15.c
 [LC16 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p16_3SumClosest/lc16.c
+[LC17 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p17_LetterCombinationsOfAPhoneNumber/lc17.c
 
 [LC1 PYTHON]: https://github.com/milostiv/Algorithms/tree/master/leetCode/python/p1_TwoSum/lc1.py
 [LC2 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p2_AddTwoNumbers/lc2.py
@@ -148,3 +156,4 @@
 [LC14 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p14_LongestCommonPrefix/lc14.py
 [LC15 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p15_3Sum/lc15.py
 [LC16 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p16_3SumClosest/lc16.py
+[LC17 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p17_LetterCombinationsOfAPhoneNumber/lc17.py 

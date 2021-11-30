@@ -1,4 +1,4 @@
-## **LeetCode**
+## **LeetCode Problems**
 
 <details>
 <summary>1. Two Sum</summary>

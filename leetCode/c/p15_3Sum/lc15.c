@@ -32,6 +32,15 @@ int** reallocateMatrix(int **array, int rows, int coll) {
     return array;
 }
 
+void freeAllocatedMatrix(int **array, int rows, int coll) {
+	
+	for(int i=0; i<coll; i++) {
+		free(array[i]);
+	}
+	
+	free(array);
+}
+
 void printArray(int *array, int arraySize) { 
     
     for(int i=0; i<arraySize; i++)
@@ -114,6 +123,8 @@ int main(void) {
 	matrix = threeSum(nums, numsSize, returnSize, returnColumnSize);
 
 	printMatrix(matrix, 2, 3);
+
+	freeAllocatedMatrix(matrix, 2, 3);
 
     return EXIT_SUCCESS;
 }

@@ -121,8 +121,8 @@
 
 ## **C LIBRARY**
 
--[HEADER][LIBRARY SOURCE]
--[SOURCE][LIBRARY HEADER]
+[HEADER][LIBRARY SOURCE]  
+[SOURCE][LIBRARY HEADER]  
 
 [GitHub]: https://github.com/milostiv/Algorithms
 [LinkedIn]: https://www.linkedin.com/in/miloštrifković

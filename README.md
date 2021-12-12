@@ -119,7 +119,7 @@
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC17 PYTHON]
 </details>
 
-## **C LIBRARY**
+## **C Library**
 
 [HEADER][LIBRARY HEADER]  
 [SOURCE][LIBRARY SOURCE]  

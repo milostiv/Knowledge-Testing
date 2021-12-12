@@ -119,6 +119,11 @@
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC17 PYTHON]
 </details>
 
+## **C LIBRARY**
+
+[HEADER]([LIBRARY SOURCE])
+[SOURCE]([LIBRARY HEADER])
+
 [GitHub]: https://github.com/milostiv/Algorithms
 [LinkedIn]: https://www.linkedin.com/in/miloštrifković
 
@@ -157,3 +162,6 @@
 [LC15 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p15_3Sum/lc15.py
 [LC16 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p16_3SumClosest/lc16.py
 [LC17 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p17_LetterCombinationsOfAPhoneNumber/lc17.py 
+
+[LIBRARY SOURCE]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.c
+[LIBRARY HEADER]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.h

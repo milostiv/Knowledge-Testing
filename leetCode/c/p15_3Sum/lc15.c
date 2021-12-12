@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <time.h>
-#include "/home/milostiv/programming/mylib/mylib.h"
+#include "../../../mylib/mylib.h"
 
 #define COLUMN_SIZE 3
 #define TARGET 0

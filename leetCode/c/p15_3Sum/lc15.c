@@ -8,61 +8,10 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <time.h>
+#include "/home/milostiv/programming/mylib/mylib.h"
 
 #define COLUMN_SIZE 3
 #define TARGET 0
-
-int** allocateMatrix(int **array, int rows, int coll) {
-    
-    array = (int **) malloc(rows * sizeof(int *));
-    
-    for(int i=0; i<coll; i++)
-        array[i] = (int *) malloc(coll * sizeof(int)); 
-
-    return array;
-}
-
-int** reallocateMatrix(int **array, int rows, int coll) {
-    
-    array = realloc(array, rows * sizeof(int *)); 
-    
-    for(int i=0; i<coll; i++)
-        array[i] = (int *) realloc(array[i], coll * sizeof(int));  
- 
-    return array;
-}
-
-void freeAllocatedMatrix(int **array, int rows, int coll) {
-	
-	for(int i=0; i<coll; i++) {
-		free(array[i]);
-	}
-	
-	free(array);
-}
-
-void printArray(int *array, int arraySize) { 
-    
-    for(int i=0; i<arraySize; i++)
-        printf("%d ", array[i]);
-
-    printf("\n");
-}
-
-void printMatrix(int **matrix, int rows, int coll) {
-
-	if(rows < 1) {
-		printf("[]");
-		return;
-	}
- 
-    for(int i=0; i<rows; i++) {
-        for(int j=0; j<coll; j++) {
-            printf("%d ", matrix[i][j]);
-        }
-        printf("\n");
-    }
-}
 
 int* sortArray(int *array, int arraySize) {
 	

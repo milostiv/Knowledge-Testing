@@ -73,7 +73,7 @@ int main(void) {
 
 	printMatrix(matrix, 2, 3);
 
-	freeAllocatedMatrix(matrix, 2, 3);
+	freeAllocatedMatrix(matrix, 2);
 
     return EXIT_SUCCESS;
 }

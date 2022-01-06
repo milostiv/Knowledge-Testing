@@ -122,7 +122,7 @@
 ## **C Library**
 
 [<img src="https://img.icons8.com/ios-filled/25/ffffff/code-file.png"/>][LIBRARY SOURCE] 
-[<img src="https://img.icons8.com/ios/25/000000/h.png"/>][LIBRARY HEADER]  
+[<img src="https://img.icons8.com/ios/25/ffffff/h.png"/>][LIBRARY HEADER]  
 
 [GitHub]: https://github.com/milostiv/Algorithms
 [LinkedIn]: https://www.linkedin.com/in/miloštrifković

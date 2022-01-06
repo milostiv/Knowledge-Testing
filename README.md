@@ -121,7 +121,7 @@
 
 ## **C Library**
 
-[<img src="https://img.icons8.com/ios/25/000000/code-file.png"/>][LIBRARY SOURCE] 
+[<img src="https://img.icons8.com/ios-filled/25/ffffff/code-file.png"/>][LIBRARY SOURCE] 
 [<img src="https://img.icons8.com/ios-filled/50/000000/code-file.png"/>][LIBRARY HEADER]  
 
 [GitHub]: https://github.com/milostiv/Algorithms

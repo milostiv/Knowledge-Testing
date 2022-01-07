@@ -68,21 +68,26 @@ int main(void) {
 
 	// Test
 
-	//int nums[6] = {1,0,-1,0,-2,2};
-	int nums[5] = {2, 2, 2, 2, 2};
-	int numsSize = sizeof(nums)/sizeof(int);
-	//int solRowSize = 3;
-	int solRowSize = 1;
-	//int target = 0;
-	int target = 8;
+	int nums1[6] = {1,0,-1,0,-2,2};
+	int nums2[5] = {2,2,2,2,2};
+	int numsSize1 = sizeof(nums1)/sizeof(int);
+	int numsSize2 = sizeof(nums2)/sizeof(int);
+	int solRowSize1 = 3;
+	int solRowSize2 = 1;
+	int target1 = 0;
+	int target2 = 8;
 	int* returnSize;
 	int** returnColumnSize;
 	
-	fourSum(nums, numsSize, target, returnSize, returnColumnSize);
+	fourSum(nums1, numsSize1, target1, returnSize, returnColumnSize);
+	printMatrixInt(answer, solRowSize1, COLUMN_SIZE);
+	freeAllocatedMatrixInt(answer, solRowSize1);
 
-	printMatrixInt(answer, solRowSize, COLUMN_SIZE);
-
-	freeAllocatedMatrixInt(answer, solRowSize);
+	printf("\n");
+		
+	fourSum(nums2, numsSize2, target2, returnSize, returnColumnSize);
+	printMatrixInt(answer, solRowSize2, COLUMN_SIZE);
+	freeAllocatedMatrixInt(answer, solRowSize2);
 	
 	return EXIT_SUCCESS;
 }

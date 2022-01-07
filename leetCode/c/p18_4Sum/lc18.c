@@ -76,7 +76,7 @@ int main(void) {
 	int* returnSize;
 	int** returnColumnSize;
 	
-	int** solution = allocateMatrixInt(solution, solRowSize, COLUMN_SIZE);
+    int **solution = allocateMatrixInt(solution, 3, COLUMN_SIZE);
 
 	solution = fourSum(nums, numsSize, target, returnSize, returnColumnSize);
 

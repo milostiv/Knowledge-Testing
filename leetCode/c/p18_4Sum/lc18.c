@@ -12,6 +12,8 @@
 
 #define COLUMN_SIZE 4
 
+int **answer;
+
 int* sortArray(int *array, int arraySize) {
 	
 	int temp;
@@ -29,10 +31,10 @@ int* sortArray(int *array, int arraySize) {
 	return array;
 }
 
-int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** returnColumnSizes){
+int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** returnColumnSizes) {
 		
     int currRow = 0;	
-    int **answer = allocateMatrixInt(answer, currRow + 1, COLUMN_SIZE);
+    answer = allocateMatrixInt(answer, currRow + 1, COLUMN_SIZE);
 
 	nums = sortArray(nums, numsSize);
 
@@ -57,32 +59,30 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
         }
     }
 
-    *returnSize = currRow - 1;
-    
-    return answer; 
+    *returnSize = currRow - 1;    
+
+	return answer;
 }
 
 int main(void) {
 
 	// Test
 
-	int nums[6] = {1,0,-1,0,-2,2};
-	//int nums[5] = {2, 2, 2, 2, 2};
+	//int nums[6] = {1,0,-1,0,-2,2};
+	int nums[5] = {2, 2, 2, 2, 2};
 	int numsSize = sizeof(nums)/sizeof(int);
-	int solRowSize = 3;
-	//int solRowSize = 1;
-	int target = 0;
-	//int target = 8;
+	//int solRowSize = 3;
+	int solRowSize = 1;
+	//int target = 0;
+	int target = 8;
 	int* returnSize;
 	int** returnColumnSize;
 	
-    int **solution = allocateMatrixInt(solution, 3, COLUMN_SIZE);
+	fourSum(nums, numsSize, target, returnSize, returnColumnSize);
 
-	solution = fourSum(nums, numsSize, target, returnSize, returnColumnSize);
+	printMatrixInt(answer, solRowSize, COLUMN_SIZE);
 
-	printMatrixInt(solution, solRowSize, COLUMN_SIZE);
-
-	freeAllocatedMatrixInt(solution, solRowSize);
+	freeAllocatedMatrixInt(answer, solRowSize);
 	
 	return EXIT_SUCCESS;
 }

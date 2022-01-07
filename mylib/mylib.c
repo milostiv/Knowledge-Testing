@@ -20,10 +20,10 @@ char* reallocateArrayChar(char *array, int size) {
 	return array;
 }
 
-void printArrayChar(char *array, int arraySize) { //TODO: Switch to void?
+void printArrayChar(char *array, int arraySize) { 
     
     for(int i=0; i<arraySize; i++)
-        printf("%d ", array[i]);
+        printf("%c ", array[i]);
 
     printf("\n");
 }
@@ -57,7 +57,7 @@ void freeAllocatedMatrixChar(char **matrix, int rows) { //TODO: Switch to void?
 	free(matrix);
 }
 
-void printMatrixChar(char **matrix, int rows, int coll) { //TODO: Switch to void?
+void printMatrixChar(char **matrix, int rows, int coll) { 
 
 	if(rows < 1) {
 		printf("[]");
@@ -66,7 +66,7 @@ void printMatrixChar(char **matrix, int rows, int coll) { //TODO: Switch to void
  
     for(int i=0; i<rows; i++) {
         for(int j=0; j<coll; j++) {
-            printf("%d ", matrix[i][j]);
+            printf("%c ", matrix[i][j]);
         }
         printf("\n");
     }
@@ -88,7 +88,7 @@ int* reallocateArrayInt(int *array, int size) {
 	return array;
 }
 
-void printArrayInt(int *array, int arraySize) { //TODO: Switch to void?
+void printArrayInt(int *array, int arraySize) { 
     
     for(int i=0; i<arraySize; i++)
         printf("%d ", array[i]);
@@ -125,7 +125,7 @@ void freeAllocatedMatrixInt(int **matrix, int rows) { //TODO: Switch to void?
 	free(matrix);
 }
 
-void printMatrixInt(int **matrix, int rows, int coll) { //TODO: Switch to void?
+void printMatrixInt(int **matrix, int rows, int coll) { 
 
 	if(rows < 1) {
 		printf("[]");
@@ -139,3 +139,5 @@ void printMatrixInt(int **matrix, int rows, int coll) { //TODO: Switch to void?
         printf("\n");
     }
 }
+
+/* --------------------------------------------------------------------- */

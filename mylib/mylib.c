@@ -2,6 +2,20 @@
 #include <stdlib.h>
 #include "mylib.h"
 
+/* ---------------------------- Mathematics ---------------------------- */
+
+int powInt(int base, unsigned int pow) {
+	
+	if(pow == 0)
+		return 1;
+	else if (pow % 2 == 0)
+        return powInt(base, pow / 2) * powInt(base, pow / 2);
+    else
+        return base * powInt(base, pow / 2) * powInt(base, pow / 2);	
+}
+
+/* --------------------------------------------------------------------- */
+
 /* -------------------------- Arrays (2D, 3D) -------------------------- */
 
 /* Char: */

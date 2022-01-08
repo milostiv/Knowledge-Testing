@@ -1,6 +1,14 @@
 #ifndef MYLIB_H
 #define MYLIB_H
 
+/* ---------------------------- Mathematics ---------------------------- */
+
+int powInt(int base, unsigned int pow);
+
+/* --------------------------------------------------------------------- */
+
+/* -------------------------- Arrays (2D, 3D) -------------------------- */
+
 /* Char: */
 
 char* allocateArrayChar(char *array, int size);
@@ -20,5 +28,7 @@ int** allocateMatrixInt(int **matrix, int rows, int coll);
 int** reallocateMatrixInt(int **matrix, int rows, int coll);
 void freeAllocatedMatrixInt(int **matrix, int rows);
 void printMatrixInt(int **matrix, int rows, int coll);
+
+/* --------------------------------------------------------------------- */
 
 #endif /* MYLIB_H */

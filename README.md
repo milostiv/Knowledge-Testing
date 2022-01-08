@@ -126,6 +126,13 @@
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC18 PYTHON]
 </details>
 
+<details>
+<summary>19. Remove Nth Node From End of List</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC19 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC19 PYTHON]
+</details>
+
 ## **C Library**
 
 [<img src="https://img.icons8.com/ios-filled/25/ffffff/code-file.png"/>][LIBRARY SOURCE] 
@@ -152,6 +159,7 @@
 [LC16 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p16_3SumClosest/lc16.c
 [LC17 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p17_LetterCombinationsOfAPhoneNumber/lc17.c
 [LC18 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p18_4Sum/lc18.c
+[LC19 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p19_RemoveNthNodeFromEndOfList/lc19.c
 
 [LC1 PYTHON]: https://github.com/milostiv/Algorithms/tree/master/leetCode/python/p1_TwoSum/lc1.py
 [LC2 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p2_AddTwoNumbers/lc2.py
@@ -171,6 +179,7 @@
 [LC16 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p16_3SumClosest/lc16.py
 [LC17 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p17_LetterCombinationsOfAPhoneNumber/lc17.py 
 [LC18 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p18_4Sum/lc18.py
+[LC19 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p19_RemoveNthNodeFromEndOfList/lc19.py
 
 [LIBRARY SOURCE]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.c
 [LIBRARY HEADER]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.h

@@ -62,7 +62,7 @@ char** reallocateMatrixChar(char **matrix, int rows, int coll) {
     return matrix;
 }
 
-void freeAllocatedMatrixChar(char **matrix, int rows) { //TODO: Switch to void?
+void freeAllocatedMatrixChar(char **matrix, int rows) { 
 	
 	for(int i=0; i<rows; i++) {
 		free(matrix[i]);
@@ -130,7 +130,7 @@ int** reallocateMatrixInt(int **matrix, int rows, int coll) {
     return matrix;
 }
 
-void freeAllocatedMatrixInt(int **matrix, int rows) { //TODO: Switch to void?
+void freeAllocatedMatrixInt(int **matrix, int rows) { 
 	
 	for(int i=0; i<rows; i++) {
 		free(matrix[i]);
@@ -151,6 +151,89 @@ void printMatrixInt(int **matrix, int rows, int coll) {
             printf("%d ", matrix[i][j]);
         }
         printf("\n");
+    }
+}
+
+/* --------------------------------------------------------------------- */
+
+/* ---------------------------- Linked List ---------------------------- */
+
+/* Definition for singly-linked list: */
+
+void listInitialize(struct ListNode **list) {
+   
+    *list = (struct ListNode*) malloc(sizeof(*list)); 
+
+    (*list)->val = -1;
+    (*list)->next = NULL;
+}
+
+void listInsertSingle(struct ListNode *list, int val) {
+    
+    struct ListNode *temp = (struct ListNode*) malloc(sizeof(*temp));  
+    
+    /* Check if first element */ 
+    if(list->val == -1 && list->next == NULL) {
+        list->val = val;
+        return;
+    }
+ 
+    /* Go to the end of linked list */ 
+    while(list->next != NULL) {
+        list = list->next;
+    }
+
+    temp->val = val;
+    temp->next = NULL;
+    list->next = temp;
+}
+
+void listInsertArray(struct ListNode *list, int *array, int arraySize) {
+    
+    int firstIndex = 0;
+     
+    /* Check if first element */
+    if(list->val == -1 && list->next == NULL) {
+        list->val = array[0];
+        firstIndex = 1;
+        if(arraySize == 1) return;
+    }
+
+    /* Go to the end of linked list */ 
+    while(list->next != NULL) {
+        list = list->next;
+    }
+
+    for(int i = firstIndex; i<arraySize; i++) {      
+        struct ListNode *temp = (struct ListNode*) malloc(sizeof(*temp));
+        temp->val = array[i];
+        list->next = temp; 
+        list = list->next;
+    }    
+    
+    list->next = NULL;
+}
+
+void listPrint(struct ListNode *list) {
+    
+    struct ListNode *curr = list;
+ 
+    while(curr->next != NULL) {
+        printf("%d ", curr->val); 
+        curr = curr->next;
+    }
+
+    printf("%d\n", curr->val);
+}
+
+void listFree(struct ListNode *list) {
+    
+    struct ListNode *tmp;
+
+    while(list->next != NULL) {
+        tmp = list;
+        list = list->next;
+        free(tmp);
     }
 }
 

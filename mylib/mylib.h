@@ -31,4 +31,19 @@ void printMatrixInt(int **matrix, int rows, int coll);
 
 /* --------------------------------------------------------------------- */
 
+/* ---------------------------- Linked List ---------------------------- */
+
+struct ListNode {
+    int val;
+    struct ListNode *next;
+};
+
+void listInitialize(struct ListNode **list);
+void listInsertSingle(struct ListNode *list, int val);
+void listInsertArray(struct ListNode *list, int *array, int arraySize);
+void listPrint(struct ListNode *list);
+void listFree(struct ListNode *list);
+
+/* --------------------------------------------------------------------- */
+
 #endif /* MYLIB_H */

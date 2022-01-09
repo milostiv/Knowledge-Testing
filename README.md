@@ -115,7 +115,6 @@
 <details>
 <summary>17. Letter Combinations of a Phone Number</summary>
 
-[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC17 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC17 PYTHON]
 </details>
 

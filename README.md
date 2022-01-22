@@ -1,5 +1,13 @@
 ## **LeetCode**
 
+### **Plan**
+
+[.] Complete 50 *leetCode* problems in C
+[.] Complete 50 *leetCode* problems in C++
+[.] Complete 50 *leetCode* problems in Python
+
+### **Problems**
+
 <details>
 <summary>1. Two Sum</summary>
     
@@ -132,7 +140,7 @@
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC19 PYTHON]
 </details>
 
-## **C Library**
+### **C Library**
 
 [<img src="https://img.icons8.com/ios-filled/25/ffffff/code-file.png"/>][LIBRARY SOURCE] 
 [<img src="https://img.icons8.com/ios/25/ffffff/h.png"/>][LIBRARY HEADER]  

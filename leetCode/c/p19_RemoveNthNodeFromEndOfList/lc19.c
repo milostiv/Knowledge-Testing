@@ -23,7 +23,7 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
 		printf("Empty list!\n");
 		return head;
 	}
-	else if(ListSize == 1 && n != 1) {
+	else if(ListSize == 1 && n > 1) {
 		printf("'n' greater then number of list elements!\n");
 		return head;
 	}

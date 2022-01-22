@@ -2,9 +2,9 @@
 
 ### **Plan**
 
-- [ ] Complete 50 *leetCode* problems in C
-- [ ] Complete 50 *leetCode* problems in C++
-- [ ] Complete 50 *leetCode* problems in Python
+- [ ] Complete 50 *leetCode* problems in C [18/50]
+- [ ] Complete 50 *leetCode* problems in C++ [18/50]
+- [ ] Complete 50 *leetCode* problems in Python [0/50]
 
 ### **Problems**
 

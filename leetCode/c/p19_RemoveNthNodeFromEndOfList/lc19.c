@@ -8,7 +8,25 @@
 
 struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
 
+	int ListSize = 1;
 	struct ListNode *pnt;
+
+	pnt = head;
+
+	/* Find the size of the list */
+	while(pnt->next != NULL) {
+		ListSize++;	
+		pnt = pnt->next;	
+	}	
+
+	if(ListSize == 1 && n == 1) {
+		printf("Empty list!\n");
+		return head;
+	}
+	else if(ListSize == 1 && n != 1) {
+		printf("'n' greater then number of list elements!\n");
+		return head;
+	}
 
 	pnt = head;
 	
@@ -40,6 +58,18 @@ int main(void) {
 
 	listPrint(list1);
 	listFree(list1);
+
+	/* Test 2 */
+
+	int list2Array = 1;
+	listArraySize = 1;
+
+	listInitialize(&list2);
+	listInsertSingle(list2, list2Array);
+	
+	removeNthFromEnd(list2, 1);
+
+	listFree(list2);
 
 	/* Test 3 */
 

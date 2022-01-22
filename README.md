@@ -3,7 +3,7 @@
 ### **Plan**
 
 - [ ] [18/50] Complete 50 *leetCode* problems in C 
-- [ ] [0/50] Complete 50 *leetCode* problems in C++
+- [ ] [0/50] &nbsp; Complete 50 *leetCode* problems in C++
 - [ ] [18/50] Complete 50 *leetCode* problems in Python
 
 ### **Problems**

@@ -149,8 +149,12 @@
 
 ### **C Library**
 
+<details>
+<summary>MyLib</summary>
+
 [<img src="https://img.icons8.com/ios-filled/20/ffffff/code-file.png"/>][LIBRARY SOURCE] 
 [<img src="https://img.icons8.com/ios/20/ffffff/h.png"/>][LIBRARY HEADER]  
+</details>
 
 [GitHub]: https://github.com/milostiv/Algorithms
 [LinkedIn]: https://www.linkedin.com/in/miloštrifković

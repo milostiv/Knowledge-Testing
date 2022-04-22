@@ -158,19 +158,19 @@ void printMatrixInt(int **matrix, int rows, int coll) {
 
 /* ---------------------------- Linked List ---------------------------- */
 
-/* Definition for singly-linked list: */
+/* Definition for integer singly-linked list: */
 
-void listInitialize(struct ListNode **list) {
+void listInitializeInt(struct ListNodeInt **list) {
    
-    *list = (struct ListNode*) malloc(sizeof(*list)); 
+    *list = (struct ListNodeInt*) malloc(sizeof(*list)); 
 
     (*list)->val = -1;
     (*list)->next = NULL;
 }
 
-void listInsertSingle(struct ListNode *list, int val) {
+void listInsertSingleInt(struct ListNodeInt *list, int val) {
     
-    struct ListNode *temp = (struct ListNode*) malloc(sizeof(*temp));  
+    struct ListNodeInt *temp = (struct ListNodeInt*) malloc(sizeof(*temp));  
     
     /* Check if first element */ 
     if(list->val == -1 && list->next == NULL) {
@@ -188,7 +188,7 @@ void listInsertSingle(struct ListNode *list, int val) {
     list->next = temp;
 }
 
-void listInsertArray(struct ListNode *list, int *array, int arraySize) {
+void listInsertArrayInt(struct ListNodeInt *list, int *array, int arraySize) {
     
     int firstIndex = 0;
      
@@ -205,7 +205,7 @@ void listInsertArray(struct ListNode *list, int *array, int arraySize) {
     }
 
     for(int i = firstIndex; i<arraySize; i++) {      
-        struct ListNode *temp = (struct ListNode*) malloc(sizeof(*temp));
+        struct ListNodeInt *temp = (struct ListNodeInt*) malloc(sizeof(*temp));
         temp->val = array[i];
         list->next = temp; 
         list = list->next;
@@ -214,9 +214,9 @@ void listInsertArray(struct ListNode *list, int *array, int arraySize) {
     list->next = NULL;
 }
 
-void listPrint(struct ListNode *list) {
+void listPrintInt(struct ListNodeInt *list) {
     
-    struct ListNode *curr = list;
+    struct ListNodeInt *curr = list;
  
     while(curr->next != NULL) {
         printf("%d ", curr->val); 
@@ -226,9 +226,88 @@ void listPrint(struct ListNode *list) {
     printf("%d\n", curr->val);
 }
 
-void listFree(struct ListNode *list) {
+void listFreeInt(struct ListNodeInt *list) {
     
-    struct ListNode *tmp;
+    struct ListNodeInt *tmp;
+
+    while(list->next != NULL) {
+        tmp = list;
+        list = list->next;
+        free(tmp);
+    }
+}
+
+/* Definition for char singly-linked list: */
+
+void listInitializeChar(struct ListNodeChar **list) {
+   
+    *list = (struct ListNodeChar*) malloc(sizeof(*list)); 
+
+    (*list)->val = ' ';
+    (*list)->next = NULL;
+}
+
+void listInsertSingleChar(struct ListNodeChar *list, char val) {
+    
+    struct ListNodeChar *temp = (struct ListNodeChar*) malloc(sizeof(*temp));  
+    
+    /* Check if first element */ 
+    if(list->val == ' ' && list->next == NULL) {
+        list->val = val;
+        return;
+    }
+ 
+    /* Go to the end of linked list */ 
+    while(list->next != NULL) {
+        list = list->next;
+    }
+
+    temp->val = val;
+    temp->next = NULL;
+    list->next = temp;
+}
+
+void listInsertArrayChar(struct ListNodeChar *list, char *array, int arraySize) {
+    
+    int firstIndex = 0;
+     
+    /* Check if first element */
+    if(list->val == ' ' && list->next == NULL) {
+        list->val = array[0];
+        firstIndex = 1;
+        if(arraySize == 1) return;
+    }
+
+    /* Go to the end of linked list */ 
+    while(list->next != NULL) {
+        list = list->next;
+    }
+
+    for(int i = firstIndex; i<arraySize; i++) {      
+        struct ListNodeChar *temp = (struct ListNodeChar*) malloc(sizeof(*temp));
+        temp->val = array[i];
+        list->next = temp; 
+        list = list->next;
+    }    
+    
+    list->next = NULL;
+}
+
+void listPrintChar(struct ListNodeChar *list) {
+    
+    struct ListNodeChar *curr = list;
+ 
+    while(curr->next != NULL) {
+        printf("%c ", curr->val); 
+        curr = curr->next;
+    }
+
+    printf("%c\n", curr->val);
+}
+
+void listFreeChar(struct ListNodeChar *list) {
+    
+    struct ListNodeChar *tmp;
 
     while(list->next != NULL) {
         tmp = list;

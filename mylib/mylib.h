@@ -33,16 +33,31 @@ void printMatrixInt(int **matrix, int rows, int coll);
 
 /* ---------------------------- Linked List ---------------------------- */
 
-struct ListNode {
+/* Int: */
+
+struct ListNodeInt {
     int val;
-    struct ListNode *next;
+    struct ListNodeInt *next;
 };
 
-void listInitialize(struct ListNode **list);
-void listInsertSingle(struct ListNode *list, int val);
-void listInsertArray(struct ListNode *list, int *array, int arraySize);
-void listPrint(struct ListNode *list);
-void listFree(struct ListNode *list);
+void listInitializeInt(struct ListNodeInt **list);
+void listInsertSingleInt(struct ListNodeInt *list, int val);
+void listInsertArrayInt(struct ListNodeInt *list, int *array, int arraySize);
+void listPrintInt(struct ListNodeInt *list);
+void listFreeInt(struct ListNodeInt *list);
+
+/* Char: */
+
+struct ListNodeChar {
+    char val;
+    struct ListNodeChar *next;
+};
+
+void listInitializeChar(struct ListNodeChar **list);
+void listInsertSingleChar(struct ListNodeChar *list, char val);
+void listInsertArrayChar(struct ListNodeChar *list, char *array, int arraySize);
+void listPrintChar(struct ListNodeChar *list);
+void listFreeChar(struct ListNodeChar *list);
 
 /* --------------------------------------------------------------------- */
 

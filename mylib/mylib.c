@@ -214,6 +214,28 @@ void listInsertArrayInt(struct ListNodeInt *list, int *array, int arraySize) {
     list->next = NULL;
 }
 
+int listPopInt(struct ListNodeInt* list) {
+	
+	int temp;
+	int listSize = 1;
+	struct ListNodeInt *pnt;
+
+	pnt = list;
+
+	/* Go to second last node of the linked list: */
+	while(pnt->next->next != NULL) {
+		pnt = pnt->next;
+	}
+	
+	/* Get the value of the last node */	
+	temp = pnt->next->val;
+	
+	/* Remove the last node: */
+	pnt->next = NULL;
+
+	return temp;
+}
+
 void listPrintInt(struct ListNodeInt *list) {
     
     struct ListNodeInt *curr = list;
@@ -291,6 +313,28 @@ void listInsertArrayChar(struct ListNodeChar *list, char *array, int arraySize) 
     }    
     
     list->next = NULL;
+}
+
+char listPopChar(struct ListNodeChar* list) {
+	
+	char temp;
+	int listSize = 1;
+	struct ListNodeChar *pnt;
+
+	pnt = list;
+
+	/* Go to second last node of the linked list: */
+	while(pnt->next->next != NULL) {
+		pnt = pnt->next;
+	}
+	
+	/* Get the value of the last node */	
+	temp = pnt->next->val;
+	
+	/* Remove the last node: */
+	pnt->next = NULL;
+
+	return temp;
 }
 
 void listPrintChar(struct ListNodeChar *list) {

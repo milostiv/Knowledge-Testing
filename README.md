@@ -4,7 +4,7 @@
 
 - [ ] [18/50] Complete 50 *leetCode* problems in C 
 - [ ] [0/50] Complete 50 *leetCode* problems in C++
-- [ ] [19/50] Complete 50 *leetCode* problems in Python
+- [ ] [20/50] Complete 50 *leetCode* problems in Python
 
 ### **Problems**
 

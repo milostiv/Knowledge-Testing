@@ -168,7 +168,7 @@ void listInitializeInt(struct ListNodeInt **list) {
     (*list)->next = NULL;
 }
 
-void listInsertSingleInt(struct ListNodeInt *list, int val) {
+void listPushInt(struct ListNodeInt *list, int val) {
     
     struct ListNodeInt *temp = (struct ListNodeInt*) malloc(sizeof(*temp));  
     
@@ -214,17 +214,30 @@ void listInsertArrayInt(struct ListNodeInt *list, int *array, int arraySize) {
     list->next = NULL;
 }
 
-int listPopInt(struct ListNodeInt* list) {
+int listPopInt(struct ListNodeInt *list) {
 	
 	int temp;
-	int listSize = 1;
-	struct ListNodeInt *pnt;
+	int listSize = 0, i = 0;
+	struct ListNodeInt *pnt = list;
+	
+	/* Count the number of list elements */	
+	listSize = listCountInt(pnt);
 
-	pnt = list;
+	/* If the list is empty */
+	if(listSize == 0)
+		return '0';
+
+	/* If the list has only one element */
+	if(listSize == 1) {
+		temp = pnt->val;
+		pnt->val = ' ';
+		return temp;
+	}
 
 	/* Go to second last node of the linked list: */
-	while(pnt->next->next != NULL) {
+	while(i < listSize - 2) {
 		pnt = pnt->next;
+		i++;
 	}
 	
 	/* Get the value of the last node */	
@@ -248,6 +261,23 @@ void listPrintInt(struct ListNodeInt *list) {
     printf("%d\n", curr->val);
 }
 
+int listCountInt(struct ListNodeInt *list) {
+	
+	struct ListNodeInt *curr = list;
+	int count = 0;
+
+	if(curr->val == -1 && curr->next == NULL)
+		return 0;
+	else count++;
+
+	while(curr->next != NULL) {
+		count++;
+		curr = curr->next;
+	}
+
+	return count;
+}
+
 void listFreeInt(struct ListNodeInt *list) {
     
     struct ListNodeInt *tmp;
@@ -269,7 +299,7 @@ void listInitializeChar(struct ListNodeChar **list) {
     (*list)->next = NULL;
 }
 
-void listInsertSingleChar(struct ListNodeChar *list, char val) {
+void listPushChar(struct ListNodeChar *list, char val) {
     
     struct ListNodeChar *temp = (struct ListNodeChar*) malloc(sizeof(*temp));  
     
@@ -315,17 +345,30 @@ void listInsertArrayChar(struct ListNodeChar *list, char *array, int arraySize) 
     list->next = NULL;
 }
 
-char listPopChar(struct ListNodeChar* list) {
+char listPopChar(struct ListNodeChar *list) {
 	
 	char temp;
-	int listSize = 1;
-	struct ListNodeChar *pnt;
+	int listSize = 0, i = 0;
+	struct ListNodeChar *pnt = list;
+	
+	/* Count the number of list elements */	
+	listSize = listCountChar(pnt);
 
-	pnt = list;
+	/* If the list is empty */
+	if(listSize == 0)
+		return '0';
+
+	/* If the list has only one element */
+	if(listSize == 1) {
+		temp = pnt->val;
+		pnt->val = ' ';
+		return temp;
+	}
 
 	/* Go to second last node of the linked list: */
-	while(pnt->next->next != NULL) {
+	while(i < listSize - 2) {
 		pnt = pnt->next;
+		i++;
 	}
 	
 	/* Get the value of the last node */	
@@ -347,6 +390,23 @@ void listPrintChar(struct ListNodeChar *list) {
     }
 
     printf("%c\n", curr->val);
+}
+
+int listCountChar(struct ListNodeChar *list) {
+	
+	struct ListNodeChar *curr = list;
+	int count = 0;
+
+	if(curr->val == ' ' && curr->next == NULL) 
+		return 0;
+	else count++;
+
+	while(curr->next != NULL) {
+		count++;	
+		curr = curr->next;
+	}
+
+	return count;
 }
 
 void listFreeChar(struct ListNodeChar *list) {

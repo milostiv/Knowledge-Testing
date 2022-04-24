@@ -41,9 +41,10 @@ struct ListNodeInt {
 };
 
 void listInitializeInt(struct ListNodeInt **list);
-void listInsertSingleInt(struct ListNodeInt *list, int val);
+int listCountInt(struct ListNodeInt *list);
+void listPushInt(struct ListNodeInt *list, int val);
 void listInsertArrayInt(struct ListNodeInt *list, int *array, int arraySize);
-int listPopInt(struct ListNodeInt* list);
+int listPopInt(struct ListNodeInt *list);
 void listPrintInt(struct ListNodeInt *list);
 void listFreeInt(struct ListNodeInt *list);
 
@@ -55,9 +56,10 @@ struct ListNodeChar {
 };
 
 void listInitializeChar(struct ListNodeChar **list);
-void listInsertSingleChar(struct ListNodeChar *list, char val);
+int listCountChar(struct ListNodeChar *list);
+void listPushChar(struct ListNodeChar *list, char val);
 void listInsertArrayChar(struct ListNodeChar *list, char *array, int arraySize);
-char listPopChar(struct ListNodeChar* list);
+char listPopChar(struct ListNodeChar *list);
 void listPrintChar(struct ListNodeChar *list);
 void listFreeChar(struct ListNodeChar *list);
 

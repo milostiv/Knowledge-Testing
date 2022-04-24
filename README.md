@@ -185,7 +185,7 @@
 [LC18 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p18_4Sum/lc18.c
 [LC19 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p19_RemoveNthNodeFromEndOfList/lc19.c
 [LC20 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p20_ValidParentheses/lc20.c
-[LC21 C]: https://github.com/milostiv/Programming/tree/master/leetCode/python/p21_MergeTwoSortedLists/lc21.c
+[LC21 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p21_MergeTwoSortedLists/lc21.c
 
 [LC1 PYTHON]: https://github.com/milostiv/Algorithms/tree/master/leetCode/python/p1_TwoSum/lc1.py
 [LC2 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p2_AddTwoNumbers/lc2.py

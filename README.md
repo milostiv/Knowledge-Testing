@@ -153,6 +153,13 @@
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC21 PYTHON]
 </details>
 
+<details>
+<summary>22. Generate Parentheses</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC22 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC22 PYTHON]
+</details>
+
 ### **C Library**
 
 <details>
@@ -185,6 +192,7 @@
 [LC19 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p19_RemoveNthNodeFromEndOfList/lc19.c
 [LC20 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p20_ValidParentheses/lc20.c
 [LC21 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p21_MergeTwoSortedLists/lc21.c
+[LC22 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p22_GenerateParentheses/lc22.c
 
 [LC1 PYTHON]: https://github.com/milostiv/Algorithms/tree/master/leetCode/python/p1_TwoSum/lc1.py
 [LC2 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p2_AddTwoNumbers/lc2.py
@@ -207,6 +215,7 @@
 [LC19 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p19_RemoveNthNodeFromEndOfList/lc19.py
 [LC20 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p20_ValidParentheses/lc20.py
 [LC21 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p21_MergeTwoSortedLists/lc21.py
+[LC22 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p22_GenerateParentheses/lc22.py
 
 [LIBRARY SOURCE]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.c
 [LIBRARY HEADER]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.h

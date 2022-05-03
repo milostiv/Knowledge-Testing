@@ -18,7 +18,7 @@ int powInt(int base, unsigned int pow) {
 
 /* -------------------------- Arrays (2D, 3D) -------------------------- */
 
-/* Char: */
+/* Char */
 
 char* allocateArrayChar(char *array, int size) {
 	
@@ -86,7 +86,7 @@ void printMatrixChar(char **matrix, int rows, int coll) {
     }
 }
 
-/* Int: */
+/* Int */
 
 int* allocateArrayInt(int *array, int size) {
 	
@@ -158,7 +158,7 @@ void printMatrixInt(int **matrix, int rows, int coll) {
 
 /* ---------------------------- Linked List ---------------------------- */
 
-/* Definition for integer singly-linked list: */
+/* Definition for integer singly-linked list */
 
 void listInitializeInt(struct ListNodeInt **list) {
    
@@ -234,16 +234,16 @@ int listPopInt(struct ListNodeInt *list) {
 		return temp;
 	}
 
-	/* Go to second last node of the linked list: */
+	/* Go to second last node of the linked list */
 	while(i < listSize - 2) {
 		pnt = pnt->next;
 		i++;
 	}
 	
-	/* Get the value of the last node: */	
+	/* Get the value of the last node */	
 	temp = pnt->next->val;
 	
-	/* Remove the last node: */
+	/* Remove the last node */
 	pnt->next = NULL;
 
 	return temp;
@@ -253,7 +253,7 @@ void listPrintInt(struct ListNodeInt *list) {
     
     struct ListNodeInt *curr = list;
 	
-	/* Check if list is empty: */
+	/* Check if list is empty */
 	if(list->val == -1 && list->next == NULL) {
 		printf("Empty list\n");
 		return;
@@ -295,7 +295,7 @@ void listFreeInt(struct ListNodeInt *list) {
     }
 }
 
-/* Definition for char singly-linked list: */
+/* Definition for char singly-linked list */
 
 void listInitializeChar(struct ListNodeChar **list) {
    
@@ -371,7 +371,7 @@ char listPopChar(struct ListNodeChar *list) {
 		return temp;
 	}
 
-	/* Go to second last node of the linked list: */
+	/* Go to second last node of the linked list */
 	while(i < listSize - 2) {
 		pnt = pnt->next;
 		i++;
@@ -380,7 +380,7 @@ char listPopChar(struct ListNodeChar *list) {
 	/* Get the value of the last node */	
 	temp = pnt->next->val;
 	
-	/* Remove the last node: */
+	/* Remove the last node */
 	pnt->next = NULL;
 
 	return temp;
@@ -390,7 +390,7 @@ void listPrintChar(struct ListNodeChar *list) {
     
     struct ListNodeChar *curr = list;
  
-	/* Check if list is empty: */
+	/* Check if list is empty */
 	if(list->val == ' ' && list->next == NULL) {
 		printf("Empty list\n");
 		return;

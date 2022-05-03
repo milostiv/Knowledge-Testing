@@ -240,7 +240,7 @@ int listPopInt(struct ListNodeInt *list) {
 		i++;
 	}
 	
-	/* Get the value of the last node */	
+	/* Get the value of the last node: */	
 	temp = pnt->next->val;
 	
 	/* Remove the last node: */
@@ -252,6 +252,12 @@ int listPopInt(struct ListNodeInt *list) {
 void listPrintInt(struct ListNodeInt *list) {
     
     struct ListNodeInt *curr = list;
+	
+	/* Check if list is empty: */
+	if(list->val == -1 && list->next == NULL) {
+		printf("Empty list\n");
+		return;
+	}
  
     while(curr->next != NULL) {
         printf("%d ", curr->val); 
@@ -384,6 +390,12 @@ void listPrintChar(struct ListNodeChar *list) {
     
     struct ListNodeChar *curr = list;
  
+	/* Check if list is empty: */
+	if(list->val == ' ' && list->next == NULL) {
+		printf("Empty list\n");
+		return;
+	}
+
     while(curr->next != NULL) {
         printf("%c ", curr->val); 
         curr = curr->next;

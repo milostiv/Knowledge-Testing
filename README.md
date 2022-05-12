@@ -4,7 +4,7 @@
 
 - [ ] [20/50] Complete 50 *leetCode* problems in C/C++
 - [ ] [21/50] Complete 50 *leetCode* problems in Python
-- [X] Compile all C/C++ files by running single makefile
+- [X] Compile all C/C++ files by running a single makefile
 
 ### **Problems**
 

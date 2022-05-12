@@ -20,5 +20,4 @@ $(OBJS): $(SRCS)
 	$(CC) $(CFLAGS) $(SRCS)
 
 $(TARGET_LIB): $(OBJS)
-	$(CC) $(LDFLAGS) -o $(TARGET_LIB) $(OBJS)
-	
+	$(CC) $(LDFLAGS) -o $(TARGET_LIB) $(OBJS)	

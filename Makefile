@@ -9,14 +9,14 @@ default:
 clean:
 
 	@for subdir in $(SUB_DIRS); do \
+		cd $$subdir ; $(MAKE) clean ; \	
 		echo "Cleaning directory $$subdir" ; \
-		cd $$subdir ; $(MAKE) clean ; \
 	done	
 
 .PHONY: all
 all:
 
 	@for subdir in $(SUB_DIRS); do \
-		echo "Running makefile in $$subdir" ; \
 		cd $$subdir ; $(MAKE) build ; \
+		echo "Running makefile in $$subdir" ; \
 	done	

@@ -3,7 +3,7 @@
 CC = gcc # C compiler
 LIB_LOC = -L/home/milostiv/programming/mylib
 
-SRCS = lc18.c # Source file name
+SRCS = lc12.c # Source file name
 OUTPUT = $(SRCS:.c=.out) # Output file name
 
 .PHONY: default

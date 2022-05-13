@@ -14,7 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: configure
-      LD_LIBRARY_PATH: ../../../mylib
+      run: 
+        export LD_LIBRARY_PATH=/../../../mylib:$LD_LIBRARY_PATH
       #run: ./configure
     - name: make clean
       run: make clean

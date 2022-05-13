@@ -13,8 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    #- name: configure
-      #run: ./configure
+    - name: configure
+      run: export LD_LIBRARY_PATH=/home/milostiv/programming/mylib:$LD_LIBRARY_PATH
     - name: make clean
       run: make clean
     - name: make build

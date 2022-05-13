@@ -21,7 +21,8 @@ jobs:
     - name: make clean
       run: make clean
     - name: make build
-      run: make all ;
+      run: echo $LD_LIBRARY_PATH ;
+           make all ;
     #- name: make check
       #run: make check
     #- name: make distcheck

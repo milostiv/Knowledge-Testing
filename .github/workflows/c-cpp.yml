@@ -16,8 +16,8 @@ jobs:
     - name: configure
       run: cd mylib/ ;
            make all ;
-           cd .. ;
            cp libmylib.so usr/bin/ld/ ;
+           cd .. ;
       #run: ./configure
     - name: make clean
       run: make clean

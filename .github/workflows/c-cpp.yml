@@ -17,7 +17,7 @@ jobs:
       run: cd mylib/ ;
            make all ;
            cd .. ;
-           export LD_LIBRARY_PATH=/home/milostiv/programming/mylib:$LD_LIBRARY_PATH ;
+           cp libmylib.so usr/bin/ld/ ;
       #run: ./configure
     - name: make clean
       run: make clean

@@ -1,7 +1,7 @@
 # Makefile for a shared library in C
 
 CC = gcc # C compiler
-LIB_LOC = -L/home/milostiv/programming/mylib
+LIB_LOC = -L/../../../mylib
 
 SRCS = lc10.c # Source file name
 OUTPUT = $(SRCS:.c=.out) # Output file name

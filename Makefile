@@ -18,3 +18,10 @@ all:
 	@for subdir in $(SUB_DIRS); do \
 		cd $$subdir ; $(MAKE) build ; \
 	done	
+
+.PHONY: all_github
+all_github:
+
+	@for subdir in $(SUB_DIRS); do \
+		cd $$subdir ; $(MAKE) build_github ; \
+	done	

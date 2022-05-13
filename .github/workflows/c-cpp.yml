@@ -16,7 +16,7 @@ jobs:
     - name: configure
       run: cd mylib/ ;
            make all ;
-           pwd ;
+           export LD_LIBRARY_PATH=/home/runner/work/Programming/Programming/mylib:$LD_LIBRARY_PATH ;
            cd .. ;
       #run: ./configure
     - name: make clean

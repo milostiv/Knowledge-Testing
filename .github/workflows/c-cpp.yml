@@ -16,14 +16,12 @@ jobs:
     - name: configure
       run: cd mylib/ ;
            make all ;
-           cat libmylib.so ;
            cd .. ; 
       #run: ./configure
     - name: make clean
       run: make clean
     - name: make build
-      run: export LD_LIBRARY_PATH=/home/milostiv/programming/mylib:$LD_LIBRARY_PATH ;
-           make all ;
+      run: make all ;
     #- name: make check
       #run: make check
     #- name: make distcheck

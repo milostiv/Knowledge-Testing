@@ -14,12 +14,16 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: configure
-      run: ./mylib/make all	
+      run: cd mylib/ ;
+           make all ;
+           export LD_LIBRARY_PATH=/home/runner/work/Programming/Programming/mylib:$LD_LIBRARY_PATH ;
+           cd .. ;
       #run: ./configure
     - name: make clean
       run: make clean
     - name: make build
-      run: make all
+      run: echo $LD_LIBRARY_PATH ;
+           make all ;
     #- name: make check
       #run: make check
     #- name: make distcheck

@@ -23,5 +23,5 @@ all:
 all_github:
 
 	@for subdir in $(SUB_DIRS); do \
-		cd $$subdir ; $(MAKE) build_github ; ./*.out ; \
+		cd $$subdir ; $(MAKE) build_github ; ./*.out || exit 1; \
 	done	

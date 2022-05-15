@@ -36,7 +36,7 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 
 int main(void) {
 
-	printf("\nNot yet finished!\n");
+	printf("\nNot yet finished!\n\n");
 	
 	return EXIT_SUCCESS;
 }

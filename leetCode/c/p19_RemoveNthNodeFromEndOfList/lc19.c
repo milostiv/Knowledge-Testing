@@ -6,10 +6,10 @@
 #include <stdlib.h>
 #include "../../../mylib/mylib.h"
 
-struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
+struct ListNodeInt* removeNthFromEnd(struct ListNodeInt* head, int n) {
 
 	int ListSize = 1;
-	struct ListNode *pnt;
+	struct ListNodeInt *pnt;
 
 	pnt = head;
 
@@ -44,45 +44,45 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
 
 int main(void) {
 	
-	struct ListNode *list1, *list2, *list3;
+	struct ListNodeInt *list1, *list2, *list3;
 
 	/* Test 1 */
 
 	int list1Array[5] = {1,2,3,4,5};	
 	int listArraySize = sizeof(list1Array)/sizeof(int);
 
-	listInitialize(&list1);	
-	listInsertArray(list1, list1Array, listArraySize);
+	listInitializeInt(&list1);	
+	listInsertArrayInt(list1, list1Array, listArraySize);
 
 	removeNthFromEnd(list1, 2);
 
-	listPrint(list1);
-	listFree(list1);
+	listPrintInt(list1);
+	listFreeInt(list1);
 
 	/* Test 2 */
 
 	int list2Array = 1;
 	listArraySize = 1;
 
-	listInitialize(&list2);
-	listInsertSingle(list2, list2Array);
+	listInitializeInt(&list2);
+	listPushInt(list2, list2Array);
 	
 	removeNthFromEnd(list2, 1);
 
-	listFree(list2);
+	listFreeInt(list2);
 
 	/* Test 3 */
 
 	int list3Array[2] = {1,2};	
 	listArraySize = sizeof(list3Array)/sizeof(int);
 
-	listInitialize(&list3);
-	listInsertArray(list3, list3Array, listArraySize);
+	listInitializeInt(&list3);
+	listInsertArrayInt(list3, list3Array, listArraySize);
 
 	removeNthFromEnd(list3, 1);
 
-	listPrint(list3);
-	listFree(list3);
+	listPrintInt(list3);
+	listFreeInt(list3);
 	
 	return EXIT_SUCCESS;
 }

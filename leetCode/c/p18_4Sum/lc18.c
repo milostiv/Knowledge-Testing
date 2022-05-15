@@ -35,7 +35,7 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 		
     int currRow = 0;	
 	
-	int **answer = (int **) malloc(1 * sizeof(int *));
+	answer = (int **) malloc(1 * sizeof(int *));
     
     for(int i=0; i<1; i++)
         answer[i] = (int *) malloc(4 * sizeof(int)); 

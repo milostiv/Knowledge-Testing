@@ -34,7 +34,11 @@ int* sortArray(int *array, int arraySize) {
 int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** returnColumnSizes) {
 		
     int currRow = 0;	
-    answer = allocateMatrixInt(answer, currRow + 1, COLUMN_SIZE);
+	
+	int **answer = (int **) malloc(1 * sizeof(int *));
+    
+    for(int i=0; i<1; i++)
+        answer[i] = (int *) malloc(4 * sizeof(int)); 
 
 	nums = sortArray(nums, numsSize);
 
@@ -80,14 +84,14 @@ int main(void) {
 	int** returnColumnSize;
 	
 	fourSum(nums1, numsSize1, target1, returnSize, returnColumnSize);
-	//printMatrixInt(answer, solRowSize1, COLUMN_SIZE);
-	//freeAllocatedMatrixInt(answer, solRowSize1);
+	printMatrixInt(answer, solRowSize1, COLUMN_SIZE);
+	freeAllocatedMatrixInt(answer, solRowSize1);
 
 	printf("\n");
 		
-	//fourSum(nums2, numsSize2, target2, returnSize, returnColumnSize);
-	//printMatrixInt(answer, solRowSize2, COLUMN_SIZE);
-	//freeAllocatedMatrixInt(answer, solRowSize2);
+	fourSum(nums2, numsSize2, target2, returnSize, returnColumnSize);
+	printMatrixInt(answer, solRowSize2, COLUMN_SIZE);
+	freeAllocatedMatrixInt(answer, solRowSize2);
 	
 	return EXIT_SUCCESS;
 }

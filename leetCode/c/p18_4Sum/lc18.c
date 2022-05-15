@@ -81,13 +81,13 @@ int main(void) {
 	
 	fourSum(nums1, numsSize1, target1, returnSize, returnColumnSize);
 	printMatrixInt(answer, solRowSize1, COLUMN_SIZE);
-	freeAllocatedMatrixInt(answer, solRowSize1);
+	//freeAllocatedMatrixInt(answer, solRowSize1);
 
 	printf("\n");
 		
 	fourSum(nums2, numsSize2, target2, returnSize, returnColumnSize);
 	printMatrixInt(answer, solRowSize2, COLUMN_SIZE);
-	freeAllocatedMatrixInt(answer, solRowSize2);
+	//freeAllocatedMatrixInt(answer, solRowSize2);
 	
 	return EXIT_SUCCESS;
 }

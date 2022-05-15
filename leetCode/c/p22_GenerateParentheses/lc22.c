@@ -3,7 +3,7 @@
 
 int main(void) {
 
-	printf("\nNot yet finished!\n\n")
+	printf("\nNot yet finished!\n\n");
 
 	return EXIT_SUCCESS;
 }

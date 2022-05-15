@@ -16,5 +16,7 @@ build:
 	$(CC) $(LIB_LOC) $(SRCS) -o $(OUTPUT) -lmylib
 
 .PHONY: build_github
-build_github: 
-	$(CC) $(LIB_LOC_GITHUB) $(SRCS) -o $(OUTPUT) -lmylib
+build_github:
+
+	$(CC) $(LIB_LOC_GITHUB) $(SRCS) -o $(OUTPUT) -lmylib \
+	@test -f $(OUTPUT) || (echo "Can not compile $(SRCS) file"; exit 1)

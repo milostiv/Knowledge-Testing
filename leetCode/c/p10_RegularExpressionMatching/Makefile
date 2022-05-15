@@ -19,4 +19,4 @@ build:
 build_github:
 
 	$(CC) $(LIB_LOC_GITHUB) $(SRCS) -o $(OUTPUT) -lmylib \
-	@test -f $(OUTPUT) || (echo "Can not compile $(SRCS) file"; exit 1)
+	test -f $(OUTPUT) || (echo "Can not compile $(SRCS) file"; exit 1)

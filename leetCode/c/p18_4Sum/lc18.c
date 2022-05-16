@@ -27,9 +27,27 @@ void sortArray(int *array, int arraySize) {
 	}	
 }
 
+int** allocateMatrix(int rows, int coll) {
+    
+    int** matrix = (int **) malloc(rows * sizeof(int *));
+    
+    for(int i=0; i<rows; i++)
+        matrix[i] = (int *) malloc(coll * sizeof(int)); 
+
+    return matrix;
+}
+
+void reallocateMatrix(int **matrix, int rows, int coll) {
+    
+    matrix = realloc(matrix, rows * sizeof(int *)); 
+    
+    for(int i=0; i<rows; i++)
+        matrix[i] = (int *) realloc(matrix[i], coll * sizeof(int));   
+}
+
 int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** returnColumnSizes) {
 
-	int sum = 0, currRow = 0, l, r;
+	int sum = 0, currRow = 0;
 		
 	if(numsSize < 4) {
 		*returnColumnSizes = NULL;
@@ -50,56 +68,29 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 			break;
 
 		for(int j=i+1; j<numsSize-2; j++) {
-			
-			if(j>i+1 && nums[j]==nums[j+1])
-				continue;	
-
-			l = j+1;
-			r = numsSize-1;
-
-			while(l<r) {
-				
-				sum = nums[i] + nums[j] + nums[l] + nums[r];
-		
-				if(sum == target) {
-				
-					currRow++;
-
-					if(currRow == 1) 
-						answer = allocateMatrixInt(answer, currRow, COLUMN_SIZE);	
+			for(int k = j+1; k<numsSize-1; k++) {
+				for(int l = l+1; l<numsSize; l++) {
 					
-					else 
-						answer = reallocateMatrixInt(answer, currRow, COLUMN_SIZE);
+					sum = nums[i] + nums[j] + nums[k] + nums[l];
 
-					answer[currRow-1][0] = nums[i];		
-					answer[currRow-1][1] = nums[j];	
-					answer[currRow-1][2] = nums[l];
-					answer[currRow-1][3] = nums[r];
-
-					while(l<r && nums[l] == nums[l+1]) 
-						l++;
-
-					while(l<r && nums[r] == nums[r-1])
-						r--;
-
-					l++;
-					r--;
+					if(sum == target) {
+						
+						currRow++;
+						
+						if(currRow == 1)
+							answer = allocateMatrix(currRow, COLUMN_SIZE);
+						else 
+							reallocateMatrix(answer, currRow, COLUMN_SIZE);
+					}
 				}
-	
-				else if(sum > target)
-					r--;					
-
-				else 
-					l++;	
 			}
-
 		}
+			
 	}
 	
 	*returnSize = currRow;
 	
-	return answer;
-	
+	return answer;	
 }
 
 int main(void) {
@@ -114,8 +105,6 @@ int main(void) {
 
 	int** answer = allocateMatrixInt(answer, 3, COLUMN_SIZE);
 	answer = fourSum(nums1, numsSize, target1, returnSize, returnColumnSizes);
-
-	printMatrixInt(answer, *returnSize, COLUMN_SIZE);
 
 	printf("\nNot yet finished!\n\n");
 	

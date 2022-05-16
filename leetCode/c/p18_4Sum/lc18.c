@@ -90,13 +90,15 @@ int main(void) {
 	int** answer = allocateMatrixInt(3, COLUMN_SIZE);
 	answer = fourSum(nums1, numsSize, target1, returnSize, returnColumnSizes);
 
-	for(int i=0; i<*returnSize; i++) {
-		for(int j=0; j<COLUMN_SIZE; j++) {
+	printMatrixInt(answer, *returnSize, COLUMN_SIZE);
 
-			printf("%d ", answer[i][j]);
-		}	
-		printf("\n");
-	}
+	//for(int i=0; i<*returnSize; i++) {
+	//	for(int j=0; j<COLUMN_SIZE; j++) {
+
+	//		printf("%d ", answer[i][j]);
+	//	}	
+	//	printf("\n");
+	//}
 
 	printf("\nNot yet finished!\n\n");
 	

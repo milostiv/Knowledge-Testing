@@ -76,9 +76,9 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 						answer = reallocateMatrixInt(answer, currRow, COLUMN_SIZE);
 
 					answer[currRow-1][0] = nums[i];		
-					answer[currRow-1][0] = nums[j];	
-					answer[currRow-1][0] = nums[l];
-					answer[currRow-1][0] = nums[r];
+					answer[currRow-1][1] = nums[j];	
+					answer[currRow-1][2] = nums[l];
+					answer[currRow-1][3] = nums[r];
 
 					while(l<r && nums[l] == nums[l+1]) 
 						l++;
@@ -99,6 +99,8 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 
 		}
 	}
+
+	printMatrixInt(answer, currRow+1, COLUMN_SIZE);
 	
 	*returnSize = currRow;
 	

@@ -2,7 +2,7 @@
 
 ### **Plan**
 
-- [ ] [19/50] Complete 50 *leetCode* problems in **C/C++**
+- [ ] [20/50] Complete 50 *leetCode* problems in **C/C++**
 - [ ] [21/50] Complete 50 *leetCode* problems in **Python**
 - [X] Compile all **C/C++** files by running a single **Makefile**
 - [X] Set up *GitHub Actions (CI/CD)*

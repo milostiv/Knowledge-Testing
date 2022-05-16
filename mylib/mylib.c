@@ -108,7 +108,7 @@ void printArrayInt(int *array, int arraySize) {
     printf("\n");
 }
 
-int** allocateMatrixInt(int rows, int coll) {
+int** allocatematrixInt(int rows, int coll) {
     
     int** matrix = (int **) malloc(rows * sizeof(int *));
     

@@ -27,24 +27,6 @@ void sortArray(int *array, int arraySize) {
 	}	
 }
 
-int** allocateMatrix(int rows, int coll) {
-    
-    int** matrix = (int **) malloc(rows * sizeof(int *));
-    
-    for(int i=0; i<rows; i++)
-        matrix[i] = (int *) malloc(coll * sizeof(int)); 
-
-    return matrix;
-}
-
-void reallocateMatrix(int **matrix, int rows, int coll) {
-    
-    matrix = realloc(matrix, rows * sizeof(int *)); 
-    
-    for(int i=0; i<rows; i++)
-        matrix[i] = (int *) realloc(matrix[i], coll * sizeof(int));   
-}
-
 int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** returnColumnSizes) {
 
 	int sum = 0, currRow = 0;

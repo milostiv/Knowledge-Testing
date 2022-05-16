@@ -39,11 +39,6 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 
 	sortArray(nums, numsSize);
 
-	//for(int i=0; i<numsSize; i++) {
-	//	printf("%d ", nums[i]);
-	//}
-	//printf("\n");
-
 	int** answer;
 
 	for(int i=0; i<numsSize-3; i++) {
@@ -100,8 +95,6 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 
 		}
 	}
-
-	//printMatrixInt(answer, currRow+1, COLUMN_SIZE);
 	
 	*returnSize = currRow;
 	
@@ -119,7 +112,8 @@ int main(void) {
 	
 	int numsSize = sizeof(nums1)/sizeof(int);
 
-	fourSum(nums1, numsSize, target1, returnSize, returnColumnSizes);
+	int** answer = allocateMatrixInt(answer, 3, COLUMN_SIZE);
+	answer = fourSum(nums1, numsSize, target1, returnSize, returnColumnSizes);
 
 	printf("\nNot yet finished!\n\n");
 	

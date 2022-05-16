@@ -57,9 +57,9 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 						currRow++;
 						
 						if(currRow == 1)
-							answer = allocateMatrix(currRow, COLUMN_SIZE);
+							answer = allocateMatrixInt(currRow, COLUMN_SIZE);
 						else 
-							reallocateMatrix(answer, currRow, COLUMN_SIZE);
+							reallocateMatrixInt(answer, currRow, COLUMN_SIZE);
 
 						answer[currRow-1][0] = nums[i];
 						answer[currRow-1][1] = nums[j];
@@ -87,7 +87,7 @@ int main(void) {
 	
 	int numsSize = sizeof(nums1)/sizeof(int);
 
-	int** answer = allocateMatrixInt(answer, 3, COLUMN_SIZE);
+	int** answer = allocateMatrixInt(3, COLUMN_SIZE);
 	answer = fourSum(nums1, numsSize, target1, returnSize, returnColumnSizes);
 
 	for(int i=0; i<*returnSize; i++) {

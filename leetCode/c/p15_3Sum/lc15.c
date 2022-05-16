@@ -33,7 +33,7 @@ int* sortArray(int *array, int arraySize) {
 int** threeSum(int *nums, int numsSize, int* returnSize, int** returnColumnSizes) {	
 	
     int currRow = 0;	
-    int **answer = allocateMatrixInt(answer, currRow + 1, COLUMN_SIZE);
+    int **answer = allocateMatrixInt(currRow + 1, COLUMN_SIZE);
 
 	nums = sortArray(nums, numsSize);
 
@@ -45,7 +45,7 @@ int** threeSum(int *nums, int numsSize, int* returnSize, int** returnColumnSizes
             for(int k=j+1; k<numsSize; k++) {
                 if(nums[i] + nums[j] + nums[k] == TARGET) {
 		    		if(currRow > 0) 
-            			answer = reallocateMatrixInt(answer, currRow + 1, COLUMN_SIZE);	
+            			reallocateMatrixInt(answer, currRow + 1, COLUMN_SIZE);	
 		    		answer[currRow][0] = nums[i];
                     answer[currRow][1] = nums[j];
                     answer[currRow][2] = nums[k];
@@ -67,7 +67,7 @@ int main(void) {
 	int *returnSize;
 	int **returnColumnSize;
 
-	int **matrix = allocateMatrixInt(matrix, 2, 3);
+	int **matrix = allocateMatrixInt(2, 3);
 	
 	matrix = threeSum(nums, numsSize, returnSize, returnColumnSize);
 

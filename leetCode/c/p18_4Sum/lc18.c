@@ -27,22 +27,6 @@ void sortArray(int *array, int arraySize) {
 	}	
 }
 
-void allocateMatrix(int **matrix, int rows, int coll) {
-
-	matrix = (int **) malloc(rows * sizeof(int *));
-
-	for(int i=0; i<rows; i++)
-    	matrix[i] = (int *) malloc(coll * sizeof(int));
-}
-
-void reallocateMatrix(int **matrix, int rows, int coll) {
-
-	matrix = realloc(matrix, rows * sizeof(int *));
-
-	for(int i=0; i<rows; i++)
-		matrix[i] = (int *) realloc(matrix[i], coll * sizeof(int));
-}
-
 int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** returnColumnSizes) {
 
 	int sum = 0, currRow = 0, l, r;
@@ -86,20 +70,16 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 				
 					currRow++;
 
-					if(currRow == 1) {
-						allocateMatrix(answer, currRow, COLUMN_SIZE);	
-					}
-					//else {
-					//	answer = realloc(answer, currRow * sizeof(int *));
+					if(currRow == 1) 
+						answer = allocateMatrixInt(answer, currRow, COLUMN_SIZE);	
+					
+					else 
+						answer = reallocateMatrixInt(answer, currRow, COLUMN_SIZE);
 
-					//	for(int i=0; i<currRow; i++)
-					//		answer[i] = (int *) realloc(answer[i], COLUMN_SIZE * sizeof(int));
-					//}
-
-					//answer[currRow-1][0] = nums[i];		
-					//answer[currRow-1][1] = nums[j];	
-					//answer[currRow-1][2] = nums[l];
-					//answer[currRow-1][3] = nums[r];
+					answer[currRow-1][0] = nums[i];		
+					answer[currRow-1][1] = nums[j];	
+					answer[currRow-1][2] = nums[l];
+					answer[currRow-1][3] = nums[r];
 
 					while(l<r && nums[l] == nums[l+1]) 
 						l++;
@@ -121,7 +101,7 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 		}
 	}
 
-	printMatrixInt(answer, currRow+1, COLUMN_SIZE);
+	//printMatrixInt(answer, currRow+1, COLUMN_SIZE);
 	
 	*returnSize = currRow;
 	

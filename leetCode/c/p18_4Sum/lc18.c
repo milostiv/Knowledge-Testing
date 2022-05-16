@@ -81,6 +81,11 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 							answer = allocateMatrix(currRow, COLUMN_SIZE);
 						else 
 							reallocateMatrix(answer, currRow, COLUMN_SIZE);
+
+						answer[currRow-1][0] = nums[i];
+						answer[currRow-1][0] = nums[j];
+						answer[currRow-1][0] = nums[k];	
+						answer[currRow-1][0] = nums[l];
 					}
 				}
 			}

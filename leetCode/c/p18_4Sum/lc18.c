@@ -72,8 +72,8 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 
 					if(currRow == 1) 
 						answer = allocateMatrixInt(answer, 1, COLUMN_SIZE);
-			//		else 
-			//			answer = reallocateMatrixInt(answer, currRow, COLUMN_SIZE);
+					else 
+						answer = reallocateMatrixInt(answer, currRow, COLUMN_SIZE);
 
 			//		answer[currRow][0] = nums[i];		
 			//		answer[currRow][0] = nums[j];	

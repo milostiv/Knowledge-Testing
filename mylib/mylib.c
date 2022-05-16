@@ -108,14 +108,14 @@ void printArrayInt(int *array, int arraySize) {
     printf("\n");
 }
 
-int** allocatematrixInt(int rows, int coll) {
+int** allocateMatrixInt(int rows, int coll) {
     
     int** matrix = (int **) malloc(rows * sizeof(int *));
     
     for(int i=0; i<rows; i++)
         matrix[i] = (int *) malloc(coll * sizeof(int)); 
-
-    return matrix;
+	
+	return matrix;
 }
 
 void reallocateMatrixInt(int **matrix, int rows, int coll) {

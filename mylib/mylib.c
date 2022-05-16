@@ -110,9 +110,9 @@ void printArrayInt(int *array, int arraySize) {
     printf("\n");
 }
 
-int** allocateMatrixInt(int **matrix, int rows, int coll) {
+int** allocateMatrixInt(int rows, int coll) {
     
-    matrix = (int **) malloc(rows * sizeof(int *));
+    int** matrix = (int **) malloc(rows * sizeof(int *));
     
     for(int i=0; i<rows; i++)
         matrix[i] = (int *) malloc(coll * sizeof(int)); 
@@ -120,14 +120,12 @@ int** allocateMatrixInt(int **matrix, int rows, int coll) {
     return matrix;
 }
 
-int** reallocateMatrixInt(int **matrix, int rows, int coll) {
+void reallocateMatrixInt(int **matrix, int rows, int coll) {
     
     matrix = realloc(matrix, rows * sizeof(int *)); 
     
     for(int i=0; i<rows; i++)
-        matrix[i] = (int *) realloc(matrix[i], coll * sizeof(int));  
- 
-    return matrix;
+        matrix[i] = (int *) realloc(matrix[i], coll * sizeof(int));   
 }
 
 void freeAllocatedMatrixInt(int **matrix, int rows) { 

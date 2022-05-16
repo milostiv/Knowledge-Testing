@@ -14,8 +14,8 @@ int powInt(int base, unsigned int pow);
 char* allocateArrayChar(char *array, int size);
 char* reallocateArrayChar(char *array, int size);
 void printArrayChar(char *array, int arraySize);
-char** allocateMatrixChar(char **matrix, int rows, int coll);
-char** reallocateMatrixChar(char **matrix, int rows, int coll);
+char** allocateMatrixChar(int rows, int coll);
+void reallocateMatrixChar(char **matrix, int rows, int coll);
 void freeAllocatedMatrixChar(char **matrix, int rows);
 void printMatrixChar(char **matrix, int rows, int coll);
 

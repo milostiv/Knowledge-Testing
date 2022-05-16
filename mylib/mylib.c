@@ -42,9 +42,9 @@ void printArrayChar(char *array, int arraySize) {
     printf("\n");
 }
 
-char** allocateMatrixChar(char **matrix, int rows, int coll) {
+char** allocateMatrixChar(int rows, int coll) {
     
-    matrix = (char **) malloc(rows * sizeof(char *));
+    char** matrix = (char **) malloc(rows * sizeof(char *));
     
     for(int i=0; i<rows; i++)
         matrix[i] = (char *) malloc(coll * sizeof(char)); 
@@ -52,14 +52,12 @@ char** allocateMatrixChar(char **matrix, int rows, int coll) {
     return matrix;
 }
 
-char** reallocateMatrixChar(char **matrix, int rows, int coll) {
+void reallocateMatrixChar(char **matrix, int rows, int coll) {
     
     matrix = realloc(matrix, rows * sizeof(char *)); 
     
     for(int i=0; i<rows; i++)
         matrix[i] = (char *) realloc(matrix[i], coll * sizeof(char));  
- 
-    return matrix;
 }
 
 void freeAllocatedMatrixChar(char **matrix, int rows) { 

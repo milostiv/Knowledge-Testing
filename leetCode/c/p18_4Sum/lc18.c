@@ -92,15 +92,7 @@ int main(void) {
 
 	printMatrixInt(answer, *returnSize, COLUMN_SIZE);
 
-	//for(int i=0; i<*returnSize; i++) {
-	//	for(int j=0; j<COLUMN_SIZE; j++) {
+	freeAllocatedMatrixInt(answer, *returnSize);	
 
-	//		printf("%d ", answer[i][j]);
-	//	}	
-	//	printf("\n");
-	//}
-
-	printf("\nNot yet finished!\n\n");
-	
 	return EXIT_SUCCESS;
 }

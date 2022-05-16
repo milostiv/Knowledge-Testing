@@ -64,12 +64,9 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 		if(i>0 && nums[i]==nums[i-1])
 			continue;
 
-		if(nums[i]*4 > target)
-			break;
-
 		for(int j=i+1; j<numsSize-2; j++) {
 			for(int k = j+1; k<numsSize-1; k++) {
-				for(int l = l+1; l<numsSize; l++) {
+				for(int l = k+1; l<numsSize; l++) {
 					
 					sum = nums[i] + nums[j] + nums[k] + nums[l];
 
@@ -83,9 +80,9 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 							reallocateMatrix(answer, currRow, COLUMN_SIZE);
 
 						answer[currRow-1][0] = nums[i];
-						answer[currRow-1][0] = nums[j];
-						answer[currRow-1][0] = nums[k];	
-						answer[currRow-1][0] = nums[l];
+						answer[currRow-1][1] = nums[j];
+						answer[currRow-1][2] = nums[k];	
+						answer[currRow-1][3] = nums[l];
 					}
 				}
 			}
@@ -110,6 +107,14 @@ int main(void) {
 
 	int** answer = allocateMatrixInt(answer, 3, COLUMN_SIZE);
 	answer = fourSum(nums1, numsSize, target1, returnSize, returnColumnSizes);
+
+	for(int i=0; i<*returnSize; i++) {
+		for(int j=0; j<COLUMN_SIZE; j++) {
+
+			printf("%d ", answer[i][j]);
+		}	
+		printf("\n");
+	}
 
 	printf("\nNot yet finished!\n\n");
 	

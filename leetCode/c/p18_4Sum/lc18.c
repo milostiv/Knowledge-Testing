@@ -87,10 +87,7 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 					currRow++;
 
 					if(currRow == 1) {
-						answer = (int **) malloc(3 * sizeof(int *));
-
-						for(int i=0; i<3; i++)
-    						answer[i] = (int *) malloc(COLUMN_SIZE * sizeof(int));
+						allocateMatrix(answer, currRow, COLUMN_SIZE);	
 					}
 					//else {
 					//	answer = realloc(answer, currRow * sizeof(int *));

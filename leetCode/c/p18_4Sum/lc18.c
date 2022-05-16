@@ -27,32 +27,10 @@ void sortArray(int *array, int arraySize) {
 	}	
 }
 
-int** allocateMatrix(int rows, int cols) {
-    int** m = malloc(rows * sizeof(double*));
-    if(!m) 
-		return NULL;
-
-    m[0] = malloc(rows * cols * sizeof(double));
-    if (!m[0]) {
-        free(m);
-        return NULL;
-    }
-
-    for(int r = 1; r < rows; r++) {
-        m[r] = m[r-1]+cols;
-    }
-
-    return m; 
-}
-
-void freeAllocatedMatrix(int** m) {
-    if(m) 
-		free(m[0]);
-    free(m);
-}
-
 int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** returnColumnSizes) {
-	
+
+	int sum = 0, currRow = 0, l, r;
+		
 	if(numsSize < 4) {
 		*returnColumnSizes = NULL;
 		*returnSize = 0;
@@ -66,10 +44,66 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 	//}
 	//printf("\n");
 
-	int** answer = allocateMatrix(1, COLUMN_SIZE);
-	freeAllocatedMatrix(answer);
+	int** answer;
 
-	return NULL;
+	for(int i=0; i<numsSize-3; i++) {
+	
+		if(i>0 && nums[i]==nums[i-1])
+			continue;
+
+		if(nums[i]*4 > target)
+			break;
+
+		for(int j=i+1; j<numsSize-2; j++) {
+			
+			if(j>i+1 && nums[j]==nums[j+1])
+				continue;	
+
+			l = j+1;
+			r = numsSize-1;
+
+			while(l<r) {
+				
+				sum = nums[i] + nums[j] + nums[l] + nums[r];
+		
+				if(sum == target) {
+				
+					currRow++;
+
+					if(currRow == 1) 
+						answer = allocateMatrixInt(answer, 1, COLUMN_SIZE);
+			//		else 
+			//			answer = reallocateMatrixInt(answer, currRow, COLUMN_SIZE);
+
+			//		answer[currRow][0] = nums[i];		
+			//		answer[currRow][0] = nums[j];	
+			//		answer[currRow][0] = nums[l];
+			//		answer[currRow][0] = nums[r];
+
+			//		while(l<r && nums[l] == nums[l+1]) 
+			//			l++;
+
+			//		while(l<r && nums[r] == nums[r-1])
+			//			r--;
+
+					l++;
+					r--;
+				}
+	
+				else if(sum > target)
+					r--;					
+
+				else 
+					l++;	
+			}
+
+		}
+	}
+	
+	*returnSize = currRow;
+	
+	return answer;
+	
 }
 
 int main(void) {

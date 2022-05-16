@@ -115,6 +115,8 @@ int main(void) {
 	int** answer = allocateMatrixInt(answer, 3, COLUMN_SIZE);
 	answer = fourSum(nums1, numsSize, target1, returnSize, returnColumnSizes);
 
+	printMatrixInt(answer, *returnSize, COLUMN_SIZE);
+
 	printf("\nNot yet finished!\n\n");
 	
 	return EXIT_SUCCESS;

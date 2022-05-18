@@ -72,7 +72,7 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 			
 	}
 	
-	*returnSize = currRow;
+	//*returnSize = currRow;
 	
 	return answer;	
 }
@@ -81,18 +81,26 @@ int main(void) {
 
 	// Test
 	int nums1[6] = {1,0,-1,0,-2,2};
+	int nums2[5] = {2,2,2,2,2};
 	int target1 = 0;
+	int target2 = 8;
 	int* returnSize;
 	int** returnColumnSizes;
 	
 	int numsSize = sizeof(nums1)/sizeof(int);
 
 	int** answer = allocateMatrixInt(3, COLUMN_SIZE);
+	int** answer2 = allocateMatrixInt(1, COLUMN_SIZE);
+	
 	answer = fourSum(nums1, numsSize, target1, returnSize, returnColumnSizes);
 
-	printMatrixInt(answer, *returnSize, COLUMN_SIZE);
+	numsSize = sizeof(nums2)/sizeof(int);
 
-	freeAllocatedMatrixInt(answer, *returnSize);	
+	//answer = fourSum(nums2, numsSize, target2, returnSize, returnColumnSizes);
+
+	//printMatrixInt(answer, *returnSize, COLUMN_SIZE);
+
+	//freeAllocatedMatrixInt(answer, *returnSize);	
 
 	return EXIT_SUCCESS;
 }

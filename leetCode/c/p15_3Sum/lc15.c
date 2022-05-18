@@ -72,6 +72,7 @@ int main(void) {
 	int **matrix2 = allocateMatrixInt(1, 3);
 	
 	matrix1 = threeSum(nums, numsSize, returnSize, returnColumnSize);
+	matrix2 = threeSum(nums, numsSize, returnSize, returnColumnSize);
 
 	//printMatrixInt(matrix, 2, 3);
 

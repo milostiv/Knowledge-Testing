@@ -107,7 +107,7 @@ int main(void) {
 	printf("\n");
 
 	numsSize = sizeof(nums2)/sizeof(int);
-	reallocateMatrixInt(answer, 1, COLUMN_SIZE);
+	//reallocateMatrixInt(answer, 1, COLUMN_SIZE);
 
 	answer = fourSum(nums2, numsSize, target2, returnSize, returnColumnSizes);
 	printMatrixInt(answer, *returnSize, COLUMN_SIZE);

@@ -37,8 +37,6 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 		return NULL;	
 	}
 	
-	printf("Bulja\n");
-
 	sortArray(nums, numsSize);
 
 	int** answer;
@@ -100,6 +98,8 @@ int main(void) {
 	int* returnSize;
 	int** returnColumnSizes;
 	
+	printf("Bulja\n");
+
 	int numsSize = sizeof(nums1)/sizeof(int);
 	int** answer = allocateMatrixInt(3, COLUMN_SIZE);
 	

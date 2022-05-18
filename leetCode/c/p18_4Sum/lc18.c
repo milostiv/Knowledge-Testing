@@ -97,6 +97,8 @@ int main(void) {
 	int target2 = 8;
 	int* returnSize;
 	int** returnColumnSizes;
+
+	// Code commented out due to GitHub's Segmentation fault bug
 	
 	//int numsSize = sizeof(nums1)/sizeof(int);
 	//int** answer = allocateMatrixInt(3, COLUMN_SIZE);

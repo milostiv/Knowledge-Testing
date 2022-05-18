@@ -74,7 +74,8 @@ int main(void) {
 	matrix1 = threeSum(nums, numsSize, returnSize, returnColumnSize);
 	matrix2 = threeSum(nums, numsSize, returnSize, returnColumnSize);
 
-	//printMatrixInt(matrix, 2, 3);
+	printMatrixInt(matrix1, 2, 3);
+	printMatrixInt(matrix2, 1, 3);
 
 	//freeAllocatedMatrixInt(matrix, 2);
 	

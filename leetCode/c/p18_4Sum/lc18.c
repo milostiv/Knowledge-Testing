@@ -36,6 +36,8 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 		*returnSize = 0;
 		return NULL;	
 	}
+	
+	printf("Bulja\n");
 
 	sortArray(nums, numsSize);
 
@@ -76,7 +78,6 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 						answer[currRow-1][1] = nums[j];
 						answer[currRow-1][2] = nums[k];	
 						answer[currRow-1][3] = nums[l];
-						printf("Bulja\n");
 					}
 				}
 			}

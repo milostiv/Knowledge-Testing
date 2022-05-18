@@ -68,7 +68,7 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
 						currRow++;
 						
 						if(currRow == 1)
-							answer = allocateMatrixInt(1, COLUMN_SIZE);
+							answer = allocateMatrixInt(currRow, COLUMN_SIZE);
 						else 
 							reallocateMatrixInt(answer, currRow, COLUMN_SIZE);
 
@@ -98,21 +98,21 @@ int main(void) {
 	int* returnSize;
 	int** returnColumnSizes;
 	
-	int numsSize = sizeof(nums2)/sizeof(int);
-	int** answer = allocateMatrixInt(1, COLUMN_SIZE);
+	int numsSize = sizeof(nums1)/sizeof(int);
+	int** answer = allocateMatrixInt(3, COLUMN_SIZE);
 	
+	answer = fourSum(nums1, numsSize, target1, returnSize, returnColumnSizes);
+	printMatrixInt(answer, *returnSize, COLUMN_SIZE);
+
+	printf("\n");
+
+	numsSize = sizeof(nums2)/sizeof(int);
+	reallocateMatrixInt(answer, 1, COLUMN_SIZE);
+
 	answer = fourSum(nums2, numsSize, target2, returnSize, returnColumnSizes);
-	//printMatrixInt(answer, *returnSize, COLUMN_SIZE);
+	printMatrixInt(answer, *returnSize, COLUMN_SIZE);
 
-	//printf("\n");
-
-	//numsSize = sizeof(nums2)/sizeof(int);
-	//reallocateMatrixInt(answer, 1, COLUMN_SIZE);
-
-	//answer = fourSum(nums2, numsSize, target2, returnSize, returnColumnSizes);
-	//printMatrixInt(answer, *returnSize, COLUMN_SIZE);
-
-	//freeAllocatedMatrixInt(answer, *returnSize);	
+	freeAllocatedMatrixInt(answer, *returnSize);	
 
 	return EXIT_SUCCESS;
 }

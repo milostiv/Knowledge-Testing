@@ -68,16 +68,13 @@ int main(void) {
 	int **returnColumnSize;
 
 	// Alocate memory for solutions
-	int **matrix1 = allocateMatrixInt(2, 3);
-	int **matrix2 = allocateMatrixInt(1, 3);
+	int **matrix = allocateMatrixInt(2, 3);
 	
-	matrix1 = threeSum(nums, numsSize, returnSize, returnColumnSize);
-	matrix2 = threeSum(nums, numsSize, returnSize, returnColumnSize);
+	matrix = threeSum(nums, numsSize, returnSize, returnColumnSize);
 
-	printMatrixInt(matrix1, 2, 3);
-	printMatrixInt(matrix2, 1, 3);
+	printMatrixInt(matrix, 2, 3);
 
-	//freeAllocatedMatrixInt(matrix, 2);
+	freeAllocatedMatrixInt(matrix, 2);
 	
     return EXIT_SUCCESS;
 }

@@ -112,7 +112,7 @@ int main(void) {
 	//answer = fourSum(nums2, numsSize, target2, returnSize, returnColumnSizes);
 	//printMatrixInt(answer, *returnSize, COLUMN_SIZE);
 
-	freeAllocatedMatrixInt(answer, *returnSize);	
+	//freeAllocatedMatrixInt(answer, *returnSize);	
 
 	return EXIT_SUCCESS;
 }

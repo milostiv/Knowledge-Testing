@@ -29,5 +29,5 @@ all_github:
 	done
 
 	@for subdir in $(PYT_SUB_DIRS); do \
-		./*.py || exit 1; \
+		cd $$subdir ; ./*.py || exit 1; \
 	done

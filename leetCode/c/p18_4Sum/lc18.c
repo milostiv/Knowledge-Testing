@@ -101,8 +101,8 @@ int main(void) {
 	int numsSize = sizeof(nums1)/sizeof(int);
 	int** answer = allocateMatrixInt(3, COLUMN_SIZE);
 	
-	answer = fourSum(nums1, numsSize, target1, returnSize, returnColumnSizes);
-	printMatrixInt(answer, *returnSize, COLUMN_SIZE);
+	//answer = fourSum(nums1, numsSize, target1, returnSize, returnColumnSizes);
+	//printMatrixInt(answer, *returnSize, COLUMN_SIZE);
 
 	printf("\n");
 

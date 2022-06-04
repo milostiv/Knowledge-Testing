@@ -43,3 +43,11 @@ print('Test 2: N =', n)
 string = [""]*2*n
 s.generateParentheses(string, n)
 print()
+
+# Test 3:
+
+n = 4
+print('Test 4: N =', n)
+string = [""]*2*n
+s.generateParentheses(string, n)
+print()

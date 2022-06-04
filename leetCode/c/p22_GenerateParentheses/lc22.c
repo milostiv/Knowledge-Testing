@@ -9,7 +9,7 @@
 
 static char str[MAX_SIZE];
 
-void _generateParenthesis(int pos, int n, int open, int close) {
+void _generateParentheses(int pos, int n, int open, int close) {
  
     if(close == n) {
         printf("%s \n", str);
@@ -18,21 +18,21 @@ void _generateParenthesis(int pos, int n, int open, int close) {
     }
     else {
         if(open > close) {
-        	str[pos] = '}';
-        	_generateParenthesis(pos + 1, n, open, close + 1);
+        	str[pos] = ')';
+        	_generateParentheses(pos + 1, n, open, close + 1);
         }
  
         if(open < n) {
-            str[pos] = '{';
-            _generateParenthesis(pos + 1, n, open + 1, close);
+            str[pos] = '(';
+            _generateParentheses(pos + 1, n, open + 1, close);
         }
     }	
 }
 
-void generateParenthesis(int n, int* returnSize) {
+void generateParentheses(int n, int* returnSize) {
 
 	if(n > 0) 
-		_generateParenthesis(0, n, 0, 0);
+		_generateParentheses(0, n, 0, 0);
 	
 	return;
 }
@@ -46,7 +46,7 @@ int main(void) {
 
 	n = 3;	
 	printf("Test 1: N = %d\n", n);
-	generateParenthesis(n, returnSize);
+	generateParentheses(n, returnSize);
 	memset(str,0,sizeof(str));	// Clear string
 	printf("\n");
 
@@ -54,7 +54,7 @@ int main(void) {
 
 	n = 1;	
 	printf("Test 2: N = %d\n", n);
-	generateParenthesis(n, returnSize);	
+	generateParentheses(n, returnSize);	
 	memset(str,0,sizeof(str));	// Clear string
 	printf("\n");
 
@@ -62,7 +62,7 @@ int main(void) {
 
 	n = 4;	
 	printf("Test 3: N = %d\n", n);
-	generateParenthesis(n, returnSize);	
+	generateParentheses(n, returnSize);	
 	memset(str,0,sizeof(str));	// Clear string
 	printf("\n");
 

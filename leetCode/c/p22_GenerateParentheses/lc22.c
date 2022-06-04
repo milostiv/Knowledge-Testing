@@ -45,7 +45,7 @@ int main(void) {
 	// Test 1:
 
 	n = 3;	
-	printf("N = %d:\n", n);
+	printf("Test 1: N = %d\n", n);
 	generateParenthesis(n, returnSize);
 	memset(str,0,sizeof(str));	// Clear string
 	printf("\n");
@@ -53,7 +53,7 @@ int main(void) {
 	// Test 2:
 
 	n = 1;	
-	printf("N = %d:\n", n);
+	printf("Test 2: N = %d\n", n);
 	generateParenthesis(n, returnSize);	
 	memset(str,0,sizeof(str));	// Clear string
 	printf("\n");
@@ -61,7 +61,7 @@ int main(void) {
 	// Test 3:	
 
 	n = 4;	
-	printf("N = %d:\n", n);
+	printf("Test 3: N = %d\n", n);
 	generateParenthesis(n, returnSize);	
 	memset(str,0,sizeof(str));	// Clear string
 	printf("\n");

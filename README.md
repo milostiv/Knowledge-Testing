@@ -2,10 +2,10 @@
 
 ### **Plan**
 
-- [ ] [20/50] Complete 50 *leetCode* problems in **C/C++**
-- [ ] [21/50] Complete 50 *leetCode* problems in **Python**
+- [ ] [21/50] Complete 50 *leetCode* problems in **C/C++**
+- [ ] [22/50] Complete 50 *leetCode* problems in **Python**
 - [X] Compile all **C/C++** files by running a single **Makefile**
-- [X] Set up *GitHub Actions (CI/CD)*
+- [X] Set up *GitHub Actions (CI/CD)* to check **C/C++** files
 
 ### **Problems**
 
@@ -162,6 +162,13 @@
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC22 PYTHON]
 </details>
 
+<details>
+<summary>23. Merge K Sorted Lists</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC23 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC23 PYTHON]
+</details>
+
 ### **C Library**
 
 <details>
@@ -195,6 +202,7 @@
 [LC20 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p20_ValidParentheses/lc20.c
 [LC21 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p21_MergeTwoSortedLists/lc21.c
 [LC22 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p22_GenerateParentheses/lc22.c
+[LC23 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p23_MergeKSortedLists/lc23.c
 
 [LC1 PYTHON]: https://github.com/milostiv/Algorithms/tree/master/leetCode/python/p1_TwoSum/lc1.py
 [LC2 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p2_AddTwoNumbers/lc2.py
@@ -218,6 +226,7 @@
 [LC20 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p20_ValidParentheses/lc20.py
 [LC21 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p21_MergeTwoSortedLists/lc21.py
 [LC22 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p22_GenerateParentheses/lc22.py
+[LC23 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p23_MergeKSortedLists/lc23.py
 
 [LIBRARY SOURCE]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.c
 [LIBRARY HEADER]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.h

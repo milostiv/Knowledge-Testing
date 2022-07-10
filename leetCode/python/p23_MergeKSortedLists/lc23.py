@@ -32,6 +32,11 @@ class Solution:
 
 	def print_linked_list(self):
 		current = self.head
+		
+		# if list is empty print []	
+		if current == None:
+			print('[]', end = ' ')
+	
 		while current:
 			print(current.val, end = ' ')
 			current = current.next
@@ -65,8 +70,60 @@ def mergeTwoLists(list1: ListNode, list2: ListNode) -> ListNode:
 
 	return head.next
 
-def mergeKLists(self, lists):
+def mergeKLists(lists):
 
-	pass
+	sol = Solution()
+	temp = Solution()
+	list_size = len(lists)
+	
+	# check if list is empty
+	if list_size == 0:	
+		return sol
+	# check if all the rows in the list are empty
+	else: 						
+		all_rows_empty = True
+		for row in lists:
+			if len(row) != 0:
+				all_rows_empty = False
+		
+		if all_rows_empty:
+			return sol
+		
+	sol.append_nodes_from_list(lists[0])
 
+	if list_size > 1:
+		for i in range(1, list_size):
+			temp.append_nodes_from_list(lists[i])
+			sol.head = mergeTwoLists(sol.head, temp.head)
+			temp.head = None
 
+	return sol
+		
+sol = Solution()
+
+# Test 1
+
+element_lists1 = [[1, 4, 5],[1, 3, 4],[2, 6]]
+
+sol = mergeKLists(element_lists1)
+print('Test 1:')
+sol.print_linked_list()
+sol.head = None
+
+# Test 2
+
+element_lists2 = []
+
+sol = mergeKLists(element_lists2)
+print('Test 2:')
+sol.print_linked_list()
+sol.head = None
+
+# Test 3
+
+element_lists3 = [[]]
+
+sol = mergeKLists(element_lists3)
+print('Test 3:')
+sol.print_linked_list()
+sol.head = None

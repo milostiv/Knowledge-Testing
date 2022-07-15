@@ -4,6 +4,7 @@
 /* ---------------------------- Mathematics ---------------------------- */
 
 int powInt(int base, unsigned int pow);
+double myPowDouble(double base, int pow);
 
 /* --------------------------------------------------------------------- */
 

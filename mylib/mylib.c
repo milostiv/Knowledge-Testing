@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include "mylib.h"
 
 /* ---------------------------- Mathematics ---------------------------- */
@@ -12,6 +13,29 @@ int powInt(int base, unsigned int pow) {
         return powInt(base, pow / 2) * powInt(base, pow / 2);
     else
         return base * powInt(base, pow / 2) * powInt(base, pow / 2);	
+}
+
+double myPowDouble(double base, int pow) {
+
+	double temp;
+	bool negativePow = false;
+
+	if(pow < 0) {
+		negativePow = true;
+		pow *= -1;
+	}
+	
+	if(pow == 0)
+		return 1;
+	else if(pow % 2 == 0) 
+		temp = myPowDouble(base, pow/2) * myPowDouble(base, pow/2);
+	else 
+		temp = base * myPowDouble(base, pow/2) * myPowDouble(base, pow/2);
+
+	if(negativePow) 
+		temp = 1 / temp;	
+	
+	return temp;
 }
 
 /* --------------------------------------------------------------------- */

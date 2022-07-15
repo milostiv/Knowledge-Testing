@@ -179,8 +179,8 @@
 <details>
 <summary>50. Pow</summary>
 
-[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC24 C]
-[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC24 PYTHON]
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC50 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC50 PYTHON]
 </details>
 
 ### **C Library**

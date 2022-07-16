@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 
 class Solution:
-
+	'''
+	Implement pow(x, n), which calculates x raised to the power n (i.e., x^n).
+	'''
 	def myPow(self, x: float, n: int):
 	
 		negativePow = False

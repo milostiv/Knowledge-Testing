@@ -2,7 +2,7 @@
 
 ### **Plan**
 
-- [ ] [24/50] Complete 50 *leetCode* problems in **C/C++**
+- [ ] [25/50] Complete 50 *leetCode* problems in **C/C++**
 - [ ] [25/50] Complete 50 *leetCode* problems in **Python**
 - [X] Compile all **C/C++** files by running a single **Makefile**
 - [X] Set up *GitHub Actions (CI/CD)* to check **C/C++** files
@@ -190,6 +190,13 @@
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC92 PYTHON]
 </details>
 
+<details>
+<summary>206. Reverse Linked List</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC206 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC206 PYTHON]
+</details>
+
 ### **C Library**
 
 <details>
@@ -227,6 +234,7 @@
 [LC24 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p24_SwapNodesInPairs/lc24.c
 [LC50 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p50_Pow/lc50.c
 [LC92 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p92_ReverseLinkedListII/lc92.c
+[LC206 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p206_ReverseLinkedList/lc206.c
 
 [LC1 PYTHON]: https://github.com/milostiv/Algorithms/tree/master/leetCode/python/p1_TwoSum/lc1.py
 [LC2 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p2_AddTwoNumbers/lc2.py
@@ -254,6 +262,7 @@
 [LC24 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p24_SwapNodesInPairs/lc24.py
 [LC50 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p50_Pow/lc50.py
 [LC92 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p92_ReverseLinkedListII/lc92.py
+[LC206 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p206_ReverseLinkedList/lc206.py
 
 [LIBRARY SOURCE]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.c
 [LIBRARY HEADER]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.h

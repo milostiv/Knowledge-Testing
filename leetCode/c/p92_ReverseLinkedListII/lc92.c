@@ -7,7 +7,7 @@ reverse the nodes of the list from position left to position right, and return t
 
 struct ListNodeInt* reverseBetween(struct ListNodeInt* head, int left, int right) {
 	
-	struct ListNodeInt *prev, *curr, *next, *dummy;
+	struct ListNodeInt *prev, *curr, *next, *start, *end;
 	int counter = 1;
 
 	// Check if linked list is empty
@@ -15,7 +15,18 @@ struct ListNodeInt* reverseBetween(struct ListNodeInt* head, int left, int right
 		return head;
 
 	curr = head;
-	dummy = head;
+
+	// Check if linked list has only one element
+	while(curr->next != NULL) {
+		counter++;
+		curr = curr->next;
+	}
+
+	if(counter == 1) 
+		return head;
+
+	counter = 1;
+	curr =head;
 
 	// Go to left element
 	while(counter < left) {
@@ -24,7 +35,11 @@ struct ListNodeInt* reverseBetween(struct ListNodeInt* head, int left, int right
 		counter++;
 	}	
 
-	printf("%d\n", counter);
+	start = prev;
+	prev = curr;
+	end = curr;
+	curr = curr->next;
+	next = NULL;
 
 	while (counter < right) {
 		next = curr->next;
@@ -33,10 +48,13 @@ struct ListNodeInt* reverseBetween(struct ListNodeInt* head, int left, int right
 		curr = next;	
 	  	counter++;
 	}
-	
-	printf("%d\n", counter);
 
-	return dummy;			
+	if(start) 
+		start->next = prev;
+
+	end->next = curr;		
+
+	return start == NULL ? prev : head;		
 }
 
 int main(void) {
@@ -57,7 +75,26 @@ int main(void) {
 	list1Reversed = reverseBetween(list1, left, right);
 
 	printf("List 1 after reversing: ");	
-//	listPrintInt(list1Reversed);
+	listPrintInt(list1Reversed);
+
+	/* Test 2: */
+
+	struct ListNodeInt *list2, *list2Reversed;
+	int list2Array = 5;
+	int list2ArraySize = sizeof(list2Array) / sizeof(int);
+	left = 1;
+	right = 1;
+	
+	listInitializeInt(&list2);
+	listPushInt(list2, list2Array);
+	
+	printf("List 2 before reversing: ");	
+	listPrintInt(list2);
+
+	list2Reversed = reverseBetween(list2, left, right);
+
+	printf("List 2 after reversing: ");	
+	listPrintInt(list2Reversed);
 		
 	return EXIT_SUCCESS;
 }

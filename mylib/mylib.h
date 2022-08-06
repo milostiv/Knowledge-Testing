@@ -47,6 +47,7 @@ void listPushInt(struct ListNodeInt *list, int val);
 void listInsertArrayInt(struct ListNodeInt *list, int *array, int arraySize);
 int listPopInt(struct ListNodeInt *list);
 void listPrintInt(struct ListNodeInt *list);
+struct ListNodeInt* reverseListInt(struct ListNodeInt* head);
 void listFreeInt(struct ListNodeInt *list);
 
 /* Char: */
@@ -62,6 +63,7 @@ void listPushChar(struct ListNodeChar *list, char val);
 void listInsertArrayChar(struct ListNodeChar *list, char *array, int arraySize);
 char listPopChar(struct ListNodeChar *list);
 void listPrintChar(struct ListNodeChar *list);
+struct ListNodeChar* reverseListChar(struct ListNodeChar* head);
 void listFreeChar(struct ListNodeChar *list);
 
 /* --------------------------------------------------------------------- */

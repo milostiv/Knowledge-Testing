@@ -304,6 +304,27 @@ int listCountInt(struct ListNodeInt *list) {
 	return count;
 }
 
+struct ListNodeInt* reverseListInt(struct ListNodeInt* head) {
+
+	struct ListNodeInt *prev, *curr, *next, *dummy;
+
+	// Check if Linked list is empty
+	if(head->next == NULL && head->val == -1) 
+		return head;
+
+	curr = head;
+	prev = NULL;
+
+	while(curr != NULL) {
+		next = curr->next;
+		curr->next = prev;
+		prev = curr;
+		curr = next;	
+	}
+
+	return prev;
+}
+
 void listFreeInt(struct ListNodeInt *list) {
     
     struct ListNodeInt *tmp;
@@ -439,6 +460,27 @@ int listCountChar(struct ListNodeChar *list) {
 	}
 
 	return count;
+}
+
+struct ListNodeChar* reverseListChar(struct ListNodeChar* head) {
+
+	struct ListNodeChar *prev, *curr, *next, *dummy;
+
+	// Check if Linked list is empty
+	if(head->next == NULL && head->val == ' ') 
+		return head;
+
+	curr = head;
+	prev = NULL;
+
+	while(curr != NULL) {
+		next = curr->next;
+		curr->next = prev;
+		prev = curr;
+		curr = next;	
+	}
+
+	return prev;
 }
 
 void listFreeChar(struct ListNodeChar *list) {

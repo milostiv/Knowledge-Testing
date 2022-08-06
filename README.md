@@ -177,6 +177,13 @@
 </details>
 
 <details>
+<summary>25. Reverse Nodes In K-Group</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC25 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC25 PYTHON]
+</details>
+
+<details>
 <summary>50. Pow</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC50 C]
@@ -232,6 +239,7 @@
 [LC22 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p22_GenerateParentheses/lc22.c
 [LC23 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p23_MergeKSortedLists/lc23.c
 [LC24 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p24_SwapNodesInPairs/lc24.c
+[LC25 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p25_ReverseNodesInKGroup/lc25.c
 [LC50 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p50_Pow/lc50.c
 [LC92 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p92_ReverseLinkedListII/lc92.c
 [LC206 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p206_ReverseLinkedList/lc206.c
@@ -260,6 +268,7 @@
 [LC22 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p22_GenerateParentheses/lc22.py
 [LC23 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p23_MergeKSortedLists/lc23.py
 [LC24 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p24_SwapNodesInPairs/lc24.py
+[LC25 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p25_ReverseNodesInKGroup/lc25.py
 [LC50 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p50_Pow/lc50.py
 [LC92 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p92_ReverseLinkedListII/lc92.py
 [LC206 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p206_ReverseLinkedList/lc206.py

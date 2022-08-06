@@ -4,27 +4,6 @@
 #include <stdlib.h>
 #include "../../../mylib/mylib.h"
 
-struct ListNodeInt* reverseList(struct ListNodeInt* head) {
-
-	struct ListNodeInt *prev, *curr, *next, *dummy;
-
-	// Check if Linked list is empty
-	if(head->next == NULL && head->val == -1) 
-		return head;
-
-	curr = head;
-	prev = NULL;
-
-	while(curr != NULL) {
-		next = curr->next;
-		curr->next = prev;
-		prev = curr;
-		curr = next;	
-	}
-
-	return prev;
-}
-
 int main(void) {
 
 	/* Test 1: */
@@ -39,7 +18,7 @@ int main(void) {
 	printf("List 1 before reversing: ");	
 	listPrintInt(list1);
 
-	list1Reversed = reverseList(list1);	
+	list1Reversed = reverseListInt(list1);	
 
 	printf("List 1 after reversing: ");	
 	listPrintInt(list1Reversed);
@@ -56,7 +35,7 @@ int main(void) {
 	printf("List 2 before reversing: ");	
 	listPrintInt(list2);
 
-	list2Reversed = reverseList(list2);	
+	list2Reversed = reverseListInt(list2);	
 	
 	printf("List 2 after reversing: ");	
 	listPrintInt(list2Reversed);
@@ -70,7 +49,7 @@ int main(void) {
 	printf("List 3 before reversing: ");	
 	listPrintInt(list3);
 
-	list3Reversed = reverseList(list3);
+	list3Reversed = reverseListInt(list3);
 
 	printf("List 3 after reversing: ");	
 	listPrintInt(list3Reversed);

@@ -50,7 +50,7 @@ class Solution:
 		if self.head == None:
 			return self.head
 
-		curr = self.head
+		curr = head
 
 		# check if linked list has only one element		
 		while curr.next != None:
@@ -58,10 +58,11 @@ class Solution:
 			curr = curr.next
 
 		if counter == 1:
-			return head
-
+			return self.head
+	
 		counter = 1
 		curr = head
+		first = head
 
 		# go to left element
 		while counter < left:
@@ -69,16 +70,37 @@ class Solution:
 			curr = curr.next
 			counter += 1
 
-		
+		if left == 1:
+			prev = None
+		else:
+			start = prev.next
+	
+		# reverse the list until right element		
+		while curr is not None and counter < right:
+			next = curr.next 
+			curr.next = prev
+			prev = curr
+			curr = next	
+			counter += 1
 
-
+		if left == 1:		
+			tail = curr.next
+			curr.next = prev
+			first.next = tail
+			self.head = curr
+		else:
+			start.next = curr.next
+			first.next = curr
+			curr.next = prev
+			self.head = first
+	
 # Test 1:
 
 print('Test 1:\n')
 
 list1 = Solution()
 list1_array = [1, 2, 3, 4, 5]
-left = 1
+left = 2
 right = 4
 
 list1.append_nodes_from_list(list1_array)
@@ -107,7 +129,7 @@ list2.append_node(list2_array)
 print('List 2 before reversing: ', end = ' ')
 list2.print_linked_list()
 
-list2.reverseBetween(list1.head, left, right)
+list2.reverseBetween(list2.head, left, right)
 
-print('List 1 after reversing: ', end = ' ')
+print('List 2 after reversing: ', end = ' ')
 list2.print_linked_list()

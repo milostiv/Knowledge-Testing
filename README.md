@@ -180,6 +180,7 @@
 <summary>25. Reverse Nodes in K-Group</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC25 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC25 PYTHON]
 </details>
 
 <details>
@@ -275,6 +276,7 @@
 [LC22 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p22_GenerateParentheses/lc22.py
 [LC23 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p23_MergeKSortedLists/lc23.py
 [LC24 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p24_SwapNodesInPairs/lc24.py
+[LC25 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p25_ReverseNodesInKGroup/lc25.py
 [LC26 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p26_RemoveDuplicatesFromSortedArray/lc26.py
 [LC50 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p50_Pow/lc50.py
 [LC92 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p92_ReverseLinkedListII/lc92.py

@@ -31,7 +31,7 @@
 </details>
 
 <details>
-<summary>4. Median Of Two Sorted Arrays</summary>
+<summary>4. Median of Two Sorted Arrays</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC4 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC4 PYTHON]
@@ -59,7 +59,7 @@
 </details>
 
 <details>
-<summary>8. String To Integer (atoi)</summary>
+<summary>8. String to Integer (atoi)</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC8 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC8 PYTHON]
@@ -87,14 +87,14 @@
 </details>
 
 <details>
-<summary>12. Integer To Roman</summary>
+<summary>12. Integer to Roman</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC12 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC12 PYTHON]
 </details>
 
 <details>
-<summary>13. Roman To Integer</summary>
+<summary>13. Roman to Integer</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC13 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC13 PYTHON]
@@ -163,7 +163,7 @@
 </details>
 
 <details>
-<summary>23. Merge K Sorted Lists</summary>
+<summary>23. Merge k Sorted Lists</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC23 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC23 PYTHON]
@@ -177,10 +177,17 @@
 </details>
 
 <details>
-<summary>25. Reverse Nodes In K-Group</summary>
+<summary>25. Reverse Nodes in K-Group</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC25 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC25 PYTHON]
+</details>
+
+<details>
+<summary>26. Remove Duplicates from Sorted Array</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC26 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC26 PYTHON]
 </details>
 
 <details>
@@ -240,6 +247,7 @@
 [LC23 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p23_MergeKSortedLists/lc23.c
 [LC24 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p24_SwapNodesInPairs/lc24.c
 [LC25 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p25_ReverseNodesInKGroup/lc25.c
+[LC26 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p26_RemoveDuplicatesFromSortedArray/lc26.c
 [LC50 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p50_Pow/lc50.c
 [LC92 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p92_ReverseLinkedListII/lc92.c
 [LC206 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p206_ReverseLinkedList/lc206.c
@@ -269,6 +277,7 @@
 [LC23 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p23_MergeKSortedLists/lc23.py
 [LC24 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p24_SwapNodesInPairs/lc24.py
 [LC25 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p25_ReverseNodesInKGroup/lc25.py
+[LC26 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p26_RemoveDuplicatesFromSortedArray/lc26.py
 [LC50 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p50_Pow/lc50.py
 [LC92 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p92_ReverseLinkedListII/lc92.py
 [LC206 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p206_ReverseLinkedList/lc206.py

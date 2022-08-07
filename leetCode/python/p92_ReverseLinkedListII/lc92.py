@@ -74,6 +74,8 @@ class Solution:
 			prev = None
 		else:
 			start = prev.next
+			first = prev
+			dummy = head
 	
 		# reverse the list until right element		
 		while curr is not None and counter < right:
@@ -93,7 +95,7 @@ class Solution:
 			start.next = curr.next
 			first.next = curr
 			curr.next = prev
-			self.head = first
+			self.head = dummy
 			return self.head
 	
 # Test 1:

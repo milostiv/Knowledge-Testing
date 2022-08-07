@@ -69,28 +69,8 @@ class Solution:
 			curr = curr.next
 			counter += 1
 
-		start = prev
-		prev = curr
-		end = curr
-		curr = curr.next
-		next = None
-	
-		while counter < right:
-			next = curr.next
-			curr.next = prev
-			prev = curr
-			curr = next
-			counter += 1
+		
 
-		if start:
-			start.next = prev
-
-		end.next = curr
-	
-		if start == None:
-			return prev
-		else:
-			return head
 
 # Test 1:
 
@@ -98,7 +78,7 @@ print('Test 1:\n')
 
 list1 = Solution()
 list1_array = [1, 2, 3, 4, 5]
-left = 2
+left = 1
 right = 4
 
 list1.append_nodes_from_list(list1_array)

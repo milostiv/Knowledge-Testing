@@ -88,11 +88,13 @@ class Solution:
 			curr.next = prev
 			first.next = tail
 			self.head = curr
+			return self.head
 		else:
 			start.next = curr.next
 			first.next = curr
 			curr.next = prev
 			self.head = first
+			return self.head
 	
 # Test 1:
 

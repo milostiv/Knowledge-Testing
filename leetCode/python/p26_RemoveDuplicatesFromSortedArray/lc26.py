@@ -9,27 +9,66 @@ class Solution:
 
 		Return k after placing the final result in the first k slots of nums.
 	'''
-	def printListLimited(self, nums: list, printSize: int):
-			
-		i = 0
+	def print_list_limited(self, nums: list, num_of_el: int):
 	
-		while(i < printSize):
+		i = 0	
+	
+		while i < num_of_el:
 			print(nums[i], end = ' ')
 			i += 1
-		
-		print()
-	
-	def removeDuplicates(self, nums: list) -> int:
-		pass	
 
-# Test 1:
+		print()
+
+	def removeDuplicates(self, nums: list) -> int:	
+
+		count = 0
+
+		for i in range(len(nums)):
+			
+			if i < len(nums) - 2 and nums[i] == nums[i+1]:
+				continue
+
+			nums[count] = nums[i]
+			count += 1
+		
+		return count  		
 
 s = Solution()
+
+# Test 1:
 
 print('Test 1: ', end = '\n\n')
 
 nums = [1, 1, 2]
-nums_size = 3
+nums_size = len(nums)
 
 print("List 1 before removing duplicates:", end = ' ')
-s.printListLimited(nums, nums_size)
+s.print_list_limited(nums, nums_size)
+print("List 1 size before removing duplicates:", end = ' ')
+print(nums_size)
+
+nums_size = s.removeDuplicates(nums)
+
+print("List 1 after removing duplicates:", end = ' ')
+s.print_list_limited(nums, nums_size)
+print("List 1 size after removing duplicates:", end = ' ')
+print(nums_size)
+
+# Test 2:
+
+print('\nTest 2: ', end = '\n\n')
+
+nums = [0,0,1,1,1,2,2,3,3,4]
+nums_size = len(nums)
+
+print("List 2 before removing duplicates:", end = ' ')
+s.print_list_limited(nums, nums_size)
+print("List 2 size before removing duplicates:", end = ' ')
+print(nums_size)
+
+nums_size = s.removeDuplicates(nums)
+
+print("List 2 after removing duplicates:", end = ' ')
+s.print_list_limited(nums, nums_size)
+print("List 2 size after removing duplicates:", end = ' ')
+print(nums_size)

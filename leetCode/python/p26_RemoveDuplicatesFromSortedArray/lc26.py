@@ -72,3 +72,4 @@ print("List 2 after removing duplicates:", end = ' ')
 s.print_list_limited(nums, nums_size)
 print("List 2 size after removing duplicates:", end = ' ')
 print(nums_size)
+

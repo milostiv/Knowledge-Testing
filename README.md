@@ -2,7 +2,7 @@
 
 ### **Plan**
 
-- [ ] [28/50] Complete 50 *leetCode* problems in **C/C++**
+- [ ] [29/50] Complete 50 *leetCode* problems in **C/C++**
 - [ ] [29/50] Complete 50 *leetCode* problems in **Python**
 - [X] Compile all **C/C++** files by running a single **Makefile**
 - [X] Set up *GitHub Actions (CI/CD)* to check **C/C++** files
@@ -255,7 +255,7 @@
 [LC24 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p24_SwapNodesInPairs/lc24.c
 [LC25 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p25_ReverseNodesInKGroup/lc25.c
 [LC26 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p26_RemoveDuplicatesFromSortedArray/lc26.c
-[LC27 C]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p27_RemoveElement/lc27.py
+[LC27 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p27_RemoveElement/lc27.c
 [LC50 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p50_Pow/lc50.c
 [LC92 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p92_ReverseLinkedListII/lc92.c
 [LC206 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p206_ReverseLinkedList/lc206.c
@@ -286,7 +286,7 @@
 [LC24 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p24_SwapNodesInPairs/lc24.py
 [LC25 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p25_ReverseNodesInKGroup/lc25.py
 [LC26 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p26_RemoveDuplicatesFromSortedArray/lc26.py
-[LC27 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p27_RemoveElement/lc27.c
+[LC27 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p27_RemoveElement/lc27.py
 [LC50 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p50_Pow/lc50.py
 [LC92 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p92_ReverseLinkedListII/lc92.py
 [LC206 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p206_ReverseLinkedList/lc206.py

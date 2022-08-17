@@ -5,20 +5,27 @@
 #include <string.h>
 #include "../../../mylib/mylib.h"
 
+#define NEEDLE_NOT_IN_HAYSTACK -1;
+
 int strStr(char * haystack, char * needle) {
 
-	int count = 0;
-	char ch = haystack[0];
-	int haystackSize = strlen(haystack);
-	int needleSize = strlen(needle);
+	int i, j;
+	int haystack_size = strlen(haystack);
+	int needle_size = strlen(needle);
 
-	while(ch != '\0') {
+	for(i=0; i<haystack_size - needle_size + 1; i++) {
+	
+		for(j=0; j<needle_size; j++) {
 		
-		count++;
-		ch = haystack[count];
+			if(haystack[i+j] != needle[j]) 
+				break;			
+		}	
+
+		if(j == needle_size)
+			return i;
 	}
 
-	return count;
+	return NEEDLE_NOT_IN_HAYSTACK;
 }
 
 int main(void) {
@@ -30,7 +37,26 @@ int main(void) {
 	char *haystack1 = "hello";
 	char *needle1 = "ll";
 
-	int count = strStr(haystack1, needle1);
+	printf("Haystack: %s\n", haystack1);
+	printf("Needle: %s\n\n", needle1);
 
-	printf("Count %d\n", count);
+	int sol = strStr(haystack1, needle1);
+
+	printf("Test 1 solution: %d\n\n", sol);
+	
+	/* Test 2: */
+
+	printf("Test 2: \n\n");
+
+	char *haystack2 = "aaaaa";
+	char *needle2 = "bba";
+
+	printf("Haystack: %s\n", haystack2);
+	printf("Needle: %s\n\n", needle2);
+
+	sol = strStr(haystack2, needle2);
+
+	printf("Test 2 solution: %d\n", sol);
+
+	return EXIT_SUCCESS;
 }

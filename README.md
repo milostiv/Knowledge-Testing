@@ -3,7 +3,7 @@
 ### **Plan**
 
 - [ ] [30/50] Complete 50 *leetCode* problems in **C/C++**
-- [ ] [30/50] Complete 50 *leetCode* problems in **Python**
+- [ ] [31/50] Complete 50 *leetCode* problems in **Python**
 - [X] Compile all **C/C++** files by running a single **Makefile**
 - [X] Set up *GitHub Actions (CI/CD)* to check **C/C++** files
 
@@ -205,6 +205,13 @@
 </details>
 
 <details>
+<summary>29. Divide Two Integers</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC29 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC29 PYTHON]
+</details>
+
+<details>
 <summary>50. Pow</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC50 C]
@@ -264,6 +271,7 @@
 [LC26 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p26_RemoveDuplicatesFromSortedArray/lc26.c
 [LC27 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p27_RemoveElement/lc27.c
 [LC28 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p28_ImplementStrStr/lc28.c
+[LC29 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p29_DivideTwoIntegers/lc29.c
 [LC50 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p50_Pow/lc50.c
 [LC92 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p92_ReverseLinkedListII/lc92.c
 [LC206 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p206_ReverseLinkedList/lc206.c
@@ -296,6 +304,7 @@
 [LC26 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p26_RemoveDuplicatesFromSortedArray/lc26.py
 [LC27 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p27_RemoveElement/lc27.py
 [LC28 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p28_ImplementStrStr/lc28.py
+[LC29 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p29_DivideTwoIntegers/lc29.py
 [LC50 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p50_Pow/lc50.py
 [LC92 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p92_ReverseLinkedListII/lc92.py
 [LC206 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p206_ReverseLinkedList/lc206.py

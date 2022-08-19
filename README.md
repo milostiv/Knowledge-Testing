@@ -212,6 +212,13 @@
 </details>
 
 <details>
+<summary>30. Substring with Concatenation of All Words</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC30 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC30 PYTHON]
+</details>
+
+<details>
 <summary>50. Pow</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC50 C]
@@ -272,6 +279,7 @@
 [LC27 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p27_RemoveElement/lc27.c
 [LC28 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p28_ImplementStrStr/lc28.c
 [LC29 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p29_DivideTwoIntegers/lc29.c
+[LC30 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p30_SubstringWithConcatenationOfAllWords/lc30.c
 [LC50 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p50_Pow/lc50.c
 [LC92 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p92_ReverseLinkedListII/lc92.c
 [LC206 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p206_ReverseLinkedList/lc206.c
@@ -305,6 +313,7 @@
 [LC27 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p27_RemoveElement/lc27.py
 [LC28 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p28_ImplementStrStr/lc28.py
 [LC29 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p29_DivideTwoIntegers/lc29.py
+[LC30 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p30_SubstringWithConcatenationOfAllWords/lc30.py
 [LC50 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p50_Pow/lc50.py
 [LC92 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p92_ReverseLinkedListII/lc92.py
 [LC206 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p206_ReverseLinkedList/lc206.py

@@ -244,7 +244,7 @@
 <details>
 <summary>MyLib</summary>
 
-[<img src="https://img.icons8.com/ios-filled/20/ffffff/code-file.png"/>][LIBRARY SOURCE] 
+[<img src="https://img.icons8.com/color/20/null/library.png"/>][LIBRARY SOURCE] 
 </details>
 
 ### **Misc**
@@ -252,7 +252,7 @@
 <details>
 <summary>Report Generator</summary>
 
-[<img src="https://img.icons8.com/office/20/null/console.png"/>][REPORT GENERATOR] 
+[<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][REPORT GENERATOR] 
 </details>
 
 [GitHub]: https://github.com/milostiv/Algorithms

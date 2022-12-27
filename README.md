@@ -252,7 +252,7 @@
 <details>
 <summary>Report Generator</summary>
 
-[<img src="https://img.icons8.com/ios-filled/20/ffffff/code-file.png"/>][REPORT GENERATOR] 
+[<img src="https://img.icons8.com/office/20/null/console.png"/>][REPORT GENERATOR] 
 </details>
 
 [GitHub]: https://github.com/milostiv/Algorithms

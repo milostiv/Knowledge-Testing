@@ -247,6 +247,14 @@
 [<img src="https://img.icons8.com/ios-filled/20/ffffff/code-file.png"/>][LIBRARY SOURCE] 
 </details>
 
+### **Misc**
+
+<details>
+<summary>Report Generator</summary>
+
+[<img src="https://img.icons8.com/ios-filled/20/ffffff/code-file.png"/>][REPORT GENERATOR] 
+</details>
+
 [GitHub]: https://github.com/milostiv/Algorithms
 [LinkedIn]: https://www.linkedin.com/in/miloštrifković
 
@@ -320,3 +328,5 @@
 
 [LIBRARY SOURCE]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.c
 [LIBRARY HEADER]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.h
+
+[REPORT GENERATOR]: https://github.com/milostiv/Programming/blob/master/misc/report_generator_template.sh

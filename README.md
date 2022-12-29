@@ -250,7 +250,7 @@
 ### **Misc**
 
 <details>
-<summary>Report Generator</summary>
+<summary>Report Generator Template</summary>
 
 [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][REPORT GENERATOR] 
 </details>

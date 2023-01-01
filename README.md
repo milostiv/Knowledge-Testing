@@ -4,7 +4,7 @@
 
 - [ ] [31/50] Complete 50 *leetCode* problems in **C/C++**
 - [ ] [32/50] Complete 50 *leetCode* problems in **Python**
-- [ ] [0/5] Complete 5 *leetCode* problems in **$> Shell**
+- [ ] [1/5] Complete 5 *leetCode* problems in **$> Shell**
 - [X] Compile all **C/C++** files by running a single **Makefile**
 - [X] Set up *GitHub Actions (CI/CD)* to check **C/C++** files
 

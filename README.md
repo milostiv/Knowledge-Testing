@@ -234,7 +234,7 @@
 </details>
 
 <details>
-<summary>195. Tenth Line</summary>
+<summary>195. Tenth Line *(Shell)*</summary>
 
 [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC195 SHELL] 
 </details>

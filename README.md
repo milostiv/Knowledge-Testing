@@ -234,6 +234,12 @@
 </details>
 
 <details>
+<summary>195. Tenth Line</summary>
+
+[<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC195 SHELL] 
+</details>
+
+<details>
 <summary>206. Reverse Linked List</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC206 C]
@@ -326,6 +332,8 @@
 [LC50 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p50_Pow/lc50.py
 [LC92 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p92_ReverseLinkedListII/lc92.py
 [LC206 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p206_ReverseLinkedList/lc206.py
+
+[LC195 SHELL]: https://github.com/milostiv/Programming/blob/master/leetCode/shell/p195_TenthLine/lc195.sh
 
 [LIBRARY SOURCE]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.c
 [LIBRARY HEADER]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.h

@@ -22,8 +22,10 @@ class Solution:
 		num_of_word_inst = 0
 
 		for word in words_cnt:
+			
 			if words_cnt[word] == 1:
 				num_of_word_inst += 1
+			
 			if words_cnt[word] > 1:
 				return False
 
@@ -63,13 +65,17 @@ class Solution:
 				while s[j:j+3] in words_cnt:
 
 					if words_cnt[s[j:j+3]] == 0:
+							
 						words_cnt[s[j:j+3]] += 1	
+							
 						if self.check_list_completion(words_cnt):
 							result.append(i)
 							i = i + 2
 							break
+
 						else:		
 							j += 3	
+					
 					else:
 						break
 				

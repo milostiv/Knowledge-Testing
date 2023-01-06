@@ -241,15 +241,14 @@
 
 [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC192 SHELL] 
 </details>
-<details>
 
 <details>
 <summary>193. Valid Phone Numbers (Shell)</summary>
 
 [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC193 SHELL] 
 </details>
-<details>
 
+<details>
 <summary>195. Tenth Line (Shell)</summary>
 
 [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC195 SHELL] 

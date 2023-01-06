@@ -234,6 +234,13 @@
 </details>
 
 <details>
+<summary>192. Word Frequency (Shell)</summary>
+
+[<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC192 SHELL] 
+</details>
+<details>
+
+<details>
 <summary>193. Valid Phone Numbers (Shell)</summary>
 
 [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC193 SHELL] 
@@ -339,6 +346,7 @@
 [LC92 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p92_ReverseLinkedListII/lc92.py
 [LC206 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p206_ReverseLinkedList/lc206.py
 
+[LC192 SHELL]: https://github.com/milostiv/Programming/blob/master/leetCode/shell/p192_WordFrequency/lc192.sh
 [LC193 SHELL]: https://github.com/milostiv/Programming/blob/master/leetCode/shell/p193_ValidPhoneNumbers/lc193.sh
 [LC195 SHELL]: https://github.com/milostiv/Programming/blob/master/leetCode/shell/p195_TenthLine/lc195.sh
 

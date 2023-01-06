@@ -8,4 +8,17 @@
 
 # You may also assume each line in the text file must not contain leading or trailing white spaces.
 
-echo "Not yet finshed!"
+file="file.txt"
+regex1="\([0-9]{3}\) [0-9]{3}-[0-9]{4}"
+regex2="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+
+echo "Phone numbers in file:"
+cat $file
+echo "" # New line
+
+echo "Valid phone numbers in file:"
+while read -r line; do
+	if [[ $line =~ $regex1 || $line =~ $regex2 ]]; then
+		echo "$line"
+	fi
+done <$file

@@ -13,7 +13,7 @@
 <details>
 <summary>Problems</summary>
 
-<br/><br/>
+<br/>
 
 <details>
 <summary>1. Two Sum</summary>

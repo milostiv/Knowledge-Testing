@@ -251,6 +251,12 @@
 </details>
 
 <details>
+<summary>194. Transpose File (Shell)</summary>
+
+[<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC194 SHELL] 
+</details>
+
+<details>
 <summary>195. Tenth Line (Shell)</summary>
 
 [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC195 SHELL] 
@@ -354,6 +360,7 @@
 
 [LC192 SHELL]: https://github.com/milostiv/Programming/blob/master/leetCode/shell/p192_WordFrequency/lc192.sh
 [LC193 SHELL]: https://github.com/milostiv/Programming/blob/master/leetCode/shell/p193_ValidPhoneNumbers/lc193.sh
+[LC194 SHELL]: https://github.com/milostiv/Programming/blob/master/leetCode/shell/p194_TransposeFile/lc194.sh
 [LC195 SHELL]: https://github.com/milostiv/Programming/blob/master/leetCode/shell/p195_TenthLine/lc195.sh
 
 [LIBRARY SOURCE]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.c

@@ -366,4 +366,4 @@
 [LIBRARY SOURCE]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.c
 [LIBRARY HEADER]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.h
 
-[REPORT GENERATOR]: https://github.com/milostiv/Programming/blob/master/misc/report_generator_template.sh
+[REPORT GENERATOR]: https://github.com/milostiv/Programming/blob/master/misc/scripts/report_generator_template.sh

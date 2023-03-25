@@ -220,7 +220,6 @@
 <details>
 <summary>30. Substring with Concatenation of All Words</summary>
 
-[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC30 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC30 PYTHON]
 </details>
 
@@ -319,7 +318,6 @@
 [LC27 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p27_RemoveElement/lc27.c
 [LC28 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p28_ImplementStrStr/lc28.c
 [LC29 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p29_DivideTwoIntegers/lc29.c
-[LC30 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p30_SubstringWithConcatenationOfAllWords/lc30.c
 [LC50 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p50_Pow/lc50.c
 [LC92 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p92_ReverseLinkedListII/lc92.c
 [LC206 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p206_ReverseLinkedList/lc206.c

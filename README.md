@@ -224,6 +224,12 @@
 </details>
 
 <details>
+<summary>37. Sudoku Solver</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC37 PYTHON]
+</details>
+
+<details>
 <summary>50. Pow</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC50 C]
@@ -352,6 +358,7 @@
 [LC28 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p28_ImplementStrStr/lc28.py
 [LC29 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p29_DivideTwoIntegers/lc29.py
 [LC30 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p30_SubstringWithConcatenationOfAllWords/lc30.py
+[LC37 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p37_SudokuSolver/lc37.py
 [LC50 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p50_Pow/lc50.py
 [LC92 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p92_ReverseLinkedListII/lc92.py
 [LC206 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p206_ReverseLinkedList/lc206.py

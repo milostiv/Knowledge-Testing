@@ -21,7 +21,7 @@ all:
 		cd $$subdir ; $(MAKE) build ; \
 	done
 
-	@echo "Testing shell scripts:"
+	@echo "Testing shell scripts:\n"
 
 	@for subdir in $(SUB_DIRS_SHELL); do \
 		cd $$subdir ; ./*.sh || exit 1 ; \
@@ -34,7 +34,7 @@ all_github:
 		cd $$subdir ; $(MAKE) build_github ; ./*.out || exit 1 ; \
 	done
 
-	@echo "Testing shell scripts:"
+	@echo "Testing shell scripts:\n"
 
 	@for subdir in $(SUB_DIRS_SHELL); do \
 		cd $$subdir ; ./*.sh || exit 1 ; \

@@ -35,25 +35,27 @@ class Solution:
             print('\nTEST' + str(test_num) + ': PASSED IN ' + '{:.2f}us'.format((end_time - start_time) * 1000000))
         else:
             print('\nTEST FAILED')        
+   
+if __name__ == '__main__':
+ 
+    s = Solution()
     
-s = Solution()
-
-# Test 1
-
-height = [1,8,6,2,5,4,8,3,7]
-s.test_function(height, 49, 1)
-
-# Test 2
-
-height = [1,1]
-s.test_function(height, 1, 2)
-
-# Test 3
-
-height = [4,3,2,1,4]
-s.test_function(height, 16, 3)
-
-# Test 4
-
-height = [1,2,1]
-s.test_function(height, 2, 4)
+    # Test 1
+    
+    height = [1,8,6,2,5,4,8,3,7]
+    s.test_function(height, 49, 1)
+    
+    # Test 2
+    
+    height = [1,1]
+    s.test_function(height, 1, 2)
+    
+    # Test 3
+    
+    height = [4,3,2,1,4]
+    s.test_function(height, 16, 3)
+    
+    # Test 4
+    
+    height = [1,2,1]
+    s.test_function(height, 2, 4)

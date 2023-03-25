@@ -55,34 +55,36 @@ class Solution:
         else:
             print('\nTEST FAILED') 
 
-sol = Solution()
+if __name__ == '__main__':
 
-# Test 1
-
-s = 'aa'
-p = 'a'
-sol.test_function(s, p, False, 1)
-
-# Test 2
-
-s = 'aa'
-p = 'a*'
-sol.test_function(s, p, True, 2)
-
-# Test 3
-
-s = 'ab'
-p = '.*'
-sol.test_function(s, p, True, 3)
-
-# Test 4
-
-s = 'aab'
-p = 'c*a*b'
-sol.test_function(s, p, True, 4)
-
-# Test 5
-
-s = 'mississippi'
-p = 'mis*is*p*.'
-sol.test_function(s, p, False, 5)
+    sol = Solution()
+    
+    # Test 1
+    
+    s = 'aa'
+    p = 'a'
+    sol.test_function(s, p, False, 1)
+    
+    # Test 2
+    
+    s = 'aa'
+    p = 'a*'
+    sol.test_function(s, p, True, 2)
+    
+    # Test 3
+    
+    s = 'ab'
+    p = '.*'
+    sol.test_function(s, p, True, 3)
+    
+    # Test 4
+    
+    s = 'aab'
+    p = 'c*a*b'
+    sol.test_function(s, p, True, 4)
+    
+    # Test 5
+    
+    s = 'mississippi'
+    p = 'mis*is*p*.'
+    sol.test_function(s, p, False, 5)

@@ -226,8 +226,8 @@
 <details>
 <summary>36. Valid Sudoku</summary>
 
-[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC36 PYTHON]
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC36 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC36 PYTHON]
 </details>
 
 <details>

@@ -226,6 +226,7 @@
 <details>
 <summary>36. Valid Sudoku</summary>
 
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC36 PYTHON]
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC36 C]
 </details>
 
@@ -365,6 +366,7 @@
 [LC28 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p28_ImplementStrStr/lc28.py
 [LC29 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p29_DivideTwoIntegers/lc29.py
 [LC30 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p30_SubstringWithConcatenationOfAllWords/lc30.py
+[LC36 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p36_ValidSudoku/lc36.py
 [LC37 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p37_SudokuSolver/lc37.py
 [LC50 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p50_Pow/lc50.py
 [LC92 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p92_ReverseLinkedListII/lc92.py

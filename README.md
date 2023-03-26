@@ -2,7 +2,7 @@
 
 ### **Plan**
 
-- [ ] [31/50] Complete 50 *LeetCode* problems in **C/C++**
+- [ ] [32/50] Complete 50 *LeetCode* problems in **C/C++**
 - [ ] [34/50] Complete 50 *LeetCode* problems in **Python**
 - [X] [4/4] Complete 4 *LeetCode* problems in **$> Shell** (There are only 4 *LeetCode* problems currently)
 - [X] Compile all **C/C++** files by running a single **Makefile**
@@ -224,6 +224,12 @@
 </details>
 
 <details>
+<summary>36. Valid Sudoku</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC36 C]
+</details>
+
+<details>
 <summary>37. Sudoku Solver</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC37 PYTHON]
@@ -324,6 +330,7 @@
 [LC27 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p27_RemoveElement/lc27.c
 [LC28 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p28_ImplementStrStr/lc28.c
 [LC29 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p29_DivideTwoIntegers/lc29.c
+[LC36 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p36_ValidSudoku/lc36.c
 [LC50 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p50_Pow/lc50.c
 [LC92 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p92_ReverseLinkedListII/lc92.c
 [LC206 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p206_ReverseLinkedList/lc206.c

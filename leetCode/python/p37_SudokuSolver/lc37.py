@@ -46,10 +46,7 @@ class Solution:
 
         return True
 
-    def solveSudoku(self, board):
-        '''
-            Do not return anything, modify board in-place instead.
-        '''
+    def solveSudoku(self, board) -> bool:
 
         y, x = self.find_empty_location(board)
     

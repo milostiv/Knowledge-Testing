@@ -14,11 +14,21 @@ The '.' character indicates empty cells. */
 #include <string.h>
 #include "../../../mylib/mylib.h"
 
-void findEmptyLocation(char** board, int* y, int*x) {
+void printSudoku(int board[9][9]) {
+    
+    for (int i = 0; i < 9; i++)
+    {
+        for (int j = 0; j < 9; j++)
+            printf("%d ",board[i][j]);
+        printf("\n");
+    }
+}
+
+void findEmptyLocation(int board[9][9], int* y, int*x) {
     
     for(int i=0; i<9; i++) {
         for(int j=0; j<9; j++) {
-            if(board[i][j] == '.') {
+            if(board[i][j] == 0) {
                 *y = i;
                 *x = j; 
                 return;
@@ -31,7 +41,7 @@ void findEmptyLocation(char** board, int* y, int*x) {
     *x = -1;
 }
 
-bool isNumberPossible(char** board, int y, int x, char n) {
+bool isNumberPossible(int board[9][9], int y, int x, int n) {
 
     int x0 = (x / 3) * 3;
     int y0 = (y / 3) * 3;
@@ -42,13 +52,13 @@ bool isNumberPossible(char** board, int y, int x, char n) {
     }
     
     for(int i=0; i<9; i++) {
-        if(board[i][x] == board[y][x])
+        if(board[i][x] == n) 
             return false;
     }
     
     for(int i=0; i<3; i++) {
         for(int j=0; j<3; j++) {
-            if(board[y0+i][x0+j] == board[y][x])
+            if(board[y0+i][x0+j] == n)
                 return false;
         }
     }
@@ -56,43 +66,52 @@ bool isNumberPossible(char** board, int y, int x, char n) {
     return true;
 }
 
-bool solveSudoku(char** board) {
+bool solveSudoku(int board[9][9]) {
     
     int y, x;
-    char guess_chr;
 
     findEmptyLocation(board, &y, &x);
 
     if(y < 0) 
         return true;        
+    
+    for(int guess=1; guess < 10; guess++) {
+    
+        if(isNumberPossible(board, y, x, guess)) {
+            board[y][x] = guess;
+            if(solveSudoku(board))
+                return true;
+        }
 
-    for(int guess = 1; guess < 10; guess++) {
-        
-        itoa(guess, &guess_chr);
- 
-        //if(isNumberPossible(board, y, x)) {
-        //
-        //}
+        board[y][x] = 0;
     }
+
+    return false;
 }
 
 int main(void) {
     
     // Test:
- 
-    char* board[9] = {"53..7....",
-                      "6..195...",
-                      ".98....6.",
-                      "8...6...3",
-                      "4..8.3..1",
-                      "7...2...6",
-                      ".6....28.",
-                      "...419..5",
-                      "....8..79"};
 
-    printMatrixChar(board, 9, 9);
+    printf("Given sudoku:\n");
+
+    int board[9][9] = {{5, 3, 0, 0, 7, 0, 0, 0, 0},
+                       {6, 0, 0, 1, 9, 5, 0, 0, 0},
+                       {0, 9, 8, 0, 0, 0, 0, 6, 0},
+                       {8, 0, 0, 0, 6, 0, 0, 0, 3},
+                       {4, 0, 0, 8, 0, 3, 0, 0, 1},
+                       {7, 0, 0, 0, 2, 0, 0, 0, 6},
+                       {0, 6, 0, 0, 0, 0, 2, 8, 0},
+                       {0, 0, 0, 4, 1, 9, 0, 0, 5},
+                       {0, 0, 0, 0, 8, 0, 0, 7, 9}}; 
+
+    printSudoku(board);
 
     solveSudoku(board);
+
+    printf("\nSolved sudoku:\n");
+
+    printSudoku(board);
         
     return EXIT_SUCCESS;
 }

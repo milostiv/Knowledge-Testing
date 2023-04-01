@@ -307,8 +307,11 @@
 
 ### **Misc**
 
+<details>
+<summary>Helper Scripts</summary>
 - Report Generator Template: [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][REPORT GENERATOR] 
 - Script to find number of finished LeetCode problems: [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][NUMBER OF SOLVED LEETCODE PROBLEMS]
+</details>
 
 [GitHub]: https://github.com/milostiv/Algorithms
 [LinkedIn]: https://www.linkedin.com/in/miloštrifković

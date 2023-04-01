@@ -307,11 +307,7 @@
 
 ### **Misc**
 
-<details>
-<summary>Report Generator Template</summary>
-
-[<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][REPORT GENERATOR] 
-</details>
+Report Generator Template: [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][REPORT GENERATOR] 
 
 [GitHub]: https://github.com/milostiv/Algorithms
 [LinkedIn]: https://www.linkedin.com/in/miloštrifković

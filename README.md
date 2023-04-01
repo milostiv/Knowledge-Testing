@@ -307,7 +307,8 @@
 
 ### **Misc**
 
-Report Generator Template: [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][REPORT GENERATOR] 
+- Report Generator Template: [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][REPORT GENERATOR] 
+- Script to find number of finished LeetCode problems: [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][NUMBER OF SOLVED LEETCODE PROBLEMS]
 
 [GitHub]: https://github.com/milostiv/Algorithms
 [LinkedIn]: https://www.linkedin.com/in/miloštrifković
@@ -395,3 +396,4 @@ Report Generator Template: [<img src="https://img.icons8.com/doodle/20/null/bash
 [LIBRARY HEADER]: https://github.com/milostiv/Programming/blob/master/mylib/mylib.h
 
 [REPORT GENERATOR]: https://github.com/milostiv/Programming/blob/master/misc/scripts/report_generator_template.sh
+[NUMBER OF SOLVED LEETCODE PROBLEMS]: https://github.com/milostiv/Programming/blob/master/find_number_finished_problems_lc.sh

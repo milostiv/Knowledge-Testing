@@ -1,6 +1,8 @@
-#ex: set ft=markdown ;:<<'```shell' #
-
 ## **LeetCode**
+
+<?bash
+echo hi
+;?>
 
 ### **Plan**
  

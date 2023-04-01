@@ -2,7 +2,7 @@
 
 ### **Plan**
  
-- [ ] [34/50] Complete 50 *LeetCode* problems in **C/C++**
+- [ ] [35/50] Complete 50 *LeetCode* problems in **C/C++**
 - [ ] [36/50] Complete 50 *LeetCode* problems in **Python**
 - [X] [4/4] Complete 4 *LeetCode* problems in **$> Shell** (There are only 4 *LeetCode* problems currently)
 - [X] Compile all **C/C++** files by running a single **Makefile**
@@ -224,6 +224,12 @@
 </details>
 
 <details>
+<summary>34. Find First and Last Position of Element in Sorted Array</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC34 C]
+</details>
+
+<details>
 <summary>35. Search Insert Position</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC35 C]
@@ -339,6 +345,7 @@
 [LC27 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p27_RemoveElement/lc27.c
 [LC28 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p28_ImplementStrStr/lc28.c
 [LC29 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p29_DivideTwoIntegers/lc29.c
+[LC34 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p34_FindFirstAndLastPositionOfElementInSortedArray/lc34.c
 [LC35 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p35_SearchInsertPosition/lc35.c
 [LC36 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p36_ValidSudoku/lc36.c
 [LC37 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p37_SudokuSolver/lc37.c

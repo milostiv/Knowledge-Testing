@@ -1,9 +1,5 @@
 ## **LeetCode**
 
-<?bash
-echo hi
-;?>
-
 ### **Plan**
  
 - [ ] [35/50] Complete 50 *LeetCode* problems in **C/C++**

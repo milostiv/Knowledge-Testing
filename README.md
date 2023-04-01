@@ -1,4 +1,4 @@
-#!set ft=markdown ;:<<'```shell' #
+#ex: set ft=markdown ;:<<'```shell' #
 
 ## **LeetCode**
 

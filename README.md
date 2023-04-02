@@ -386,7 +386,7 @@
 [LC28 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p28_ImplementStrStr/lc28.py
 [LC29 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p29_DivideTwoIntegers/lc29.py
 [LC30 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p30_SubstringWithConcatenationOfAllWords/lc30.py
-[LC34 PYTOHN]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p34_FindFirstAndLastPositionOfElementInSortedArray/lc34.py
+[LC34 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p34_FindFirstAndLastPositionOfElementInSortedArray/lc34.py
 [LC35 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p35_SearchInsertPosition/lc35.py
 [LC36 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p36_ValidSudoku/lc36.py
 [LC37 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p37_SudokuSolver/lc37.py

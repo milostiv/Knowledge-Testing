@@ -12,11 +12,11 @@ void searchRange(int* nums, int numsSize, int target, int* sol) {
     int start = 0;
     int end = numsSize - 1;
     int mid;
-    bool solExists = false;
+    sol[0] = -1;
+    sol[1] = -1;
 
     if(numsSize == 0) {
-        sol[0] = -1;
-        sol[1] = -1;
+        return;
     }
 
     while(start <= end) {
@@ -33,8 +33,6 @@ void searchRange(int* nums, int numsSize, int target, int* sol) {
 
             sol[1] = temp - 1;
 
-            solExists = true;
-
             break;
         }
         else if(nums[mid] < target)
@@ -42,11 +40,6 @@ void searchRange(int* nums, int numsSize, int target, int* sol) {
         else
             end = mid - 1; 
     }        
-
-    if(!solExists) {
-        sol[0] = -1;
-        sol[1] = -1;
-    }
 }
 
 int main(void) {

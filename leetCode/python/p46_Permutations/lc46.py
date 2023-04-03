@@ -44,42 +44,27 @@ if __name__ == '__main__':
        
     # Test 1:
 
-    print('Test 1:\n')
-    
+    print('Test 1:\n') 
     nums = [1,2,3]
-
     print('List 1: {}\n'.format(nums))
-
     sol = s.permute(nums)
-
     print('Solution 1:')
-
     s.print_mat(sol)
 
     # Test 2:
 
     print('\nTest 2:\n')
-
     nums = [0, 1]
-
     print('List 2: {}\n'.format(nums))
-
     sol = s.permute(nums)
-
     print('Solution 2:')
-
     s.print_mat(sol)
 
     # Test 3:
 
     print('\nTest 3:\n')
-
     nums = [1]
-
     print('List 3: {}\n'.format(nums))
-
     sol = s.permute(nums)
-
     print('Solution 3:')
-
     s.print_mat(sol)

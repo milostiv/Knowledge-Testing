@@ -252,6 +252,12 @@
 </details>
 
 <details>
+<summary>46. Permutations</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC46 PYTHON]
+</details>
+
+<details>
 <summary>50. Pow</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC50 C]
@@ -390,6 +396,7 @@
 [LC35 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p35_SearchInsertPosition/lc35.py
 [LC36 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p36_ValidSudoku/lc36.py
 [LC37 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p37_SudokuSolver/lc37.py
+[LC46 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p46_Permutations/lc46.py
 [LC50 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p50_Pow/lc50.py
 [LC92 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p92_ReverseLinkedListII/lc92.py
 [LC206 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p206_ReverseLinkedList/lc206.py

@@ -2,7 +2,7 @@
 
 ### **Plan**
  
-- [ ] [35/50] Complete 50 *LeetCode* problems in **C/C++**
+- [ ] [36/50] Complete 50 *LeetCode* problems in **C/C++**
 - [ ] [40/50] Complete 50 *LeetCode* problems in **Python**
 - [X] [4/4] Complete 4 *LeetCode* problems in **$> Shell** (There are only 4 *LeetCode* problems currently)
 - [X] Compile all **C/C++** files by running a single **Makefile**
@@ -254,6 +254,7 @@
 <details>
 <summary>46. Permutations</summary>
 
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC46 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC46 PYTHON]
 </details>
 
@@ -364,6 +365,7 @@
 [LC35 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p35_SearchInsertPosition/lc35.c
 [LC36 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p36_ValidSudoku/lc36.c
 [LC37 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p37_SudokuSolver/lc37.c
+[LC46 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p46_Permutations/lc46.c 
 [LC50 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p50_Pow/lc50.c
 [LC92 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p92_ReverseLinkedListII/lc92.c
 [LC206 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p206_ReverseLinkedList/lc206.c

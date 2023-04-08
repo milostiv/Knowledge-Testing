@@ -261,6 +261,7 @@
 <details>
 <summary>47. Permutations II</summary>
 
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC47 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC47 PYTHON]
 </details>
 
@@ -366,6 +367,7 @@
 [LC36 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p36_ValidSudoku/lc36.c
 [LC37 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p37_SudokuSolver/lc37.c
 [LC46 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p46_Permutations/lc46.c 
+[LC47 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p47_PermutationsII/lc47.c
 [LC50 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p50_Pow/lc50.c
 [LC92 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p92_ReverseLinkedListII/lc92.c
 [LC206 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p206_ReverseLinkedList/lc206.c

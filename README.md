@@ -2,7 +2,7 @@
 
 ### **Plan**
  
-- [ ] [36/50] Complete 50 *LeetCode* problems in **C/C++**
+- [ ] [37/50] Complete 50 *LeetCode* problems in **C/C++**
 - [ ] [40/50] Complete 50 *LeetCode* problems in **Python**
 - [X] [4/4] Complete 4 *LeetCode* problems in **$> Shell** (There are only 4 *LeetCode* problems currently)
 - [X] Compile all **C/C++** files by running a single **Makefile**

@@ -5,6 +5,14 @@
 
 /* ---------------------------- Mathematics ---------------------------- */
 
+int maxInt(int x, int y) {
+
+    if(x >= y)
+        return x;
+    else
+        return y;
+}
+
 int powInt(int base, unsigned int pow) {
 	
 	if(pow == 0)

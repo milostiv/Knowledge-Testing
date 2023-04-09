@@ -3,6 +3,7 @@
 
 /* ---------------------------- Mathematics ---------------------------- */
 
+int maxInt(int x, int y);
 int powInt(int base, unsigned int pow);
 double myPowDouble(double base, int pow);
 

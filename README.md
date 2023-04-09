@@ -2,7 +2,7 @@
 
 ### **Plan**
  
-- [ ] [38/50] Complete 50 *LeetCode* problems in **C/C++**
+- [ ] [39/50] Complete 50 *LeetCode* problems in **C/C++**
 - [ ] [40/50] Complete 50 *LeetCode* problems in **Python**
 - [X] [4/4] Complete 4 *LeetCode* problems in **$> Shell** (There are only 4 *LeetCode* problems currently)
 - [X] Compile all **C/C++** files by running a single **Makefile**
@@ -279,6 +279,12 @@
 </details>
 
 <details>
+<summary>55. Jump Game</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC55 C]
+</details>
+
+<details>
 <summary>92. Reverse Linked List II</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC92 C]
@@ -376,6 +382,7 @@
 [LC46 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p46_Permutations/lc46.c 
 [LC47 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p47_PermutationsII/lc47.c
 [LC50 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p50_Pow/lc50.c
+[LC55 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p55_JumpGame/lc55.c
 [LC92 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p92_ReverseLinkedListII/lc92.c
 [LC206 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p206_ReverseLinkedList/lc206.c
 

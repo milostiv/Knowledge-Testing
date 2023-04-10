@@ -11,7 +11,7 @@ double myPowDouble(double base, int pow);
 
 /* ------------------------------ Strings ------------------------------ */
 
-void reverse(char s[]);
+void reverseString(char s[]);
 void itoa(int n, char s[]);
 
 /* --------------------------------------------------------------------- */

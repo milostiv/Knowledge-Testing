@@ -50,7 +50,7 @@ double myPowDouble(double base, int pow) {
 
 /* ------------------------------ Strings ------------------------------ */
 
-void reverse(char s[]) {
+void reverseString(char s[]) {
     
     int i = 0, j;
     char temp;
@@ -94,7 +94,7 @@ void itoa(int n, char s[]) {
 
     s[i] = '\0';
     
-    reverse(s);
+    reverseString(s);
 }
 
 /* --------------------------------------------------------------------- */

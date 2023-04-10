@@ -3,7 +3,7 @@
 ### **Plan**
  
 - [ ] [41/50] Complete 50 *LeetCode* problems in **C/C++**
-- [ ] [42/50] Complete 50 *LeetCode* problems in **Python**
+- [ ] [43/50] Complete 50 *LeetCode* problems in **Python**
 - [X] [4/4] Complete 4 *LeetCode* problems in **$> Shell** (There are only 4 *LeetCode* problems currently)
 - [X] Compile all **C/C++** files by running a single **Makefile**
 - [X] Set up *GitHub Actions (CI/CD)*
@@ -276,6 +276,7 @@
 <summary>48. Rotate Image</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC48 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC48 PYTHON]
 </details>
 
 <details>
@@ -334,6 +335,7 @@
 <summary>867. Transpose Matrix</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC867 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC867 PYTHON]
 </details>
 
 </details>
@@ -439,10 +441,12 @@
 [LC45 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p45_JumpGameII/lc45.py
 [LC46 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p46_Permutations/lc46.py
 [LC47 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p47_PermutationsII/lc47.py
+[LC48 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p48_RotateImage/lc48.py
 [LC50 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p50_Pow/lc50.py
 [LC55 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p55_JumpGame/lc55.py
 [LC92 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p92_ReverseLinkedListII/lc92.py
 [LC206 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p206_ReverseLinkedList/lc206.py
+[LC867 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p867_TransposeMatrix/lc867.py
 
 [LC192 SHELL]: https://github.com/milostiv/Programming/blob/master/leetCode/shell/p192_WordFrequency/lc192.sh
 [LC193 SHELL]: https://github.com/milostiv/Programming/blob/master/leetCode/shell/p193_ValidPhoneNumbers/lc193.sh

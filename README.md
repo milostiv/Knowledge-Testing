@@ -3,7 +3,7 @@
 ### **Plan**
  
 - [ ] [41/50] Complete 50 *LeetCode* problems in **C/C++**
-- [ ] [43/50] Complete 50 *LeetCode* problems in **Python**
+- [ ] [44/50] Complete 50 *LeetCode* problems in **Python**
 - [X] [4/4] Complete 4 *LeetCode* problems in **$> Shell** (There are only 4 *LeetCode* problems currently)
 - [X] Compile all **C/C++** files by running a single **Makefile**
 - [X] Set up *GitHub Actions (CI/CD)*
@@ -224,6 +224,12 @@
 </details>
 
 <details>
+<summary>31. Next Permutation</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC31 PYTHON]
+</details>
+
+<details>
 <summary>34. Find First and Last Position of Element in Sorted Array</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC34 C]
@@ -434,6 +440,7 @@
 [LC28 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p28_ImplementStrStr/lc28.py
 [LC29 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p29_DivideTwoIntegers/lc29.py
 [LC30 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p30_SubstringWithConcatenationOfAllWords/lc30.py
+[LC31 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p31_NextPermutation/lc31.py
 [LC34 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p34_FindFirstAndLastPositionOfElementInSortedArray/lc34.py
 [LC35 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p35_SearchInsertPosition/lc35.py
 [LC36 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p36_ValidSudoku/lc36.py

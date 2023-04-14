@@ -15,335 +15,335 @@
 
 <br/>
 
-    <details>
-    <summary>1. Two Sum</summary>
-        
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC1 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC1 PYTHON]
-    </details>
-    
-    <details>
-    <summary>2. Add Two Numbers</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC2 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC2 PYTHON]
-    </details>
-    
-    <details>
-    <summary>3. Longest Substring Without Repeating Characters</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC3 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC3 PYTHON]
-    </details>
-    
-    <details>
-    <summary>4. Median of Two Sorted Arrays</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC4 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC4 PYTHON]
-    </details>
-    
-    <details>
-    <summary>5. Longest Palingromic Substring</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC5 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC5 PYTHON]
-    </details>
-    
-    <details>
-    <summary>6. Zig Zag Conversion</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC6 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC6 PYTHON]
-    </details>
-    
-    <details>
-    <summary>7. Reverse Integer</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC7 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC7 PYTHON]
-    </details>
-    
-    <details>
-    <summary>8. String to Integer (atoi)</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC8 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC8 PYTHON]
-    </details>
-    
-    <details>
-    <summary>9. Palindrome Number</summary>
-        
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC9 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC9 PYTHON]
-    </details>
-    
-    <details>
-    <summary>10. Regular Expression Matching</summary>
-        
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC10 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC10 PYTHON]
-    </details>
-    
-    <details>
-    <summary>11. Container With Most Water</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC11 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC11 PYTHON]
-    </details>
-    
-    <details>
-    <summary>12. Integer to Roman</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC12 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC12 PYTHON]
-    </details>
-    
-    <details>
-    <summary>13. Roman to Integer</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC13 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC13 PYTHON]
-    </details>
-    
-    <details>
-    <summary>14. Longest Common Prefix</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC14 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC14 PYTHON]
-    </details>
-    
-    <details>
-    <summary>15. 3Sum</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC15 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC15 PYTHON]
-    </details>
-    
-    <details>
-    <summary>16. 3Sum Closest</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC16 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC16 PYTHON]
-    </details>
-    
-    <details>
-    <summary>17. Letter Combinations of a Phone Number</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC17 PYTHON]
-    </details>
-    
-    <details>
-    <summary>18. 4Sum</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC18 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC18 PYTHON]
-    </details>
-    
-    <details>
-    <summary>19. Remove Nth Node From End of List</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC19 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC19 PYTHON]
-    </details>
-    
-    <details>
-    <summary>20. Valid Parentheses</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC20 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC20 PYTHON]
-    </details>
-    
-    <details>
-    <summary>21. Merge Two Sorted Lists</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC21 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC21 PYTHON]
-    </details>
-    
-    <details>
-    <summary>22. Generate Parentheses</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC22 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC22 PYTHON]
-    </details>
-    
-    <details>
-    <summary>23. Merge k Sorted Lists</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC23 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC23 PYTHON]
-    </details>
-    
-    <details>
-    <summary>24. Swap Nodes in Pairs</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC24 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC24 PYTHON]
-    </details>
-    
-    <details>
-    <summary>25. Reverse Nodes in K-Group</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC25 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC25 PYTHON]
-    </details>
-    
-    <details>
-    <summary>26. Remove Duplicates from Sorted Array</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC26 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC26 PYTHON]
-    </details>
-    
-    <details>
-    <summary>27. Remove Element</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC27 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC27 PYTHON]
-    </details>
-    
-    <details>
-    <summary>28. Implement strStr()</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC28 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC28 PYTHON]
-    </details>
-    
-    <details>
-    <summary>29. Divide Two Integers</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC29 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC29 PYTHON]
-    </details>
-    
-    <details>
-    <summary>30. Substring with Concatenation of All Words</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC30 PYTHON]
-    </details>
-    
-    <details>
-    <summary>31. Next Permutation</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC31 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC31 PYTHON]
-    </details>
-    
-    <details>
-    <summary>34. Find First and Last Position of Element in Sorted Array</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC34 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC34 PYTHON]
-    </details>
-    
-    <details>
-    <summary>35. Search Insert Position</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC35 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC35 PYTHON]
-    </details>
-    
-    <details>
-    <summary>36. Valid Sudoku</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC36 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC36 PYTHON]
-    </details>
-    
-    <details>
-    <summary>37. Sudoku Solver</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC37 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC37 PYTHON]
-    </details>
-    
-    <details>
-    <summary>45. Jump Game II</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC45 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC45 PYTHON]
-    </details>
-    
-    <details>
-    <summary>46. Permutations</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC46 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC46 PYTHON]
-    </details>
-    
-    <details>
-    <summary>47. Permutations II</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC47 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC47 PYTHON]
-    </details>
-    
-    <details>
-    <summary>48. Rotate Image</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC48 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC48 PYTHON]
-    </details>
-    
-    <details>
-    <summary>50. Pow</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC50 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC50 PYTHON]
-    </details>
-    
-    <details>
-    <summary>55. Jump Game</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC55 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC55 PYTHON]
-    </details>
-    
-    <details>
-    <summary>92. Reverse Linked List II</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC92 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC92 PYTHON]
-    </details>
-    
-    <details>
-    <summary>192. Word Frequency (Shell)</summary>
-    
-    [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC192 SHELL] 
-    </details>
-    
-    <details>
-    <summary>193. Valid Phone Numbers (Shell)</summary>
-    
-    [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC193 SHELL] 
-    </details>
-    
-    <details>
-    <summary>194. Transpose File (Shell)</summary>
-    
-    [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC194 SHELL] 
-    </details>
-    
-    <details>
-    <summary>195. Tenth Line (Shell)</summary>
-    
-    [<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC195 SHELL] 
-    </details>
-    
-    <details>
-    <summary>206. Reverse Linked List</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC206 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC206 PYTHON]
-    </details>
-    
-    <details>
-    <summary>867. Transpose Matrix</summary>
-    
-    [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC867 C]
-    [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC867 PYTHON]
-    </details>
+<details>
+<summary>1. Two Sum</summary>
+    
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC1 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC1 PYTHON]
+</details>
+
+<details>
+<summary>2. Add Two Numbers</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC2 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC2 PYTHON]
+</details>
+
+<details>
+<summary>3. Longest Substring Without Repeating Characters</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC3 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC3 PYTHON]
+</details>
+
+<details>
+<summary>4. Median of Two Sorted Arrays</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC4 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC4 PYTHON]
+</details>
+
+<details>
+<summary>5. Longest Palingromic Substring</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC5 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC5 PYTHON]
+</details>
+
+<details>
+<summary>6. Zig Zag Conversion</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC6 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC6 PYTHON]
+</details>
+
+<details>
+<summary>7. Reverse Integer</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC7 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC7 PYTHON]
+</details>
+
+<details>
+<summary>8. String to Integer (atoi)</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC8 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC8 PYTHON]
+</details>
+
+<details>
+<summary>9. Palindrome Number</summary>
+    
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC9 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC9 PYTHON]
+</details>
+
+<details>
+<summary>10. Regular Expression Matching</summary>
+    
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC10 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC10 PYTHON]
+</details>
+
+<details>
+<summary>11. Container With Most Water</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC11 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC11 PYTHON]
+</details>
+
+<details>
+<summary>12. Integer to Roman</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC12 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC12 PYTHON]
+</details>
+
+<details>
+<summary>13. Roman to Integer</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC13 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC13 PYTHON]
+</details>
+
+<details>
+<summary>14. Longest Common Prefix</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC14 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC14 PYTHON]
+</details>
+
+<details>
+<summary>15. 3Sum</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC15 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC15 PYTHON]
+</details>
+
+<details>
+<summary>16. 3Sum Closest</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC16 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC16 PYTHON]
+</details>
+
+<details>
+<summary>17. Letter Combinations of a Phone Number</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC17 PYTHON]
+</details>
+
+<details>
+<summary>18. 4Sum</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC18 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC18 PYTHON]
+</details>
+
+<details>
+<summary>19. Remove Nth Node From End of List</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC19 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC19 PYTHON]
+</details>
+
+<details>
+<summary>20. Valid Parentheses</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC20 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC20 PYTHON]
+</details>
+
+<details>
+<summary>21. Merge Two Sorted Lists</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC21 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC21 PYTHON]
+</details>
+
+<details>
+<summary>22. Generate Parentheses</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC22 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC22 PYTHON]
+</details>
+
+<details>
+<summary>23. Merge k Sorted Lists</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC23 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC23 PYTHON]
+</details>
+
+<details>
+<summary>24. Swap Nodes in Pairs</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC24 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC24 PYTHON]
+</details>
+
+<details>
+<summary>25. Reverse Nodes in K-Group</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC25 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC25 PYTHON]
+</details>
+
+<details>
+<summary>26. Remove Duplicates from Sorted Array</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC26 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC26 PYTHON]
+</details>
+
+<details>
+<summary>27. Remove Element</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC27 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC27 PYTHON]
+</details>
+
+<details>
+<summary>28. Implement strStr()</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC28 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC28 PYTHON]
+</details>
+
+<details>
+<summary>29. Divide Two Integers</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC29 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC29 PYTHON]
+</details>
+
+<details>
+<summary>30. Substring with Concatenation of All Words</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC30 PYTHON]
+</details>
+
+<details>
+<summary>31. Next Permutation</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC31 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC31 PYTHON]
+</details>
+
+<details>
+<summary>34. Find First and Last Position of Element in Sorted Array</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC34 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC34 PYTHON]
+</details>
+
+<details>
+<summary>35. Search Insert Position</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC35 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC35 PYTHON]
+</details>
+
+<details>
+<summary>36. Valid Sudoku</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC36 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC36 PYTHON]
+</details>
+
+<details>
+<summary>37. Sudoku Solver</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC37 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC37 PYTHON]
+</details>
+
+<details>
+<summary>45. Jump Game II</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC45 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC45 PYTHON]
+</details>
+
+<details>
+<summary>46. Permutations</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC46 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC46 PYTHON]
+</details>
+
+<details>
+<summary>47. Permutations II</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC47 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC47 PYTHON]
+</details>
+
+<details>
+<summary>48. Rotate Image</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC48 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC48 PYTHON]
+</details>
+
+<details>
+<summary>50. Pow</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC50 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC50 PYTHON]
+</details>
+
+<details>
+<summary>55. Jump Game</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC55 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC55 PYTHON]
+</details>
+
+<details>
+<summary>92. Reverse Linked List II</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC92 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC92 PYTHON]
+</details>
+
+<details>
+<summary>192. Word Frequency (Shell)</summary>
+
+[<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC192 SHELL] 
+</details>
+
+<details>
+<summary>193. Valid Phone Numbers (Shell)</summary>
+
+[<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC193 SHELL] 
+</details>
+
+<details>
+<summary>194. Transpose File (Shell)</summary>
+
+[<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC194 SHELL] 
+</details>
+
+<details>
+<summary>195. Tenth Line (Shell)</summary>
+
+[<img src="https://img.icons8.com/doodle/20/null/bash.png"/>][LC195 SHELL] 
+</details>
+
+<details>
+<summary>206. Reverse Linked List</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC206 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC206 PYTHON]
+</details>
+
+<details>
+<summary>867. Transpose Matrix</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC867 C]
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC867 PYTHON]
+</details>
 
 </details>
 

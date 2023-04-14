@@ -5,12 +5,47 @@
 
 /* ---------------------------- Mathematics ---------------------------- */
 
+int swapInt(int* num1, int* num2) {
+
+    int temp = *num1;
+    *num1 = *num2;
+    *num2 = temp;
+}
+
+void selectionSort(int nums[], int numsSize) {
+    
+    int min_idx;    
+
+    for(int i=0; i<numsSize - 1; i++) {
+       
+        min_idx = i;
+
+        for(int j=i+1; j<numsSize; j++) {
+            
+            if(nums[j] < nums[min_idx])
+                min_idx = j;
+        }
+
+        swapInt(&nums[min_idx], &nums[i]);
+    }
+}
+
 int maxInt(int x, int y) {
 
     if(x >= y)
         return x;
     else
         return y;
+}
+
+int factorialInt(int num) {
+   
+    int sol = 1;
+ 
+    for(int i=1; i <= num; i++)
+        sol *= i; 
+
+    return sol;
 }
 
 int powInt(int base, unsigned int pow) {

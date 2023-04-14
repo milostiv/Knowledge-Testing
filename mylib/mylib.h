@@ -3,7 +3,10 @@
 
 /* ---------------------------- Mathematics ---------------------------- */
 
+int swapInt(int* num1, int* num2);
+void selectionSort(int nums[], int numsSize);
 int maxInt(int x, int y);
+int factorialInt(int num);
 int powInt(int base, unsigned int pow);
 double myPowDouble(double base, int pow);
 

@@ -9,15 +9,6 @@ DO NOT allocate another 2D matrix and do the rotation. */
 #include <stdlib.h>
 #include "../../../mylib/mylib.h"
 
-int swapInt(int* num1, int* num2) {
-
-    int temp;
-
-    temp = *num1;
-    *num1 = *num2;
-    *num2 = temp;
-}
-
 void transposeMatrix(int** matrix, int matrixSize) {
 
     for(int i=1; i<matrixSize; i++) {

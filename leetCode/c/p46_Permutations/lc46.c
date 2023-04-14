@@ -17,16 +17,6 @@ bool checkIfComplete(int* nums, int numsSize) {
     return true;
 }
 
-int factorial(int num) {
-   
-    int sol = 1;
- 
-    for(int i=1; i<=num; i++)
-        sol *= i; 
-
-    return sol;
-}
-
 void recurPermute(int* nums, int* ds, int** sol, int numsSize, int* freq, bool new) {
    
     static int j = 0;
@@ -34,7 +24,7 @@ void recurPermute(int* nums, int* ds, int** sol, int numsSize, int* freq, bool n
     if(new)
         j = 0;
  
-    if(checkIfComplete(ds, numsSize) && j < factorial(numsSize)) {
+    if(checkIfComplete(ds, numsSize) && j < factorialInt(numsSize)) {
         
         for(int i=0; i<numsSize; i++)
             sol[j][i] = ds[i];
@@ -72,7 +62,7 @@ int** permute(int* nums, int numsSize, bool new) {
         freq[i] = 0;
     }    
 
-    int solSize = factorial(numsSize);
+    int solSize = factorialInt(numsSize);
 
     int** sol = allocateMatrixInt(solSize, numsSize);
 

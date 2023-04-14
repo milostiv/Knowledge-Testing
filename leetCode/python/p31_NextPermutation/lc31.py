@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 
-from lc46 import Solution as Sol
-
-class Solution1(Sol):
+class Solution():
     '''
         A permutation of an array of integers is an arrangement of its members into a sequence or linear order.
 
@@ -20,14 +18,42 @@ class Solution1(Sol):
         Given an array of integers nums, find the next permutation of nums.
     '''
 
+    ans = []
+    ds = []
+
+    def print_mat(self, mat):
+
+        print(np.matrix(mat))
+    
+    def recur_permute(self, nums: list, freq: list):
+
+        if len(self.ds) == len(nums):
+            self.ans.append(self.ds.copy())
+            return
+       
+        for i in range(len(nums)):
+            if not freq[i]:
+                self.ds.append(nums[i])
+                freq[i] = 1
+                self.recur_permute(nums, freq)
+                freq[i] = 0
+                self.ds.pop() 
+
+    def permute(self, nums: list):
+
+        self.ans = []
+        self.ds = []
+        freq = [0] * len(nums)
+    
+        self.recur_permute(nums, freq)
+        return self.ans
+
     def nextPermutation(self, nums: list):
         temp = nums.copy()
         temp.sort()
         
         mat = self.permute(temp)
 
-        self.print_mat(mat)
-        
         for i in range(len(mat)):
             if nums == mat[i] and i != len(mat) - 1: 
                 return mat[i+1]
@@ -38,28 +64,28 @@ class Solution1(Sol):
 
 if __name__ == '__main__':
 
-    s = Solution1()
+    s = Solution()
 
     # Test 1:
     
     print('Test 1:\n') 
     nums = [1, 2, 3]
-    print('List 1: {}\n'.format(nums))
+    print('List 1: {}'.format(nums))
     sol = s.nextPermutation(nums) 
-    print('\nSolution 1: {}\n'.format(sol))
+    print('Solution 1: {}\n'.format(sol))
     
     # Test 2:
 
     print('Test 2:\n') 
     nums = [3, 2, 1]
-    print('List 2: {}\n'.format(nums))
+    print('List 2: {}'.format(nums))
     sol = s.nextPermutation(nums) 
-    print('\nSolution 2: {}\n'.format(sol))
+    print('Solution 2: {}\n'.format(sol))
  
     # Test 3:
 
     print('Test 3:\n') 
     nums = [1, 1, 5]
-    print('List 3: {}\n'.format(nums)) 
+    print('List 3: {}'.format(nums)) 
     sol = s.nextPermutation(nums) 
-    print('\nSolution 3: {}\n'.format(sol))
+    print('Solution 3: {}\n'.format(sol))

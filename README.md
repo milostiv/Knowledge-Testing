@@ -2,7 +2,7 @@
 
 ### **Plan**
  
-- [ ] [41/50] Complete 50 *LeetCode* problems in **C/C++**
+- [ ] [42/50] Complete 50 *LeetCode* problems in **C/C++**
 - [ ] [44/50] Complete 50 *LeetCode* problems in **Python**
 - [X] [4/4] Complete 4 *LeetCode* problems in **$> Shell** (There are only 4 *LeetCode* problems currently)
 - [X] Compile all **C/C++** files by running a single **Makefile**
@@ -226,6 +226,7 @@
 <details>
 <summary>31. Next Permutation</summary>
 
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC31 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC31 PYTHON]
 </details>
 
@@ -396,6 +397,7 @@
 [LC27 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p27_RemoveElement/lc27.c
 [LC28 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p28_ImplementStrStr/lc28.c
 [LC29 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p29_DivideTwoIntegers/lc29.c
+[LC31 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p31_NextPermutation/lc31.c
 [LC34 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p34_FindFirstAndLastPositionOfElementInSortedArray/lc34.c
 [LC35 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p35_SearchInsertPosition/lc35.c
 [LC36 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p36_ValidSudoku/lc36.c

@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-import numpy as np
+from lc46 import Solution as Sol
 
-class Solution:
+class Solution1(Sol):
     '''
         A permutation of an array of integers is an arrangement of its members into a sequence or linear order.
 
@@ -19,35 +19,6 @@ class Solution:
         
         Given an array of integers nums, find the next permutation of nums.
     '''
-    ans = []
-    ds = []
-
-    def print_mat(self, mat):
-
-        print(np.matrix(mat))
-
-    def recur_permute(self, nums: list, freq: list):
-
-        if len(self.ds) == len(nums):
-            self.ans.append(self.ds.copy())
-            return
-       
-        for i in range(len(nums)):
-            if not freq[i]:
-                self.ds.append(nums[i])
-                freq[i] = 1
-                self.recur_permute(nums, freq)
-                freq[i] = 0
-                self.ds.pop() 
-
-    def permute(self, nums: list):
-
-        self.ans = []
-        self.ds = []
-        freq = [0] * len(nums)
-    
-        self.recur_permute(nums, freq)
-        return self.ans
 
     def nextPermutation(self, nums: list):
         temp = nums.copy()
@@ -67,7 +38,7 @@ class Solution:
 
 if __name__ == '__main__':
 
-    s = Solution()
+    s = Solution1()
 
     # Test 1:
     

@@ -15,12 +15,12 @@
 
 <br/>
 
-<details>
+&nbsp<details>
 <summary>1. Two Sum</summary>
     
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC1 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC1 PYTHON]
-</details>
+&nbsp</details>
 
 <details>
 <summary>2. Add Two Numbers</summary>

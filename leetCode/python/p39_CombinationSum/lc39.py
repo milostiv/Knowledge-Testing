@@ -25,8 +25,7 @@ class Solution:
                 
                 temp.append(candidates[i])
                 self.find_numbers(candidates, target - candidates[i], sol, temp, i)
-                temp.remove(candidates[i])
-                 
+                temp.remove(candidates[i])                 
 
     def combinationSum(self, candidates: list, target: int):
 

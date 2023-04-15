@@ -1,5 +1,3 @@
-# Makefile for a shared library in C
-
 CC = gcc # C compiler
 LIB_LOC = -L/home/milostiv/Programming/mylib
 LIB_LOC_GITHUB = -L/home/runner/work/Programming/Programming/mylib

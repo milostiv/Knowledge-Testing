@@ -3,7 +3,7 @@
 ### **Plan**
  
 - [ ] [42/50] Complete 50 *LeetCode* problems in **C/C++**
-- [ ] [44/50] Complete 50 *LeetCode* problems in **Python**
+- [ ] [45/50] Complete 50 *LeetCode* problems in **Python**
 - [X] [4/4] Complete 4 *LeetCode* problems in **$> Shell** (There are only 4 *LeetCode* problems currently)
 - [X] Compile all **C/C++** files by running a single **Makefile**
 - [X] Set up *GitHub Actions (CI/CD)*
@@ -259,6 +259,12 @@
 </details>
 
 <details>
+<summary>37. Combination Sum</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC39 PYTHON]
+</details>
+
+<details>
 <summary>45. Jump Game II</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC45 C]
@@ -447,6 +453,7 @@
 [LC35 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p35_SearchInsertPosition/lc35.py
 [LC36 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p36_ValidSudoku/lc36.py
 [LC37 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p37_SudokuSolver/lc37.py
+[LC39 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p39_CombinationSum/lc39.py
 [LC45 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p45_JumpGameII/lc45.py
 [LC46 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p46_Permutations/lc46.py
 [LC47 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p47_PermutationsII/lc47.py

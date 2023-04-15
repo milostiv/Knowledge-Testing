@@ -259,7 +259,7 @@
 </details>
 
 <details>
-<summary>37. Combination Sum</summary>
+<summary>39. Combination Sum</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC39 PYTHON]
 </details>

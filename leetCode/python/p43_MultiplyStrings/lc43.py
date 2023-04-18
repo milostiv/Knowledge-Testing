@@ -36,7 +36,7 @@ class Solution:
     
     def multiply(self, num1: str, num2: str) -> str:
 
-        ans = ans1 = ans2 = 0
+        ans = 0
         
         ans = self.num_str_to_int(num1) * self.num_str_to_int(num2)
         ans_st = self.num_int_to_str(ans)

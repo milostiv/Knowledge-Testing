@@ -273,8 +273,8 @@
 <details>
 <summary>43. Multiply Strings</summary>
 
+[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC43 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC43 PYTHON]
-[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC43 C]
 </details>
 
 <details>

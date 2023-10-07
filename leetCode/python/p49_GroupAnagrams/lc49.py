@@ -31,7 +31,6 @@ if __name__ == '__main__':
     print('Test 1:\n')
 
     strs1 = ['eat','tea','tan','ate','nat','bat'] 
-
     print('Strings 1: ' + str(strs1))
 
     sol1 = s.groupAnagrams(strs1)
@@ -42,7 +41,6 @@ if __name__ == '__main__':
     # Test 2:
 
     print('\nTest 2:\n')
-
     strs2 = ['']
 
     print('Strings 2: ' + str(strs2))
@@ -55,7 +53,6 @@ if __name__ == '__main__':
     # Test 3:
 
     print('\nTest 3:\n')
-
     strs3 = ['a']
 
     print('Strings 3: ' + str(strs3))

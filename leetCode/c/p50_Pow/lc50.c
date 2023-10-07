@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 /* Function implemented in mylib.c/h as myPowDouble */
 

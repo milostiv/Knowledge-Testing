@@ -7,7 +7,7 @@ DO NOT allocate another 2D matrix and do the rotation. */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 void transposeMatrix(int** matrix, int matrixSize) {
 

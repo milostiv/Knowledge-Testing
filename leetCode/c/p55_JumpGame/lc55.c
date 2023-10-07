@@ -6,7 +6,7 @@ Return true if you can reach the last index, or false otherwise. */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 bool canJump(int* nums, int numsSize){
    
@@ -43,7 +43,7 @@ int main(void) {
     if(canJump(nums2, numsSize2))
         printf("\nSolution 2: True");
     else 
-        printf("\nSolution 2: False");
+        printf("\nSolution 2: False\n");
 
     return EXIT_SUCCESS;
 }

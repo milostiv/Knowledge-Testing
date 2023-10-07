@@ -5,7 +5,7 @@ If target is not found in the array, return [-1, -1]. */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 void searchRange(int* nums, int numsSize, int target, int* sol) {
     

@@ -10,7 +10,7 @@ The test cases are generated such that you can reach nums[n - 1]. */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 int jump(int* nums, int numsSize) {
 

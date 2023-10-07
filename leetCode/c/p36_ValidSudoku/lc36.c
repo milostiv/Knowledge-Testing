@@ -14,7 +14,7 @@ Only the filled cells need to be validated according to the mentioned rules. */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 bool isNumberPossible(char** board, int y, int x) {
 

@@ -12,7 +12,7 @@ The '.' character indicates empty cells. */
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 void printSudoku(int board[9][9]) {
     

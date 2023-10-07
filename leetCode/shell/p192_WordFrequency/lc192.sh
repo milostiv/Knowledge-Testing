@@ -16,3 +16,4 @@ file="words.txt"
 # Sort output in reverse order (sort -r)
 # Then remove the empty spaces in the begining of the output (sed 's/^\s*//')
 tr ' ' '\n' < $file | sort | uniq -c | sort -r | sed 's/^\s*//'
+echo # Empty line

@@ -5,7 +5,7 @@ switching the matrix's row and column indices. */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 void transposeMatrix(int** matrix, int row, int col, int** sol) {
 

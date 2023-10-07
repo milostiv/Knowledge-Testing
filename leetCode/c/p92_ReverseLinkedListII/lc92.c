@@ -3,7 +3,7 @@ reverse the nodes of the list from position left to position right, and return t
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 struct ListNodeInt* reverseBetween(struct ListNodeInt* head, int left, int right) {
 	

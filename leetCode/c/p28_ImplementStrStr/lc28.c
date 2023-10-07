@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 #define NEEDLE_NOT_IN_HAYSTACK -1;
 

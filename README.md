@@ -3,7 +3,7 @@
 ### **Plan**
  
 - [ ] [43/50] Complete 50 *LeetCode* problems in **C/C++**
-- [ ] [47/50] Complete 50 *LeetCode* problems in **Python**
+- [ ] [48/50] Complete 50 *LeetCode* problems in **Python**
 - [X] [4/4] Complete 4 *LeetCode* problems in **$> Shell** (There are only 4 *LeetCode* problems currently)
 - [X] Compile all **C/C++** files by running a single **Makefile**
 - [X] Set up *GitHub Actions (CI/CD)*
@@ -306,6 +306,12 @@
 </details>
 
 <details>
+<summary>49. Group Anagrams</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC49 PYTHON]
+</details>
+
+<details>
 <summary>50. Pow</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC50 C]
@@ -474,6 +480,7 @@
 [LC46 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p46_Permutations/lc46.py
 [LC47 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p47_PermutationsII/lc47.py
 [LC48 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p48_RotateImage/lc48.py
+[LC49 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p49_GroupAnagrams/lc49.py
 [LC50 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p50_Pow/lc50.py
 [LC55 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p55_JumpGame/lc55.py
 [LC92 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p92_ReverseLinkedListII/lc92.py

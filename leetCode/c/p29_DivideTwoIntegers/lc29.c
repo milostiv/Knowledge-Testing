@@ -6,7 +6,7 @@ Return the quotient after dividing dividend by divisor. */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 int divide(int dividend, int divisor) {
 

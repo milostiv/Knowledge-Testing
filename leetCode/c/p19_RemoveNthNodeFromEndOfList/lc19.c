@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 struct ListNodeInt* removeNthFromEnd(struct ListNodeInt* head, int n) {
 

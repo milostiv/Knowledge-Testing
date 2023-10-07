@@ -5,7 +5,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <time.h>
-#include "../../../mylib/mylib.h" 
+#include "mylib.h" 
 
 bool bracketsMatching(char c1, char c2) {
 	

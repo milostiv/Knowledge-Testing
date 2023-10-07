@@ -6,7 +6,7 @@ Return the head of the merged linked list. */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 struct ListNodeInt* mergeTwoLists(struct ListNodeInt* list1, struct ListNodeInt* list2) {
 	

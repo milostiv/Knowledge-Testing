@@ -5,7 +5,7 @@ You may not alter the values in the list's nodes, only nodes themselves may be c
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 struct ListNodeInt* reverseKGroup(struct ListNodeInt* head, int k) {
 

@@ -7,7 +7,7 @@ Return k after placing the final result in the first k slots of nums. */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 void printList(int* nums, int numsSize) {
 	

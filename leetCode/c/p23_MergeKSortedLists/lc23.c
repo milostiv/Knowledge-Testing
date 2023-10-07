@@ -5,7 +5,7 @@ Merge all the linked-lists into one sorted linked-list and return it. */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 struct ListNodeInt* mergeTwoLists(struct ListNodeInt* list1, struct ListNodeInt* list2) {
 	

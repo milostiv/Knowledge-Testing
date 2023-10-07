@@ -5,7 +5,7 @@ You must solve the problem without modifying the values in the list's nodes (i.e
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 struct ListNodeInt* swapPairs(struct ListNodeInt* head) {
 	

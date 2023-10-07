@@ -8,7 +8,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <time.h>
-#include "../../../mylib/mylib.h"
+#include "mylib.h"
 
 #define COLUMN_SIZE 3
 #define TARGET 0

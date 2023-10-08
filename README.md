@@ -3,7 +3,7 @@
 ### **Plan**
  
 - [ ] [43/50] Complete 50 *LeetCode* problems in **C/C++**
-- [ ] [48/50] Complete 50 *LeetCode* problems in **Python**
+- [ ] [49/50] Complete 50 *LeetCode* problems in **Python**
 - [X] [4/4] Complete 4 *LeetCode* problems in **$> Shell** (There are only 4 *LeetCode* problems currently)
 - [X] Compile all **C/C++** files by running a single **Makefile**
 - [X] Set up *GitHub Actions (CI/CD)*
@@ -259,6 +259,12 @@
 </details>
 
 <details>
+<summary>38. Count and Say</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC38 PYTHON]
+</details>
+
+<details>
 <summary>39. Combination Sum</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC39 PYTHON]
@@ -473,6 +479,7 @@
 [LC35 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p35_SearchInsertPosition/lc35.py
 [LC36 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p36_ValidSudoku/lc36.py
 [LC37 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p37_SudokuSolver/lc37.py
+[LC38 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p38_CountAndSay/lc38.py
 [LC39 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p39_CombinationSum/lc39.py
 [LC40 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p40_CombinationSumII/lc40.py
 [LC43 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p43_MultiplyStrings/lc43.py

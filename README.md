@@ -3,7 +3,7 @@
 ### **Plan**
  
 - [ ] [43/50] Complete 50 *LeetCode* problems in **C/C++**
-- [ ] [49/50] Complete 50 *LeetCode* problems in **Python**
+- [x] [50/50] Complete 50 *LeetCode* problems in **Python**
 - [X] [4/4] Complete 4 *LeetCode* problems in **$> Shell** (There are only 4 *LeetCode* problems currently)
 - [X] Compile all **C/C++** files by running a single **Makefile**
 - [X] Set up *GitHub Actions (CI/CD)*
@@ -332,6 +332,12 @@
 </details>
 
 <details>
+<summary>58. Length of Last Word</summary>
+
+[<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC58 PYTHON]
+</details>
+
+<details>
 <summary>92. Reverse Linked List II</summary>
 
 [<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC92 C]
@@ -490,6 +496,7 @@
 [LC49 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p49_GroupAnagrams/lc49.py
 [LC50 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p50_Pow/lc50.py
 [LC55 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p55_JumpGame/lc55.py
+[LC58 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p58_LengthOfLastWord/lc58.py
 [LC92 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p92_ReverseLinkedListII/lc92.py
 [LC206 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p206_ReverseLinkedList/lc206.py
 [LC867 PYTHON]: https://github.com/milostiv/Programming/blob/master/leetCode/python/p867_TransposeMatrix/lc867.py

@@ -3,6 +3,12 @@
 echo "Number of completed LeetCode problems in C:"
 c=$(find leetCode/c/ -mindepth 1 -type f -name "*.c" -printf x | wc -c)
 echo "$c"
+echo "Number of completed LeetCode problems in C++:"
+cpp=$(find leetCode/c/ -mindepth 1 -type f -name "*.cpp" -printf x | wc -c)
+echo "$cpp"
+
+# Add them together to find number of problems in C/C++
+c=$(( $c + $cpp ))
 
 if [ $c -lt 50 ]
 # Change 5 line of README.md file to update the number of finished C/C++ problems

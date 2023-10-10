@@ -4,7 +4,7 @@ echo "Number of completed LeetCode problems in C:"
 c=$(find leetCode/c/ -mindepth 1 -type f -name "*.c" -printf x | wc -c)
 echo "$c"
 echo "Number of completed LeetCode problems in C++:"
-cpp=$(find leetCode/c/ -mindepth 1 -type f -name "*.cpp" -printf x | wc -c)
+cpp=$(find leetCode/cpp/ -mindepth 1 -type f -name "*.cpp" -printf x | wc -c)
 echo "$cpp"
 
 # Add them together to find number of problems in C/C++

@@ -1,5 +1,7 @@
 MAKE_DIR_C = $(PWD)/leetCode/c
 SUB_DIRS_C := ${shell find ${MAKE_DIR_C}/* -type d -print}
+MAKE_DIR_CPP = $(PWD)/leetCode/cpp
+SUB_DIRS_CPP := ${shell find ${MAKE_DIR_CPP}/* -type d -print}
 DIR_SHELL = $(PWD)/leetCode/shell
 SUB_DIRS_SHELL := ${shell find ${DIR_SHELL}/* -type d -print}
 
@@ -17,11 +19,19 @@ clean:
 .PHONY: all
 all:
 
+	@echo "Compiling C files:\n"
+
 	@for subdir in $(SUB_DIRS_C); do \
 		cd $$subdir ; $(MAKE) build ; \
 	done
 
-	@echo "Testing shell scripts:\n"
+	@echo "Compiling C++ files:\n"
+
+	@for subdir in $(SUB_DIRS_CPP); do \
+		cd $$subdir ; $(MAKE) build ; \
+	done
+
+	@echo "\nTesting shell scripts:\n"
 
 	@for subdir in $(SUB_DIRS_SHELL); do \
 		cd $$subdir ; ./*.sh || exit 1 ; \
@@ -30,11 +40,19 @@ all:
 .PHONY: all_github
 all_github:
 
+	@echo "Compiling C files:\n"
+
 	@for subdir in $(SUB_DIRS_C); do \
 		cd $$subdir ; $(MAKE) build_github ; ./*.out || exit 1 ; \
 	done
+	
+    @echo "Compiling C files:\n"
+    
+	@for subdir in $(SUB_DIRS_CPP); do \
+		cd $$subdir ; $(MAKE) build_github ; ./*.out || exit 1 ; \
+	done
 
-	@echo "Testing shell scripts:\n"
+	@echo "\nTesting shell scripts:\n"
 
 	@for subdir in $(SUB_DIRS_SHELL); do \
 		cd $$subdir ; ./*.sh || exit 1 ; \

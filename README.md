@@ -18,7 +18,7 @@
 <details>
 <summary>1. Two Sum</summary>
 
-[<img src="https://img.icons8.com/color/25/000000/c-plus-plus-logo.png"/>]
+[<img src="https://img.icons8.com/color/25/000000/c-plus-plus-logo.png"/>][LC1 CPP]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC1 PYTHON]
 </details>
 
@@ -448,6 +448,8 @@
 [LC92 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p92_ReverseLinkedListII/lc92.c
 [LC206 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p206_ReverseLinkedList/lc206.c
 [LC867 C]: https://github.com/milostiv/Programming/blob/master/leetCode/c/p867_TransposeMatrix/lc867.c
+
+[LC1 CPP]: https://github.com/milostiv/Programming/blob/master/leetCode/cpp/p1_TwoSum/lc1.cpp
 
 [LC1 PYTHON]: https://github.com/milostiv/Algorithms/tree/master/leetCode/python/p1_TwoSum/lc1.py
 [LC2 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p2_AddTwoNumbers/lc2.py

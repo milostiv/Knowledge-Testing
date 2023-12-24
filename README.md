@@ -18,7 +18,6 @@
 <details>
 <summary>1. Two Sum</summary>
     
-[<img src="https://img.icons8.com/color/25/000000/c-programming.png"/>][LC1 C]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC1 PYTHON]
 </details>
 
@@ -405,7 +404,6 @@
 [GitHub]: https://github.com/milostiv/Algorithms
 [LinkedIn]: https://www.linkedin.com/in/miloštrifković
 
-[LC1 C]: https://github.com/milostiv/Algorithms/tree/master/leetCode/c/p1_TwoSum/lc1.c
 [LC2 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p2_AddTwoNumbers/lc2.c
 [LC3 C]: https://github.com/milostiv/Algorithms/blob/master/leetCode/c/p3_LongestSubstringWithoutRepeatingCharacters/lc3.c
 [LC4 C]: https://github.com/milostiv/Algorithms/tree/master/leetCode/c/p4_MedianOfTwoSortedArrays/lc4.c

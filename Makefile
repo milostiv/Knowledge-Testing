@@ -9,10 +9,14 @@ default:
 
 .PHONY: clean
 clean:
+	
+	@echo "Cleaning C directories:\n"
 
 	@for subdir in $(SUB_DIRS_C); do \
 		cd $$subdir ; $(MAKE) clean ; \
 	done
+
+	@echo "\nCleaning C++ directories:\n"
 
 	@for subdir in $(SUB_DIRS_CPP); do \
 		cd $$subdir ; $(MAKE) clean ; \

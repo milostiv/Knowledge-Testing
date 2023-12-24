@@ -23,14 +23,14 @@ all:
 		cd $$subdir ; $(MAKE) build ; \
 	done
 
-	@echo "Compiling C++ files:\n" 
+	@echo "\nCompiling C++ files:\n" 
 
 	@for subdir in $(SUB_DIRS_CPP); do \
 		cd $$subdir ; $(MAKE) build ; \
 	done
 	
-.PHONY: c_github
-c_github:
+.PHONY: all_github
+all_github:
 
 	@echo "Compiling C files:\n"
 
@@ -38,10 +38,7 @@ c_github:
 		cd $$subdir ; $(MAKE) build_github ;\
 	done
 
-.PHONY: cpp_github
-cpp_github:	
-
-	@echo "Compiling C++ files:\n"
+	@echo "\nCompiling C++ files:\n"
     
 	@for subdir in $(SUB_DIRS_CPP); do \
 		cd $$subdir ; $(MAKE) build_github ;\

@@ -17,7 +17,8 @@
 
 <details>
 <summary>1. Two Sum</summary>
-    
+
+<img width="25" height="25" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/25/external-cplusplus-a-general-purpose-descriptive-programming-computer-language-logo-shadow-tal-revivo.png" alt="external-cplusplus-a-general-purpose-descriptive-programming-computer-language-logo-shadow-tal-revivo"/>
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC1 PYTHON]
 </details>
 

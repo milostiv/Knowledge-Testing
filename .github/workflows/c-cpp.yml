@@ -21,7 +21,9 @@ jobs:
       run: make clean
     - name: make build
       run: export LD_LIBRARY_PATH=/home/runner/work/Programming/Programming/mylib:$LD_LIBRARY_PATH ; 
-           make all_github ;
+           make c_github ;
+           make cpp_github ;
+            
     #- name: make check
       #run: make check
     #- name: make distcheck

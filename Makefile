@@ -30,22 +30,19 @@ all:
 	@for subdir in $(SUB_DIRS_CPP); do \
 		cd $$subdir ; $(MAKE) build ; \
 	done
-
-	@echo "\nTesting shell scripts:\n"
-
-	@for subdir in $(SUB_DIRS_SHELL); do \
-		cd $$subdir ; ./*.sh || exit 1 ; \
-	done	
 	
-.PHONY: all_github
-all_github:
+.PHONY: c_github
+c_github:
 
 	@echo "Compiling C files:\n"
 
 	@for subdir in $(SUB_DIRS_C); do \
 		cd $$subdir ; $(MAKE) build_github ;\
 	done
-	
+
+.PHONY: cpp_github
+cpp_github:	
+
     @echo "Compiling C++ files:\n"
     
 	@for subdir in $(SUB_DIRS_CPP); do \

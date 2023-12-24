@@ -2,8 +2,6 @@ MAKE_DIR_C = $(PWD)/leetCode/c
 SUB_DIRS_C := ${shell find ${MAKE_DIR_C}/* -type d -print}
 MAKE_DIR_CPP = $(PWD)/leetCode/cpp
 SUB_DIRS_CPP := ${shell find ${MAKE_DIR_CPP}/* -type d -print}
-DIR_SHELL = $(PWD)/leetCode/shell
-SUB_DIRS_SHELL := ${shell find ${DIR_SHELL}/* -type d -print}
 
 .PHONY: default
 default:
@@ -43,7 +41,7 @@ c_github:
 .PHONY: cpp_github
 cpp_github:	
 
-    @echo "Compiling C++ files:\n"
+	@echo "Compiling C++ files:\n"
     
 	@for subdir in $(SUB_DIRS_CPP); do \
 		cd $$subdir ; $(MAKE) build_github ;\

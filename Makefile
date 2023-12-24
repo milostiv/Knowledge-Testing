@@ -14,6 +14,10 @@ clean:
 		cd $$subdir ; $(MAKE) clean ; \
 	done
 
+	@for subdir in $(SUB_DIRS_CPP); do \
+		cd $$subdir ; $(MAKE) clean ; \
+	done
+
 .PHONY: all
 all:
 

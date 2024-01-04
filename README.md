@@ -2,7 +2,7 @@
 
 ### **Plan**
  
-- [ ] [44/50] Complete 50 *LeetCode* problems in **C/C++**
+- [ ] [45/50] Complete 50 *LeetCode* problems in **C/C++**
 - [x] [50/50] Complete 50 *LeetCode* problems in **Python**
 - [X] [4/4] Complete 4 *LeetCode* problems in **$> Shell** (There are only 4 *LeetCode* problems currently)
 - [X] Compile all **C/C++** files by running a single **Makefile**
@@ -221,6 +221,7 @@
 <details>
 <summary>30. Substring with Concatenation of All Words</summary>
 
+[<img src="https://img.icons8.com/color/25/000000/c-plus-plus-logo.png"/>][LC30 CPP]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC30 PYTHON]
 </details>
 
@@ -452,6 +453,7 @@
 
 [LC1 CPP]: https://github.com/milostiv/Programming/blob/master/leetCode/cpp/p1_TwoSum/lc1.cpp
 [LC17 CPP]: https://github.com/milostiv/Programming/blob/master/leetCode/cpp/p17_LetterCombinationsOfAPhoneNumber/lc17.cpp
+[LC30 CPP]: https://github.com/milostiv/Programming/blob/master/leetCode/cpp/p30_SubstringWithConcatenationOfAllWords/lc30.cpp
 
 [LC1 PYTHON]: https://github.com/milostiv/Algorithms/tree/master/leetCode/python/p1_TwoSum/lc1.py
 [LC2 PYTHON]: https://github.com/milostiv/Algorithms/blob/master/leetCode/python/p2_AddTwoNumbers/lc2.py

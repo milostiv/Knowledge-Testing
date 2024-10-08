@@ -8,8 +8,13 @@
 #include <iostream>
 #include <vector>
 #include <limits>
+#include <random>
 
-const int num_vertices = 9;
+const int num_vertices = 50;
+//const double density = 0.2; // 20%
+const double density = 0.4; // 40%
+const double dist_low = 1.0;
+const double dist_hi = 10.0;
 
 using namespace std;
 
@@ -25,6 +30,40 @@ ostream& operator << (ostream& os, const vector<vector<double>> mat) {
     }
 
     return os;
+}
+
+// Function to generate random probability using density
+bool prob(double density) {
+
+    random_device rd;
+    mt19937 gen(rd());
+    uniform_real_distribution<double> distr(0.0, 1.0);
+
+    if(distr(gen) < density)
+        return true;
+
+    return false; 
+}
+
+// Function to create a random square matrix (graph or connectivity matrix)
+vector<vector<double>> rand_graph(int size, double dist_low, double dist_hi) {
+    
+    vector<vector<double>> mat(size, vector<double>(size, 0.0));
+
+    random_device rd;
+    mt19937 gen(rd());
+    uniform_real_distribution<double> distr(dist_low, dist_hi);
+
+    for(int i = 0; i < size; i++) {
+        for(int j = i; j < size; j++) {
+            
+            if(i == j) mat[i][j] = 0.0; // No loops
+            else if(prob(density))
+                mat[i][j] = mat[j][i] = distr(gen);
+        }
+    }
+
+    return mat;
 }
 
 class Graph {
@@ -75,6 +114,8 @@ class ShortestPath {
 
                 cout << i << "\t" << dist[i] << endl;
             } 
+
+            cout << endl;
         }
 
         double min_distance() {
@@ -112,24 +153,26 @@ class ShortestPath {
                 }  
             }
         }
+
+        double calc_average() {
+
+            double avg = 0;
+            
+            for(int i = 0; i < num_vertices; i++) 
+                avg += dist[i]; 
+
+            return avg/num_vertices;
+        }
 };
 
 int main() {
 
-    vector<vector<double>> mat = { { 0, 4, 0, 0, 0, 0, 0, 8, 0 },
-                                   { 4, 0, 8, 0, 0, 0, 0, 11, 0 },
-                                   { 0, 8, 0, 7, 0, 4, 0, 0, 2 },
-                                   { 0, 0, 7, 0, 9, 14, 0, 0, 0 },
-                                   { 0, 0, 0, 9, 0, 10, 0, 0, 0 },
-                                   { 0, 0, 4, 14, 10, 0, 2, 0, 0 },
-                                   { 0, 0, 0, 0, 0, 2, 0, 1, 6 },
-                                   { 8, 11, 0, 0, 0, 0, 1, 0, 7 },
-                                   { 0, 0, 2, 0, 0, 0, 6, 7, 0 } };
-
-    ShortestPath shortest_path(mat);
+    ShortestPath shortest_path(rand_graph(num_vertices, dist_low, dist_hi));
     shortest_path.print_adj_mat();
     shortest_path.dijkstra();
     shortest_path.print_shortest_path();
+
+    cout << "Average: " << shortest_path.calc_average() << endl;
 
     return EXIT_SUCCESS;
 }

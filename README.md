@@ -2,7 +2,7 @@
 
 ### **Plan**
  
-- [ ] [47/50] Complete 50 *LeetCode* problems in **C/C++**
+- [ ] [48/50] Complete 50 *LeetCode* problems in **C/C++**
 - [x] [50/50] Complete 50 *LeetCode* problems in **Python**
 - [X] [4/4] Complete 4 *LeetCode* problems in **$> Shell** (There are only 4 *LeetCode* problems currently)
 - [X] Compile all **C/C++** files by running a single **Makefile**
@@ -270,6 +270,7 @@
 <details>
 <summary>39. Combination Sum</summary>
 
+[<img src="https://img.icons8.com/color/25/000000/c-plus-plus-logo.png"/>][LC39 CPP]
 [<img src="https://img.icons8.com/color/25/000000/python.png"/>][LC39 PYTHON]
 </details>
 
@@ -457,6 +458,7 @@
 [LC17 CPP]: https://github.com/milostiv/Programming/blob/master/leetCode/cpp/p17_LetterCombinationsOfAPhoneNumber/lc17.cpp
 [LC30 CPP]: https://github.com/milostiv/Programming/blob/master/leetCode/cpp/p30_SubstringWithConcatenationOfAllWords/lc30.cpp
 [LC38 CPP]: https://github.com/milostiv/Programming/blob/master/leetCode/cpp/p38_CountAndSay/lc38.cpp
+[LC39 CPP]: https://github.com/milostiv/Programming/blob/master/leetCode/cpp/p39_CombinationSum/lc39.cpp
 [LC58 CPP]: https://github.com/milostiv/Programming/blob/master/leetCode/cpp/p58_LengthOfLastWord/lc58.cpp
 
 [LC1 PYTHON]: https://github.com/milostiv/Algorithms/tree/master/leetCode/python/p1_TwoSum/lc1.py
